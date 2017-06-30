@@ -1,5 +1,116 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\begin{document}
-(Type your content here.)
-\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%                                              %%%
+%%%     Language Science Press Master File       %%%
+%%%         follow the instructions below        %%%
+%%%                                              %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+% Everything following a % is ignored
+% Some lines start with %. Remove the % to include them
+
+\documentclass[output=book,              
+%  	        ,draftmode  
+		modfonts, nonflat
+		  ]{langsci/langscibook}    
+  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%                                              %%%
+%%%          additional packages                 %%%
+%%%                                              %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% put all additional commands you need in the 
+% following files. If you do not know what this might 
+% mean, you can safely ignore this section
+
+\input{localmetadata.tex}
+\input{localpackages.tex}
+%\input{localhyphenation.tex}
+\input{localcommands.tex} 
+\bibliography{localbibliography} 
+
+
+\setcounter{tocdepth}{2}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%                                              %%%
+%%%             Frontmatter                      %%%
+%%%                                              %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}         
+\maketitle                
+\frontmatter
+% %% uncomment if you have preface and/or acknowledgements
+
+\currentpdfbookmark{Contents}{name} % adds a PDF bookmark
+
+
+\tableofcontents
+% \include{chapters/preface}
+% \include{chapters/acknowledgments}
+% \include{chapters/abbreviations} 
+\mainmatter         
+ 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%                                              %%%
+%%%             Chapters                         %%%
+%%%                                              %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+\include{chapters/01intro}
+
+% PART1 The Sound System
+\include{chapters/02phon}
+\include{chapters/03syllables}
+\include{chapters/04tone}
+\include{chapters/05processes}
+
+% PART2 Nouns and Noun Prases
+\include{chapters/06nouns}
+\include{chapters/07pronouns}
+\include{chapters/08nounphrase}
+
+% PART3 Simple Clauses
+\include{chapters/09copula}
+% \include{chapters/10nonverbalpred}
+\include{chapters/11verbs}
+\include{chapters/12clausalsyntax}
+% \include{chapters/13adpositions}
+
+% PART Complex Clauses
+% \include{chapters/14auxiliaries}
+\include{chapters/15embeddedclauses}
+\include{chapters/16chaining}
+\include{chapters/17relative}
+
+% PART Non-declarative clauses
+\include{chapters/18questions}
+\include{chapters/19imperatives}
+\include{chapters/20ideophone} %should this be in the adposition chapter?
+\include{chapters/21greetings}
+
+% PART Texts
+\include{chapters/22texts}
+%\include{chapters/dictionary}
+
+
+% % copy the lines above and adapt as necessary
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%                                              %%%
+%%%             Backmatter                       %%%
+%%%                                              %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% There is normally no need to change the backmatter section
+\input{backmatter.tex}
+\end{document} 
+
+% you can create your book by running
+% xelatex main.tex
+%
+% you can also try a simple 
+% make
+% on the commandline

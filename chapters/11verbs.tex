@@ -1,0 +1,1927 @@
+
+\chapter{Verbs and verbal morphology}\label{chapter:verbs}
+
+Main verbs in Moro are morphologically complex, inflecting for subject agreement, tense, clause status, aspect, mood, and deixis marking, finiteness, and valence-affecting processes such as passive and causative. This section provides a detailed description of these inflectional markers on the verb, the internal structure of the Moro verb, as well as providing a description of the semantics of themorphological distinctions on the main verbs. The most comprehensive earlier description of verbal morphology in Moro is Rose (2013), which many parts of the discussion below draws from. 
+
+The most reliable morphological diagnostic of main verbs in Moro is the presence of aspect/mood/deixis (AMD) inflection (Section \ref{amd}), in particular the presence of a final suffix which is a portmaneteau marker of finiteness, aspect, and verbal deixis. Only verbs can occur with valence-changing extension suffixes such as passive and causative. Other aspects of verbal morphology, particularly agreement and clause vowel marking, occur not only on verbs but also on nonverbal predicates (Chapter \ref{Chapter:noverberal}) and verbal auxiliaries (Chapter \ref{Chapter:auxiliary}).
+
+This chapter is organized as follows: Section \ref{sec:ch11:inflection} provides a general overview of the Moro verb, laying out the main inflectional distinctions. Section \ref{sec:ch11:preverb} describes the preverb, which includes subject agreement. Section \ref{sec:ch11:macrostem} describes the inflectional distinctions on finite verb stems, which section \ref{sec:ch11:macrostemsem} describes the semantics of. Section \ref{sec:ch11:extension} describes the shape and grammatical effect of valence-affecting extension suffixes, including passives and causatives. Section \ref{sec:ch11:clitic} describes 
+
+
+\section{Basics of verbal inflection}\label{sec:ch11:inflection}
+
+The maximal morphological template of a Moro verb is below:
+
+\ea   \label{template} {Finite verb template}:\\ 
+$\underbrace{\underbrace{\textsc{s.agr} - \textsc{clause}}_\textit{preverb}-  \underbrace{\textsc{amd} - \textsc{om/prog} - \textsc{iter} - \sqrt{\textsc{root}} - \textsc{ext} - \textsc{amd}}_\textit{macrostem}}_\textit{morphological verb}= \underbrace{\textsc{om}-\textsc{inst}-\textsc{loc}}_\textit{clitic group}$
+\z 
+%todo example of the biggest verb we can find?
+
+In order, the abbreviations stand for subject agreement, finite clause vowel, aspect/mood/deixis, object marker, iterative, verb root, extension suffixes (voice or valence-affecting processes), aspect/mood/deixis, object marker (again), and locative and instrumental clitics. This template does not include complementizer proclitics (see Chapter \ref{subordination}), which can appear separated from the verb, or the one subject agreement suffix \textit{-r} which is part of 1\textsc{in.pl} agreement. Additional discussion of clause vowels is in Chapter \ref{relative}, full paradigms and the distribution of object markers is discussed in Section \ref{sec:ch7:om}, and imperatives verbs are discussed in Chapter \ref{chapter:imperative}.
+
+The division between preverb and macrostem is important for phonological reasons. The macrostem is the domain of verbal tone assignment, in particular the division between melodic and default tone (Section \ref{sec:ch11:macrostem}). In contrast, the prefixes in the preverb surface with their own tone pattern. The division between the morphological verb and the clitic group at the end is relevant for vowel harmony: affixes in the entire morphological verb undergo vowel height harmony (Section \ref{sec:ch11:vharmony}), while those in the clitic group do not.
+
+Moro verbs can be put into one of three categories depending on its syntactic context and clause type. These three categories are finite, infinitive, and imperative verb forms. Here, the term `infinitive' refers to both infinitive verb forms as well as consecutive and simultaneous verb forms (Section \ref{clausechain}). While the macrostem is mostly the same in the three categories, they feature different morphological patterns in the preverb. The maximal preverb of finite verbs contain three separate prefixes for person/number, noun class, and finite clause type, and, for some speakers, past tense reduplication. Infinitive preverbs consist of an infinitive agreement prefix. Imperative verbs lack a preverb. 
+
+\ea Inflectional patterns for verbs \label{ex:verbs:inflpattern}
+\begin{tabular}[t]{rrr}
+Finite 		& \textsc{agr} - \textsc{cl} - \textsc{clause} - [\textsc{macrostem}] & \textit{é-g-a-[tʃómbəða]} \\
+Infinitive 	& \textsc{inf.agr} - [\textsc{macrostem}] 	& \textit{e-[tʃómbəðe]} \\
+Imperative 	& [\textsc{macrostem}] 									& \textit{[tʃómbə́ðó]} \\	
+\end{tabular} \z 
+Within each of these classes further distinctions marked by a combination of inflectional tone and choice of aspect/mood/deixis affixes.
+
+Finite verbs distinguish three aspect/mood/deixis categories: imperfective, venitive imperfective, and perfective. The general shape of these categories is summarized in \tabref{tab:ch11:1}.  and are discussed in more detail in Section \ref{sec:ch11:macrostem}, including an extensive discussion of default tone which is characteristic of imperfective verbs as well as infinitive verb forms.\footnote{Earlier publications by the authors use the term distal for venitive imperfective and proximal for the regular imperfective.}
+
+\begin{table}
+\begin{tabular}[t]{lcll}
+\lsptoprule
+						&  \textsc{amd}  		& Tone 			& Example \\
+\midrule
+(Regular) imperfective 	& \textit{-a} 	& default		& \textit{g-a-lə́və́tʃ-a} \\
+Venitive imperfective 	& \textit{á- -ó} & melodic L 	& \textit{g-á-ləvətʃ-ó} \\	
+Perfective 				& \textit{-ó} 	& melodic L 	& \textit{g-a-ləvətʃ-ó}  \\
+\lspbottomrule
+\end{tabular}	
+\caption{Aspect/mood/deixis patterns for finite verbs, \textit{-ləvətʃ-} `hide'}
+\label{tab:ch11:1}
+\end{table}
+
+
+Infinitive verb forms are summarized in Table \ref{tab:ch11:2}. There are four different infinitive verb forms, formed by cross-cutting the categories infinitive 1 and infinitive 2 with (unmarked) or venitive deixis. The somewhat opaque labels infinitive 1 and infinitive 2 (subordinate 1 and subordinate 2 in Rose 2013) are distinguished by which classes of auxiliaries and verbs these forms occur as the complement of, as discussed in Chapter \ref{chapter:auxiliaries} and Chapter \ref{chapter:embeddedclauses}. Closely related to these infinitive verb forms are the consecutive, venitive consecutive, and simultaneous verb forms, discussed further in Chapter \ref{chapter:chaining}. Finite verb forms can occur with different complementizers depending on the syntactic context, infinitive and consecutive clauses are marked in part by choice of complementizer. In addition, consecutive verb forms have a distinct form of third person singular agreement than the other infinitive verb forms. For more on subject agreement in consecutives see Section \ref{sec:ch11:agreement}.
+
+\begin{table}
+\begin{tabular}[t]{lllll}
+\lsptoprule
+						& \textsc{comp} &  \textsc{amd}  		& Tone 			& Example \\
+\midrule
+Infinitive 1 	& (nə́-) & \textit{-e} 	& default 	& \textit{(n)-áŋ-$^{\downarrow}$lə́və́tʃ-e}  \\
+Venitive infinitive 1  	& (nə́-) & \textit{-a} 	& default 	& \textit{(n)-áŋ-\super{$\downarrow$}lə́və́tʃ-a} \\	
+Infinitive 2  	& (nə́-) & \textit{-a} 	& default	& \textit{(n)-áŋ-\super{$\downarrow$}lə́və́tʃ-a} \\
+Venitive infinitive 2  	& (nə́-) & \textit{-o} 	& default	& \textit{(n)-áŋ-\super{$\downarrow$}lə́və́tʃ-o} \\
+Consecutive  & nə́- & \textit{-e} & default & \textit{n-ə́ŋə́-\super{$\downarrow$}lə́və́tʃ-e} \\
+Venitive consecutive   & nə́- & \textit{-a} & default & \textit{n-ə́ŋə́-\super{$\downarrow$}lə́və́tʃ-a} \\
+Simultaneous & t̪ə́- & \textit{-o} & default		& \textit{t̪-áŋ-\super{$\downarrow$}lə́və́tʃ-o} \\
+\lspbottomrule
+\end{tabular}	
+\caption{Aspect/mood/deixis patterns for infinitive verbs, \textit{-ləvətʃ-} `hide'}
+\label{tab:ch11:2}
+\end{table}
+
+The last major inflectional class for verbs is imperatives, which lack a preverb altogether. There are two forms of the imperative, a regular and a venitive imperative, as shown in Table \ref{tab:ch11:3}. Despite the absence of agreement, imperatives reflect the number the subject as the plural suffix \textit{-r} occurs when more than one person is being addressed. For more details on imperative clauses, see Chapter \ref{chapter:imperative}.
+
+\begin{table}
+\begin{tabular}[t]{lcll}
+\lsptoprule
+						&  \textsc{amd}  		& Tone 			& Example \\
+\midrule
+Imperative 	& \textit{-ó} & melodic H 	& \textit{lə́və́tʃ-ó} \\	
+Venitive imperative 	& \textit{-a} 	& melodic L		& \textit{ləvətʃ-a} \\
+\lspbottomrule
+\end{tabular}	
+\caption{Aspect/mood/deixis patterns for imperative verbs, \textit{-ləvətʃ-} `hide'}
+\label{tab:ch11:3}
+\end{table}
+
+\section{The preverb}\label{sec:ch11:preverb}
+
+This section describes the preverb, the initial morphological constituent which occurs on Moro verbs as well as on non-verbal predicates. In finite verb forms, the preverb consists of subject agremeent and a clause vowel, which marks the clauses status as main, embedded, or having an extracted subject. In infinitive verbs, the preverb lacks a clause vowel and consists only of infinitive/consecutive subject agreement agreement. Imperative verbs lack a preverb. 
+
+In Thetogovela Moro, the preverb always undergoes height harmony with the verb stem, but is independent for purposes of tone assignment. In written Moro, the preverb does not undergo vowel harmony, a pattern which has also been observed in Werria Moro, the basis of the written dialect, and Kai\~n Morod, the only dialects we have information about. Thus, the preverb seems to be more integrated into the verb stem in Thetogovela than some other Moro dialects. %examples? check harmony section?
+
+For some speakers, the preverb can reduplicate to signify past tense, an effect that is achieved with a past tense auxiliary for other speakers (Section \ref{sec:ch11:pastauxiliary}). It is possible that the preverb itself may have historically developed from this auxiliary.
+
+In addition to appearing before verbal macrostems, preverbs also occur before all nonverbal predicates, including adjectives, adverbial deictic predicates, and nominal possessive predicates (Chapter \ref{chapter:nonverbal}). Because they attach not only to verbs but to adjectives, adverbs, and nouns, preverbs should be considered proclitics which attach to whatever the main predicate in a given clause happens to be.
+
+\subsection{Subject agreement}\label{sec:ch11:subjectagreement}
+
+The person, number, and noun class of the subject are indexed by agreement markers on the verb, which are obligatory in all verb except imperatives and gerunds, which are actually nouns. This section describes subject agreement in finite and infinitive clauses. Further details about the syntactic distribution of these clauses is in Chapter \ref{chapter:embeddedclauses}.
+In main clause perfective and imperfective verbs, the following are the subject agreement paradigm is as in the second column of Table \ref{tab:ch11:agr2}. The 1st inclusive dual and 1st inclusive plural have identical prefixes, but are distinguished by a plural marker \textit{-r} which appears at the end of the verb stem. 3rd person is indicated by a noun class agreement marker (\textsc{cl}) equivalent to weak nominal concord (Section \ref{concord}), one of the set \textit{ð-}, \textit{g-}, \textit{l-}, \textit{r-}, \textit{j-}, \textit{n-}, \textit{ŋ-}, \textit{ɲ-} (See Chapter \ref{chapter:nouns} for a full discussion of noun class categories in Moro). The presence of /ə/ in the 1st inclusive prefixes depends on the nature of the following consonant, indicating those vowel may be inserted by the schwa-epenthesis rule (Section \ref{epenthesis}). 
+
+%\begin{table}
+%	 \begin{tabular}[t]{ll}
+%	 \lsptoprule%1\textsc{sg}	&	é-\\%2\textsc{sg}	&	á-\\%3\textsc{sg}	&	\textsc{cl}-\\%1\textsc{incl} \textsc{dual} &	ál(ə́)-\\%1\textsc{incl} \textsc{pl} &	ál(ə́)-	-r\\%1\textsc{excl} \textsc{pl}&	ɲá-\\%2\textsc{pl}	&	ɲá \\%3\textsc{pl}	&	\textsc{cl}- \\
+%\lspbottomrule
+% \end{tabular} 
+%\caption{Subject agreement prefixes in Moro}
+%\label{tab:ch11:agr1}
+%\end{table}
+
+Table \ref{tab:ch11:agr2} shows the complete subject agreement paradigm for the verb ‘know’ in both the imperfective and perfective, as it appears in a main or root clause. The subject marker is followed by [g] in the 1st and 2nd persons, which is analyzed as a class marker. For 3rd person, the default human class marker is \textit{g-} for singular and \textit{l-} for plural. In related languages, such as Tira, one finds /g/ in 1st and 2nd singular and /l/ in 1st and 2nd plural (Stevenson 1942/Schadeberg 20XX). In Moro, the /g/ appears to have generalized to all the forms. The 1st inclusive dual and the 1st inclusive plural are distinguished by an extra suffix \textit{-r} that appears at the end of the verb stem.  %todo schadeberg CITE\begin{table}
+	\begin{tabular}[t]{llll}
+	\lsptoprule
+	& &		Imperfective &	Perfective\\
+	\midrule1\textsc{sg}	& é-	& 	é-g-a-lə́ŋét̪-a & é-g-a-ləŋet̪-ó\\2\textsc{sg}	& á-	&	á-g-a-lə́ŋét̪-a & é-g-a-ləŋet̪-ó\\3\textsc{sg}	& \textsc{cl}-	&	g-a-lə́ŋét̪-a	 & g-a-ləŋet̪-ó\\1\textsc{in}.\textsc{du} & ál(ə́)-	 & 	álə́-g-a-lə́ŋét̪-a		& 	álə́-g-a-ləŋet̪-ó\\1\textsc{in}.\textsc{pl} & ál(ə́)-	-r &  álə́-g-a-lə́ŋét̪-a-r	 & álə́-g-a-ləŋet̪-ó-r\\1\textsc{ex}.\textsc{pl} & ɲá-	& ɲá-g-a-lə́ŋét̪-a & ɲá-g-a-ləŋet̪-ó\\2\textsc{pl}	& ɲá 	&	ɲá-g-a-lə́ŋét̪-a & ɲá-g-a-ləŋet̪-ó\\3\textsc{pl}	& \textsc{cl}-	&	l-a-lə́ŋét̪-a	 & l-a-ləŋet̪-ó \\
+	\lspbottomrule
+	\end{tabular}
+	\caption{Finite subject agreement paradigm for \textit{ləŋet̪} `know'}
+	\label{tab:ch11:agr2}
+\end{table}
+Voicing on \textit{g}-class subject agreement prefix is variable. /g/ is often pronounced [k] phrase initially (\sectref{sec:ch2:g}). The [k] variant of this prefix can also be conditioned by consonant voicing dissimilation if followed by a voiced stop (\sectref{sec:ch5:dissimilation}). Nevertheless, we will transcribe the prefix as /g/ for consistency, a practice that is followed in Written Moro.
+Different subject marker paradigms are found in other clause types. Table \ref{tab:ch11:agr3} illustrates the subject agremeement paradigm for `know' in the infinitive 1, with final \textit{-e}. This paradigm also appears on the venitive infinitive 1 and the regular infinitive 2,which are identical to the regular infinitive 1 except for final \textit{-a} (See Chapter \ref{subordination}).\begin{table}
+	\begin{tabular}[t]{lll}
+	\lsptoprule
+Person/number & 	SM  & 		Infinitive 1 regular	\\ 1\textsc{sg}		& 	(ɲ)e- 	& (ɲ)e-láŋét̪-e  		  \\2\textsc{sg} 	&		a- 	& a-láŋét̪-e \\3\textsc{sg}		& 	áŋ(ə́) 	& 	áŋə́-laŋet̪-e \\1\textsc{in}.\textsc{du}	& 	al(ə)  	& 	alə-láŋét̪-e \\1\textsc{in}.\textsc{pl}		&  al(ə)- -r & 	alə-láŋét̪-e-r\\1\textsc{ex}.\textsc{pl}		& 	ɲa-  & 		ɲa-laŋet̪-e\\2\textsc{pl}	& 	ɲa- laŋet̪ & 	ɲa-láŋét̪-e\\3\textsc{pl} 	& 		alə-laŋet̪	& alə-laŋet̪-e\\	\lspbottomrule
+	\end{tabular}
+	\caption{Infinitive 1 regular paradigm for \textit{ləŋet̪} `know'}
+	\label{tab:ch11:agr3}
+\end{table}The agreement prefixes closely resemble the main clause forms for 1st and 2nd persons, with the difference that these are low-toned. However, for 3rd person forms, the dependent clauses do not use noun class agreement, but use fixed prefixes that are the same no matter the noun class of the subject. In the 1\textsc{ex}.\textsc{pl} and the 3\textsc{pl}, the root is exceptionally low-toned. See Section \ref{verbtone} on tone distribution in verb forms. There is a complementizer \textit{nə́ } which may appear attached to the verb if required by the syntactic context (Chapter \ref{chapter:embeddedclauses}). In such cases, /ə/ may be dropped before a vowel-initial subject marker, but the high tone of the complementizer appears on the subject marker.
+The subject marking paradigm of consecutive forms in Table \ref{tab:ch11:agr4} is almost the same as the infinitive forms above. However, the 3\textsc{sg} form is \textit{ə́ŋə́}- instead of \textit{áŋə́}-. Consecutive forms always have one of two complementizers attached before the subject marker. The perfective forms (regular and venitive) take the complementizer \textit{nə-} while the consecutive imperfective has the complementizer \textit{t̪ə́-}. When these complementizers are attached to the front of the verb forms that begin with a vowel, the complementizer vowel is dropped. The complementizer \textit{nə́-} does not attach to a form that begins with [l], so no complementizer appears on the 3\textsc{pl} form. %TODO does this nə́ not have high tone??
+
+\begin{table}
+	\begin{tabular}[t]{lll}
+	\lsptoprule
+Person/number 	& 	SM  & 	Consecutive regular	\\ 1\textsc{sg}				&	e- 	&	e-láŋét̪-e  \\2\textsc{sg} 			&	a- 	&	a-láŋét̪-e\\3\textsc{sg}				&  ŋ(ə́) 	&	ŋə́-!láŋét̪-e\\1\textsc{dual.incl}		&	al(ə)  	&	alə-láŋét̪-e\\1\textsc{pl.inc}			&	al(ə)- -r& 	alə-láŋét̪-e-r\\1\textsc{pl.exc}			&	ɲa-  	&	ɲa-laŋet̪-e\\2\textsc{pl}				&	ɲa-  	&	ɲa-láŋét̪-e\\3\textsc{pl} 			&	lə- 	&	lə-laŋet̪-e\\	\lspbottomrule
+	\end{tabular}
+	\caption{Consecutive regular paradigm for \textit{ləŋet̪} `know'}
+	\label{tab:ch11:agr4} 
+\end{table} %check this paradigm, in particular the 3pl form. 
+In simultaneous verb forms, the complementizer is \textit{t̪á}, and its high tone falls on the subject marker when the subject marker is vowel-initial. Note that the 1\textsc{pl.excl}. and the 3\textsc{pl} again have low tone on their verb roots.  \begin{table}
+	\begin{supertabular}[t]{llll}
+	\lsptoprule
+Person/number &	SM 	&	Simultaneous \\1\textsc{sg}			&	e- 	&	t̪-é-!láŋét̪-!ó  \\2\textsc{sg} 		&	a- 	&	t̪-á-!láŋét̪-!ó  \\3\textsc{sg}			&	áŋ(ə́) 	&	t̪-áŋə́-!láŋét̪-!ó  \\1\textsc{dual.incl}	&	al(ə)  	&	t̪-álə-láŋét̪-!ó  \\1\textsc{pl.inc}		&	al(ə)- -r& 	t̪-álə-láŋét̪-!ó-r  \\1\textsc{pl.exc}		&	ɲa-  	&	t̪ə́-ɲa-laŋet̪-ó  \\2\textsc{pl}			&	ɲa-  	&	t̪ə́-ɲa-láŋét̪-!ó  \\3\textsc{pl} 		&	alə- 	&	t̪-álə-laŋet̪-ó  \\
+	\lspbottomrule
+	\end{supertabular}
+	\caption{Simultaneous paradigm for \textit{ləŋet̪} `know'}
+	\label{tab:ch11:agr5}
+\end{table}
+
+
+\subsection{Clause marker}\label{sec:ch11:clausemarker}
+
+In addition to finite subject agreement, finite verb forms are characterized by the presence of a morpheme we call the clause marker, illustrated in \tabref{tab:ch11:clause}.  Clause markers appear after finite subject agreement and before the macrostem. These vowels can be raised by vowel harmony, but do not interact with the tone of surrounding morphemes except in triggering downstep on a following H in the macrostem. The clause marker carries information about the syntactic context of the clause. There are three basic clause markers that Moro employs. In very general terms, \textit{a-} occurs in indicative root clauses and indicative embedded clauses, \textit{é-} occurs in finite clauses with displaced subjects, including subject relative clauses and secondary predicates, and \textit{ə́-} occurs in subjunctive clauses and clauses with displaced non-subjects. We have observed dialectal variation in the realization of the clause marker: in the W\"erria dialect and written Moro, there is no \textit{é-} vowel, and all contexts where \textit{é-} would be realized surface instead with  \textit{ə́-}. 
+
+\begin{table}
+	\caption{Clause marker prefixes} \label{tab:ch11:clause}
+	\begin{tabular}{llll}
+	\lsptoprule 
+Root clause (\textsc{rtc}) & Displaced subj. (\textsc{dpc1}) & \multicolumn{2}{l}{Subjunctive (\textsc{dpc2}) } \\
+\midrule
+g-a-wəndat̪-ó  &  g-é-wəndat̪-ó & g-ə́-wəndat̪-ó & `(s)he watched'\\
+g-ɜ-dɜdəð-ú	& g-í-dɜdəð-ú &  g-ə́-dɜdəð-ú & `(s)he hiccuped'\\
+\lspbottomrule
+	\end{tabular}
+\end{table}
+
+The clause marker \textit{a-} appears on the verb in main clauses as well as in some subordinate clauses introduced by verbs such as ləŋet̪  ‘know’ or at̪ ‘say/think’  \REF{ex:ch11:rtc}. We identify these contexts as indicative root clauses, and gloss the vowel \textsc{rtc}.\ea  \label{ex:ch11:rtc}
+\ea \gll 	um:iə  g-a-lánd̪-ó             ʌuɾí\\			boy     \textit{cl}g-\textsc{rtc}-close-\textsc{pfv}		door\\	\glt		‘the boy closed the door’\ex \gll	kúku   g-a-v-át̪-á     um:iə    g-a-ker-ó         gəla\\			kuku    \textsc{cl}g-\textsc{rtc}-\textsc{prog}-think-\textsc{ipfv}  boy       \textsc{cl}g-\textsc{rtc}-broke-\textsc{pfv}   plate\\	\glt		 `Kuku thinks the boy broke the plate.'
+\z 
+\z 
+See \ref{sec:ch15:rtc} for more details on embedded root clauses.
+The clause marker \textit{é-} (\textsc{dpc1}) is used in some subordinate constructions that are complements of main verbs of perception such as \textit{-n:-} ‘hear’ or \textit{wəndat̪ }	‘watch, see’ \REF{ex:ch11:dpc1a}, as well as in subject clefts, subject relative clauses, content cleft questions \REF{ex:ch11:dpc1b}, and temporal adverbial clauses. This clause marker never occurs with a complementizer.\ea
+\ea \gll	ŋál:o    g-a-wəndat̪-ó              kúku-ŋ       g-é-m:-ó                       ów:á \\     Ngalo \textsc{cl}g-\textsc{rtc}-watch-\textsc{pfv} Kuku-\textsc{acc} \textsc{cl}g-\textsc{dpc1}-take-\textsc{pfv} woman \\
+\glt 	‘Ngalo watched Kuku marry the woman’  \label{ex:ch11:dpc1a}\ex \gll 	ŋwʌ́ʤʌ́k:i   g-é-m:-ó                      ów:á      g-oal-á\\			Who          \textit{cl}g-\textsc{dpc1}-take-\textsc{pfv}   woman  \textit{cl}g-tall-\textsc{adj}\\	\glt 	Who married the tall woman?	\label{ex:ch11:dpc1b}
+\z 
+\z
+More details on the use of this vowel in embedded finite clauses under perception verbs, contexts identified as finite complements of raising verbs, can be found in Section \ref{sec:ch15:dpc1}.
+The clause marker \textit{ ə́- } appears in some subordinate constructions as the complement of verbs of communication such as \textit{-mwandəð-} ‘ask’ and \textit{-lugət̪ -} ‘tell’ \REF{ex:ch11:dpc2a} as well as with non-subject clefts, relative clauses, content cleft questions \REF{ex:ch11:dpc2b} and conditionals.\ea 
+\ea \gll  	é-g-a-mwandəð-ó-ŋó            t̪á      g-ə́-n!áʧ-a-lo                          ut̪əɾə\\  	 1\textsc{sg}-\textsc{cl}g-\textsc{rtc}-ask-\textsc{pfv}-3\textsc{sg.om}  comp \textsc{cl}g-\textsc{dpc2}-give-\textsc{ipfv}-3\textsc{pl.om}   pig\\
+	\glt  ‘I asked him to give them a pig’ \label{ex:ch11:dpc2a}\ex \gll 	ŋw-ʌ́ndə́k:i       (n-)úʤí           (nə́-)g-ə́-wənd̪at̪-ó                \\         		\textsc{foc}-what      (\textsc{comp2}-)man     (\textsc{comp2}-)\textsc{cl}g-\textsc{dpc2}-watch-\textsc{pfv}   \\	\glt ‘What did the man watch?’ \label{ex:ch11:dpc2b}
+\z
+\z
+More details on the use of this vowel subjunctive complement clauses are in Section \ref{sec:ch15:dpc2}. 
+
+Relative clauses and clefts are discussed in Chapter \ref{chapter:relative} as well as Section \ref{section:adjsubrelative}. Additional discussion of content question clefts, conditionals, and adverbial clauses are discussed in Chapter \ref{chapter:questions}.
+
+The clause marker \textit{ə́-} disappears with first and second person singular subjects, along with the class marker \textit{g-} which typically precedes the clause marker as part of finite subject agreement. Compare the main form \textit{é-g-a-wəndat̪-ó } ‘I watched it’ with the \textsc{dpc2} form \textit{ŋínə́-ŋ:í é-wəndat̪-ó } ‘the dog that I watched’.
+
+
+The clause marker disappears due to a general vowel-hiatus process with vowel initial roots. If there is an intervening affix, such as a prefixal object marker \ref{sec:ch11:objectpre}, the clause marker reappears.
+
+\ea Clause marker or object marker + root: V1 deletion (assuming application of vowel harmony) \label{ex:ch11:clausevhiatus}
+\begin{tabular}[t]{llllll}a.&	k-a-erl-ó	&	/a-e/	&	[e]	&	[kerló]	&	‘he walked’\\b.&	k-ɜ-ilið-ú	&	/ɜ-i/	&	[i]	&	[kiliðú]	&	‘he bought’\\c.&	k-é-aɾ-ó	&	/é-a/	&	[á]	&	[káɾó]	&	‘…who cried’	 \\d.&	k-é-ogət̪-ó	&	/é-o/	&	[ó]	&	[kógət̪ó]&	‘…who jumped’\\e.&	k-í-ɜnt̪-ú	&	/í-ɜ/	&	[ɜ́]	&	[kɜ́nt̪ú]	&	‘…who entered’\\f.&	k-í-udən-ú	&	/í-u/	&	[ú]	&	[kúdənú]	&	‘…who farted’\\g.&	k-ɜ-ɲí-ɜwut̪-ú&	/í-ɜ/	&	[ɜ]	&	[kɜ́ɲɜwut̪ú]&	‘he dropped me’\\h.&	k-ɜ-ŋɜ́-ilið-it̪-ú&/ɜ́-i/	&	[i]	&	[kɜ́ŋiliðit̪ú]&	‘he bought for you’\\
+\end{tabular}
+\z We now turn to the tone of the clause marker. The \textit{a-} prefix is low toned and is unaffected by other morphemes tonally, save with vowel initial roots (See also \sectref{sec:ch11:vcipfv}). The high tone clause markers \textit{é-} and \textit{ ə́- } also are unaffected by surrounding tones, but when these markers occur immediate adjacent to H tone in the default tone pattern in the macrostem, downstep occurs.
+\ea  \begin{tabular}[t]{lll}
+  	a. & 	 ŋeɾá ŋ-é-!ðә́w-á 	 &  `the girl who is about to poke'\\
+	b. & 	ŋeɾá ŋ-é-!ðáð-ðәw-a  & 	`the girl who is about to poke repetitively' \\ 
+  \end{tabular}
+\z In Moro, Downstep is an indication of two separate H tones (Odden 1982) and the fact that it occurs only when these particular affixes are juxtaposed, but not others, indicates a boundary. We therefore conclude that downstep marks the boundary between the preverb and the macrostem.	
+\subsection{Past tense reduplication}\label{sec:ch11:past}
+
+For some speakers, the preverb can reduplicate to mark past tense. Hence, the past perfective \textit{á-gá-g-a-tə̪ ŋatw-ó} ‘you had licked it’ suggests a reduplicative prefix \textit{gá-} with H tone that copies the elements to its right. For the other speakers, this reduplicant is instead realized as the past imperfective auxiliary \textit{-awó}, where the following verb has identical inflection (See \sectref{sec:ch14:pstipfv}). As peripheral vowels including /o/ are regularly reduced at word junctures in Moro (\sectref{sec:ch5:vreduction})  giving the appearance of reduplication: \textit{á-g-a(w)-ó á-g-a-tə̪ŋat̪-ó} $\rightarrow$ \textit{ágágat̪əŋató̪}. There is no vowel harmony between the two pieces, an indication of separate words: \textit{né-n-i-sɜtʃ-ú} ‘that I had seen.’ %why is this dpc1 in the context of non-subject extraction?
+
+Of the three consultants we have worked with, one exclusively uses the reduplicated form, one optionally uses it and recognizes it as the reduction of the past tense auxiliary form, while the third consultant does not use the reduplicated form. Additionally, written Moro never seems to have the reduplicated past tense, and always makes use of the the Wërria version of the past tense auxiliary \textit{-afo}. %anything more here? what happens when the dpc 1 and dpc2 forms are reduplicated? (in general, do auxiliaries double these vowels?)
+
+
+\section{Morphophonology of the macrostem}\label{sec:ch11:macrostem}
+
+The macrostem is the core of the Moro verb. The affixes in the macrostem can occur in every Moro verb form, and it defines the minimum verb in Moro, which occurs in imperatives (Chapter \ref{chapter:imperatives}). This section describes the morphophonological properties of the affixes in the macrostem, including the complex distribution of tone on roots in the default tone pattern.  
+
+The basic template for the macrostem is below:
+
+\ea  Macrostem verb template\\ 
+\textsc{amd} - \textsc{om/prog} - \textsc{iter} - $\sqrt{\textsc{root}}$ - \textsc{ext} - \textsc{amd}\\
+\z 
+
+In main clauses, the macrostem occurs in one of three forms which are distinguished by aspect and verbal deixis: imperfective, the venitive imperfective, and perfective. These distinctions are marked by a combination of affixes and tone melodies. The basic distinction is summarized in \ref{tab:ch11:4}, repeated from Section \ref{sec:ch11:inflection}.
+
+\begin{table}
+\begin{tabular}[t]{lcll}
+\lsptoprule
+						&  \textsc{amd}  		& Tone 			& Example \\
+\midrule
+(Regular) imperfective 	& \textit{-a} 	& default		& \textit{g-a-lə́və́tʃ-a} \\
+Venitive imperfective 	& \textit{á- -ó} & melodic L 	& \textit{g-á-ləvətʃ-ó} \\	
+Perfective 				& \textit{-ó} 	& melodic L 	& \textit{g-a-ləvətʃ-ó}  \\
+\lspbottomrule
+\end{tabular}	
+\caption{Aspect/mood/deixis patterns for finite verbs, \textit{-ləvətʃ-} `hide'}
+\label{tab:ch11:4}
+\end{table}
+
+These inflectional patterns are described in more detail below. Beyond the \textsc{amd} suffix and tone pattern, the choice of inflection pattern above have ramifications for the morphological and phonological realization of other affixes in the macrostem as well, including their tone, and in the case of object makers, whether they occur as prefixes in the macrostem or in the clitic group (See Section \ref{sec:ch7:om}).
+
+Section \ref{sec:ch11:imperfective} describes the morphophonology of regular imprefective verb forms, Section \ref{sec:ch11:perfective} describes the perfective, and section \ref{sec:ch11:venitive} describes venitive imperfective verb forms. Iterative reduplication is discussed in Section \ref{sec:ch11:iterative}, while preverbal object markers are briefly discussed in section \ref{sec:ch11:objectpre}. The semantics of these markers are discussed in Section \ref{sec:ch11:macrostemsem}. While extension suffixes occur within the macrostem, they will be discussed separately in Section \ref{sec:ch11:extension}. 
+					\subsection{Imperfective verb forms}\label{sec:ch11:ipfvform}
+
+This section describes the morphological and phonological realization of (regular) imperfectives. Imperfective verb forms are characterized be three components within the macrostem: the imperfective AMD suffix, default tone patterns on the macrostem, and a prefix \textit{v-} which appears on vowel initial roots.
+
+Each verb form presented in this section is composed of four morphemes. For example, \textit{g-a-dáŋ-á} ‘sit, stay’ consists of a noun class concord subject marker (\textsc{cl}g-) \textit{g-}, a root clause prefix (\textsc{rtc}) \textit{a-}, the root, and the regular imperfective aspect vowel (-\textsc{ipfv}) \textit{-a}, which we turn to first.
+
+\subsubsection{The imperfective suffix}
+
+Although many regular imperfective verbs end in \textit{-a} or its raised counterpart \textit{-ɜ}, a number of others end in a diphthong suffix, either \textit{-iə} (with high vowels) or \textit{-eə} (with low vowels), both of which are illustrated in \tabref{tab:ch11:ipfvfv}. As the table shows, there are no clear correlates with root length. No phonological factors have been found which predict the shape of the imperfective suffix, including tone or the segmental makeup of the root. As such, the precise nature the contrast between the \textit{-a}/\textit{-ɜ} versus \textit{-eə}/\textit{-iə} in imperfectives is not clear.
+
+One possibility which is unlikely is that the the first vowel in the \textit{-eə}/\textit{-iə} variant of the imperfective suffix is part of the root, and that the schwa is a reduced form of the imperfective vowel. While this is in principle possible, this suffix could not be derive from an underlying /ea/ or /iɜ/ by any normal vowel hiatus resolution processes in Moro, which surface with either of the first vowel, glide formation, vowel coalescence, or vowel reduction to /ə/, which is restricted to peripheral vowels.
+
+Another hypothesis is that the \textit{-iə} represents a lexicalized causative (\sectref{sec:ch11:causative}) suffix. Yet many of these verbs ending in \textit{-eə}/\textit{-iə} lack causative meanings, and as causatives raise vowels on verbs, this analysis does not extend to \textit{-eə}.
+
+ 	\begin{table}
+ 		\begin{tabular}[t]{lllll}
+\lsptoprule
+	& \textit{-a/-ɜ}  &  & 	\textit{-iə/-eə} & \\
+\midrule
+Consonantal root& g-a-n:-a	&	‘hear’ & g-ɜ-t̪-iə	&	‘drink’\\One syllable root	& g-ɜ-víð-ɜ́	&	‘vomit’	&  g-ɜ-míð-iə	&	‘give milk’ \\& 	g-a-dáŋ-á	&	‘stay’	& g-ɜ-dɜ́ɾ-iə́	&	‘wrap’  \\ 
+	& g-a-lát̪-á	&	‘sift’	& g-a-rat̪-eə	&	‘inherit’ \\ 
+Two syllable root	& g-a-və́léð-a & ‘pull’	& g-áŕnəð-iə	&	`divide'\\
+	& g-ɜ-dɜ́d:əð-ɜ	&	`hiccup' & g-a-kə́və́ð-eə		&	'share'  \\ 
+Three syllable root	& g-a-kə́rə́ɲat̪-a		&	`rebuke &  g-a-mwándəð-eə	& 'ask'\\	& g-ɜ-púŋúðətʃ-ɜ	&	`pierce'	&  g-ɜ-dúgə́ðən-iə	&	`work' \\ 
+\lspbottomrule
+\end{tabular}
+	\caption{Allomorphy in imperfective suffix}
+		\label{tab:ch11:ipfvfv}
+\end{table}
+
+
+Some imperfective verb roots which take the \textit{-eə} suffix end in \textit{-əð}, which is the same as the shape of the antipassive suffix discussed in \sectref{sec:ch11:antipassive}:\ea 	
+\begin{tabular}[t]{ll}g-a-v-eə		&	'live, locative copula'\\g-a-kə́və́ð-eə		&	'trick to do something, share with'\\g-a-dʒátʃədw-eə	&	'implore'\\g-a-dʒə́və́ð-eə		&	'fall lightly from'\\g-a-mwándəð-eə	&	'ask' \\	
+\end{tabular}
+\z 
+
+As such, some imperfective verbs ending in \textit{-eə} can be seen as fossilized antipassive verbs. But like with the causative hypothesis, the roots above lack an obviously antipassive component and in fact many are normal transitive verbs.
+
+In conclusion, the alternation between \textit{-a}/\textit{-ɜ} and \textit{-eə}/\textit{-iə} in imperfective verb forms seems to be irregular, lexically associated with different verb roots.
+
+\subsubsection{Default tone in imperfective verbs}\label{sec:ch11:defaulttone}
+
+The tone patterns of regular imperfective verbs are representative of the default distribution of tone on the verb root, which also occurs in all infinitive verb forms. The H tone which tends to occur at the left edge of the macrostem. The exact distribution of this H tone varies depending on the shape of the verb root and the presence of particular prefixes, as described and analyzed in Jenks \& Rose (2011). In this section we outline the patterns, focusing on consonant-initial versus vowel-initial roots, which display different tone patterns.  
+
+The tone patterns of basic regular imperfective verb stems with no additional extension suffixes are summarized in Table \ref{tab:ch11:5}. We divide the roots into two classes as the tone patterns differ: those with an initial open syllable and those with an initial closed syllable. 
+
+Whether roots are consonant or vowel-initial and syllable weight are also important factors in the distribution of tone. Consonant-initial roots have a high tone on the first vowel, resulting in HH or H-H forms. If vowel initial, roots avoid an initial H tone, resulting in a L-L or LH melody, basically an avoidance of H tone on the vowel of a vowel-initial root. Closed or heavy syllables, which end in a consonant, always bear H tone, no matter if they are consonant or vowel initial. Lexical distinctions are also present in whether H tone spreads. Thus, in a restricted number of verbs there is no spreading. In these cases, a single H tone is always associated with the first syllable that does not extend.
+
+ 	\begin{table}
+ 		\begin{tabular}[t]{llll}
+\lsptoprule
+		&		& Long root ($\sigma\sigma${\ldots}) & 	Short root ($\sigma$) \\
+\midrule
+Open syllables	& C-initial	& HH  (HL) 	& 	H-H  (H-L)\\ 				& V-initial	& LH (HL)	& L-L (H-L) \\ 
+\midrule Closed syllables	& C-initial	&	HL 	&	H-L\\				& V-initial	&	HL	&	H-L\\
+\midruleno syllables	& C(ː)	& -----	& Ø-L  \\
+\lspbottomrule
+\end{tabular}
+	\caption{Default tone pattern in regular imperfective}
+		\label{tab:ch11:5}
+\end{table}
+
+This section addresses the tone patterns of imperfective verbs based on the shape of the root. Consonant-initial roots consisting only of light syllables of shape CVCVC and shape CVC are addressed first. Roots with heavy syllables of shape 
+
+\paragraph{Light syllables} In consonant-initial roots with an open first syllable, generally of the shape CVCVC, high tone appears on the first vowel and extends onto the second vowel in most cases.\ea \begin{tabular}[t]{ll}	g-a-t̪ávə́ð-a	&‘spit’\\g-a-kwə́ɾéð-a&	‘scratch’\\g-a-və́léð-a	&‘pull’\\g-a-dóɡát̪-a	&‘fix’\\g-ɜ-tə́mə́tʃ-ɜ&	'collect'\\\end{tabular}\z There are a few verbs for which the tone pattern is HL and not HH. This is a small group consisting of the following roots. \ea 	
+\begin{tabular}[t]{ll}g-ɜ-dɜ́dəð-ɜ	&	`hiccup'\\g-a-və́dað-a	&	‘clean, sweep'\\g-ɜ-dúwət̪-ɜ	&	`chew with back teeth' \\	
+\end{tabular}
+\z Although most verb roots consist of one or two syllables, there are also longer roots. The tone pattern of longer roots is the same as the bisyllabic roots, except that any additional syllables beyond the first two are low-toned.\ea 	
+\begin{tabular}[t]{ll}g-ɜ-dúgə́ðən-iə	&	`work'\\g-a-kə́rə́ɲat̪-a		&	`tell off, rebuke'\\g-ɜ-púŋúðətʃ-ɜ	&	`pierce, make hole in'\\g-ɜ-ɾə́mə́ðit̪-iə		&	fill a hole'\\g-ɜ-dʒívɜ́ʧən-iə	&	`forget'\\	
+\end{tabular}
+\z Longer verb roots almost certainly derive from extension suffixes (passive \textit{-ən}, applicative \textit{-ət̪} or \textit{-it̪}, locative applicative \textit{-at̪}, anti-passive \textit{-əð}, causative \textit{-i}) that have become lexicalized. The endings of these verb roots consist almost exclusively of these sequences. Furthermore, most show higher vowels, another hallmark of three of the extension suffixes (passive, applicative and causative). However, in the current language, there are no corresponding shorter roots that occur without the final syllable, ex. *\textit{g-a-kə́rə́ɲ-a} or *\textit{g-ɜ-púŋúð-ɜ}. Many bisyllabic roots may also be derived in a similar manner from monosyllabic roots. 
+
+When extension suffixes such as the passive \textit{-ən}, are added to CVCVC roots, the tone pattern is maintained, and the passive suffix is low-toned: %should some of this discussion be moved?\ea 
+\begin{tabular}[t]{lll}Imperfective	&	Imperfective-passive	\\g-a-t̪ávə́ð-a	&	g-ɜ-t̪ɜ́və́ʧ-ən-iə	&	‘spit’\\g-a-kwə́ɾéð-a	&	g-ɜ-kúríð-ən-iə	&	‘scratch’ \\	
+\end{tabular}
+\z 
+
+
+Verb roots with the shape CVC have a H tone on the root, which can extend (H-H) or not extend (H-L) to the following aspect suffix. Most verbs do have H tone extension. In our lexicon, there are 68 CVC verb roots with H tone extension.\ea CVC verb roots with H-H tone pattern
+\begin{tabular}[t]{ll}
+g-a-wáð-á	&	‘poke’\\g-a-wát̪-á	&	‘sew’\\g-a-bwáɲ-á	&	‘like, want'\\g-ɜ-sɜ́ð-ɜ́	&	‘defecate’\\g-a-dáŋ-á	&	‘stay’\\g-a-rə́m-á	&	‘hit with a large stone’\\g-a-ŋál-á	&	‘yawn’\\g-a-méð-á	&	‘twist (rope)’\\g-a-lát̪-á	&	‘sift, make clay pots’\\g-a-kə́v-á	&	‘pinch’\\g-ɜ-dɜ́ɾ-iə́	&	‘wrap, cover’\\g-ɜ-víð-ɜ́	&	‘vomit’\\g-a-mə́t̪-iə́	&	‘live, inhabit’\\ 
+\end{tabular}
+\z We have identified 20 verbs that have the no extension (H-L) pattern, so this is the minority (23\%). \ea CVC verb roots with H-L tone pattern
+\begin{tabular}[t]{llll}g-a-kér-a	&	‘break’\\g-ɜ-kíð-iə	&	‘open’\\g-ɜ-lím-iə	&	‘put together, join’\\g-a-váð-a 	&	‘shave’\\g-ɜ-mwə́t̪-ɜ	&	‘sip’\\g-ɜ-míð-iə	&	‘be full of milk, give milk’\\g-ɜ-nín-iə	&	‘search, look for’\\g-a-nwán-a	&	‘tend, watch, take care of’\\g-a-ŋáŋ-a	&	‘scratch’\\g-a-ɾág-a	&	‘crawl’\\g-ɜ-ɾə́g-iə	&	‘pass under, push through’\\g-a-rat̪-eə	&	‘inherit’\\g-a-gáð-a	&	‘mix (food, words)’\\g-a-sát̪-a	&	‘chew noisily, chatter’\\g-ɜ-tɜ́s-iə	&	‘swing’\\g-ɜ-tíð-ɜ	&	‘thread, roll’\\g-a-tóð-a	&	‘rise'\\g-a-tóg-a	&	‘peck’\\
+\end{tabular}
+\z There are no clear generalizations to be made about which verbs have H tone extension and which don’t based on the final consonant or the root vowel. This appears to be a lexical property of particular roots. 
+
+Verbs that have a final diphthong \textit{-iə} (with high vowels) tend to fall into the H-L class. This could be due to the lexicalization of a causative suffix. In the causative imperfective, the final suffix is \textit{-iə}, which triggers vowel raising. Furthermore, CVC roots with H-H require a H-L tone pattern in the causative, as seen below (see Section \ref{sec:ch11:causative}) \ea 	
+\begin{tabular}[t]{lll}Imperfective	&	Causative imperfective	 \\ g-a-lág-á	&	g-ɜ-lɜ́g-iə	&	‘weed’\\g-a-ðə́w-á	&	g-ɜ-ðə́w-iə	&	‘poke’ \\	
+\end{tabular}
+\z Nevertheless, not all verbs with a final \textit{-iə} show this tone pattern, so this is not a exceptionless generalization. 
+
+When an extension suffix is added to CVC roots, the second H tone appears on the extension suffix rather than on the aspect suffix. Curiously, both H-H and H-L roots show H tone extension with extension suffixes, neutralizing the distinction between them in these forms. The data below show the passive \textit{-ən}, which also raises vowels (Section \ref{sec:ch11:passive}): \ea 
+\begin{tabular}[t]{llll}
+&	Imperfective	&	\multicolumn{2}{l}{Passive imperfective} 	\\H-H &	k-a-bwáɲ-á	&	k-ɜ-bwɜ́ɲ-ə́n-iə	&	‘like, want’\\	&	k-a-wáð-á	&	k-ɜ-wɜ́ð-ə́n-iə	&	‘poke’\\H-L &	k-a-váð-a	&	k-ɜ-vɜ́ð-ə́n-iə	&	‘shave’\\	&	k-a-tóð-a	&	k-ɜ-túð-ə́n-iə	&	‘move’\\
+\end{tabular}	
+\z Between the bisyllabic and monosyllabic consonant-initial verb roots, two generalizations emerge. First, H is associated with the initial root syllable, and second, in most verbs forms, H spreads a single syllable to the right. 
+			
+\paragraph{Closed syllables} We move now to consonant-initial roots with closed syllables as well as roots made up of geminate consonants. The verb roots introduced so far have a CVC- or CVCVC- shape. This means that the first syllable is open or light (ends with a vowel). If the first syllable is closed or heavy (ends with a consonant), H tone extension does not occur. Bisyllabic verb roots with an initial heavy syllable (shaped CVCCVC) surface with a HL melody on the root. The first syllable can be closed by a sonorant consonant, a nasal or a liquid (r or ɾ), or the first half of a geminate consonant. \ea 	
+\begin{tabular}[t]{ll}k-a-mwándəð-eə	&	‘ask’\\k-a-wə́ndat̪-a		&	‘see’\\k-ɜ-vɜ́ndəʲʧ-iə	&	‘hold’\\k-a-lálːəɲ-a	&	‘run’ \\	
+\end{tabular}
+\z We assume that high tone is blocked from extending to the second vowel of the root due to the closed syllable. We have not observed any verb roots of the shape CVCVCC. 
+
+If the verb root is of the shape CVCC, H tone also never extends to the following affix. 
+\ea 
+\begin{tabular}[t]{ll}g-a-wáŕð-a	&	‘write’\\g-a-lánd̪-a	&	‘close’\\g-ɜ-túnd-ɜ	&	‘cough’\\g-a-kə́lː-a	&	‘pull branches from tree’\\	
+\end{tabular}
+\z
+Some verb roots have only a single consonant, which is often geminate. In these cases, there is no H tone, as there is no position in the root to host it. \ea  
+\begin{tabular}[t]{ll} %CHECK: why are there H tones on 'slice' and 'persuade'?
+g-ɜ-w:-ɜ	&	'boil, be hot' \\g-a-ðː-á	&	‘slice, cut’\\g-a-m:-a	&	‘take, marry’\\g-a-n:-a	&	‘hear’\\g-a-sː-a	&	‘eat’\\g-a-wː-á	&	‘persuade, entice’\\g-ɜ-t̪-iə	&	‘drink’\\g-a-t̪w-a	&	‘get lost’\\g-a-v-eə	&	‘live, inhabit’\\g-ɜ-pʷ-ɜ	&	‘beat’
+\end{tabular}
+\z If an extension suffix is added to these verb roots, H tone appears on the extension suffix. 
+\ea 
+\begin{tabular}[t]{lll}Imperfective	&	Passive imperfective 	\\g-a-sː-a 	&	g-ɜ-sː-ə́n-iə	&	‘eat’\\g-a-mː-a	&	g-ɜ-mː-ə́n-iə	&	‘take’\\ 	
+\end{tabular}
+\z In addition, H tone will appear on the final suffix if it is followed by another suffix in the clitic group (object marker, locative or instrumental, \sectref{sec:ch11:clitic}). In (a), the object marker \textit{-lo} causes H tone to appear on the final aspect vowel. In (b) the instrumental \textit{-ja} does the same thing (and also causes local lowering of the aspect suffix to [a]). This is a general property of these suffixes if the preceding vowel is low-toned. \ea  	
+\begin{tabular}[t]{ll}
+g-ɜ-sː-á-lo			&	‘s/he is about to eat them’\\g-ɜ-w:-á-ja ŋwatʃa	&	‘s/he is hot with (loves) Ngwaca.\\ 
+\end{tabular}
+\z If the verb root is longer than a single consonant, but begins with a geminate consonant, H tone appears on the preceding prefix, the root clause vowel. \ea 
+\begin{tabular}[t]{ll}g-á-w:aðat̪-a	&	`find' \\ g-ɜ́-sːɜʧ-iə		&	`look'\\	
+\end{tabular}
+\z %TODO EXAMPLES WITH DIFFERENT ROOT CLAUSE VOWELInitial nasal-consonant sequences show different patterns with respect to the placement of this H tone, as discussed in the chapter on tone. With initial [ndr] sequences, the nasal bears H tone. With initial [ŋg] or [nd] sequences, there are two patterns. One pattern places H tone on the root vowel, essentially treating the [ŋg] or [nd] sequence as a single consonant. The other pattern places H tone on the preceding prefix, the same pattern as with initial geminate consonants, treating the [ng] sequence as a consonant cluster. %does this mean there is a phonological distinction between NC and nasalized consonant in Moro? -PJ\ea 
+\begin{tabular}[t]{ll}k-a-ńdrat̪-a	&	`be near to'\\k-a-ńdr-a	&	`sleep'\\k-a-ŋgát̪-eə	&	`go away, leave'\\k-a-ndə́ð-iə	&	`cut, tear, rip'\\k-ɜ́-ŋɡit̪-iə	&	`let, allow'\\	
+\end{tabular}
+\z \paragraph{Vowel initial roots} \label{sec:ch11:vcipfv} The tone pattern of vowel-initial roots in the regular imperfective diverges from consonant-initial roots. Most roots of the shape VCVC have a LH melody. The H tone does does not extend to the suffix after the root. Note that the root clause marker \textit{a-} is absent preceding the vowel-initial root due to vowel hiatus resolution, which causes deletion of the first vowel (\sectref{sec:ch5:hiatus}).\ea 
+\begin{tabular}[t]{ll}g-oɡə́t̪-a		&	‘jump’\\g-ɜwút̪-ɜ	&	‘drop’\\g-elə́tʃ-a	&	'lay out, hang, unfold'\\g-abə́ɾʷ-a	&	'fly'\\g-uɾə́ð-ɜ		&	'have diarrhoea'\\	
+\end{tabular}
+\z There are also a small number of VCVC verbs which have the tone melody HL. The first two are borrowings from Arabic. The final verb is a longer root, but still shows this pattern. \ea 
+\begin{tabular}[t]{ll}g-álab-a	&	? \\%TODO what is gloss here?g-ákəm-a	&	'judge'\\g-ɜ́min-iə	&	'be boastful'\\g-ɜ́gɜʧ-iə	&	'accompany, trip'\\g-ámadat̪-a	&	'help'\\	
+\end{tabular}
+\z Unlike the CVCVC roots, there are no VCVC roots that have the tone melody HH.Vowel-initial roots of the shape VC general surface with all-low tone (6d-f). \ea 
+\begin{tabular}[t]{lll}a.	&	g-oað-a	&	‘mill’\\b.	&	g-oar-a	&	‘badmouth’\\c.	&	g-al-a	&	‘slice’\\d.	&	g-om-a	&	'shelter from rain'\\e.	&	g-oɾ-a	&	'mate, copulate (animals')\\f.	&	g-og-a	&	'thresh'\\g.	&	g-uɾ-ɜ	&	'blow (wind)'\\h.	&	g-oan-a	&	'be anxious'\\i.	&	g-apː-a	&	'carry'\\	
+\end{tabular}
+\z \ea 
+\begin{tabular}[t]{lll}regular imperfective	&	regular imperfective passive	\\g-al-a 	&	g-ɜl-ə́n-iə	&	‘slice’\\g-oað-a	&	g-uɜð-ə́n-iə	&	‘mill, grind’\\	
+\end{tabular}
+\z Like the consonant-only roots, these forms can acquire a H tone on the final aspect vowel if it is followed by another suffix.There are also a few vowel-initial roots of the shape VC that surface with a H tone that does not extend to the following suffix:\ea 
+\begin{tabular}[t]{ll}g-íb-iə	&	‘pay dowry'\\ŋ-ól-a	&	'drip, leak'\\g-oáɾ-a	&	'badmouth'\\g-oás-a	&	'wash'\\	
+\end{tabular}
+\z When the vowel-initial roots begins with a closed, heavy syllable, H tone appears on the first vowel and does not extend to a second vowel. \ea 
+\begin{tabular}[t]{ll}g-áŕnəð-iə	&	'divide'\\g-éndəɲ-a	&	'collapse, crumble'\\g-ɜ́nduð-ɜ	&	'bite'\\g-ɜ́rːɜŋəʧəð-iə&	'teach'\\gw-ónd̪aʧ-a	&	'be pregnant'\\g-oándət̪-a	&	'dry up, wither'\\g-ópːət̪-a	&	'defend'\\g-oás:əð-eə	&	'scatter seeds'\\	
+\end{tabular}
+\z The same pattern holds for VCC roots:\ea 
+\begin{tabular}[t]{ll}g-áfː-a	&	'build, shoot'\\g-áwː-a	&	'??'\\ % TODO figure out translationg-oánd̪-a&	'harvest'\\	
+\end{tabular}
+\z \subsubsection{The \textit{v-} prefix}\label{sec:ch11:vprefix}Many vowel-initial roots are preceded by \textit{v-} in the regular imperfective.  The \textit{v-} prefix can only appear in this particular verb form, and it is obligatory. Furthermore, it may not appear on any verb root that contains a labial consonant (/p b f v m w/) or a round vowel (/o u/). In Werria and written Moro, /b/ corresponds to Thetogovela /v/, so this prefix is \textit{b-}.
+
+When \textit{v-} precedes the verb root, the tone pattern is like that of consonant-initial roots. Verbs with two vowels have a HH melody (or in one case HL), and verbs with one vowel have a H tone that extends to the following suffix. We have not noted any verbs that do not extend the H tone to the affix vowel, but this may just be an accidental gap. \ea 	
+\begin{tabular}[t]{lll}HH 	&  	g-ɜ-v-ə́líð-ɜ		&	‘buy’\\	&	g-ɜ-v-ɜ́ɡə́r-iə	&	‘read’\\	&	g-a-v-álə́ŋ-a		&	‘sing’\\H-L &	g-ɜ-v-ɜ́ŋətʃ-ɜ	&	'show'\\H-H &	g-a-v-áj-á		&	‘die’\\	&	g-a-v-áɾ-á		&	‘cry’\\	&	g-ɜ-v-íd-iə́		&	‘fall down’\\	&	g-a-v-át̪-á		&	'say'\\	&	g-ɜ-v-ɜ́g-iə́		&	'put'\\ 	
+\end{tabular}
+\z The \textit{v-} prefix causes reduction of the vowel /i/ to [ə] in the word for ‘buy’.Verb roots with an initial heavy, closed syllable have the pattern HL or H-L. This would be the case with or without \textit{v-}. \ea 
+\begin{tabular}[t]{ll}g-ɜ-v-ɜ́nd-iə		&	`catch, arrest'\\g-ɜ-v-ɜ́lːən-iə		&	`boast'\\g-ɜ-v-ɜ́ntʃən-iə		&	`wear'\\g-a-v-ánː-a			&	`look like, resemble'\\g-a-v-éŕt̪-a			&	`have'\\g-ɜ-v-ɜ́rn-iə		&	`be named'\\ 	
+\end{tabular}
+\z It should be noted that there are some roots that have two possible forms, with a v-prefix and without, with no difference in meaning.\ea 
+\begin{tabular}[t]{lll}g-a-v-ɜ́g-iə́		&	g-ɜg-iə		&	`put'\\g-a-v-éltʃ-a	&	g-elə́tʃ-a	&	`lay out, spread, fold'\\	
+\end{tabular}
+\z Other prefixes besides \textit{v-} have a tonal effect on vowel-initial roots, as described in Section \ref{sec:ch11:iterative} for the iterative prefix and Section \ref{sec:ch11:objectpre} for the preverbal object marker. 
+
+\subsection{Perfective verb forms}\label{sec:ch11:perfective}
+
+Perfective verbs are marked by a combination of tonal and affixal inflection. The perfective suffix consists of the suffix \textit{-ó} and an all-L tone melody. The semantics of perfective verb forms is discussed in Section \ref{sec:ch11:perfectivesem}.
+
+The perfective suffix \textit{-ó} alternates with \textit{-ú} depending on the vowels in the root, an instance of root-controlled vowel harmony (\sectref{sec:ch11:vharmony}). There is no trace of the allomorphy between imperfective \textit{-a}/\textit{-ɜ} versus \textit{-eə}/\textit{-iə} in the perfective, as the suffixes are fully predictable.
+
+\ea \begin{tabular}[t]{lll}
+Imperfective & Perfective & \\
+g-a-n:-a	&	 g-a-n:-ó  & ‘hear’\\
+g-ɜ-t̪-iə	&	g-ɜ-t̪-ú & ‘drink’\\
+g-a-dáŋ-á & g-a-daŋ-ó & `stay, sit' \\
+g-ɜ-víð-ɜ & 	g-ɜ-við-ú	&	`vomit’\\
+g-ɜ-t̪-iə	&	g-ɜ-t̪-ú & ‘drink’\\
+g-a-və́léð-a &  g-a-vəleð-ó  & ‘pull’ \\
+g-ɜ-dɜ́dəð-ɜ	& g-ɜ-dɜdəð-ú	& `hiccup' \\
+g-a-mwándəð-eə	& g-a-mwandəð-ó &  'ask'\\
+g-ɜ-púŋúðətʃ-ɜ	&  g-ɜ-puŋuðətʃ-ú & 	`pierce' \\
+\end{tabular}
+\z 
+As the examples above illustrate, the shape or length of the root has no effect on the all-L melody associated with the perfective, which neutralizes any distinctions which are made in the default tone pattern on the root. 
+
+The all-L melody associated with perfective aspect applies to all affixes in the macrostem. This includes iterative prefixes, which surface with H tone in the imperfective. 
+
+\ea \begin{tabular}[t]{lll}
+Perfective & Itereative perfective & \\g-a-dərn-ó	&	g-a-dat-tərn-ó	&	‘press’\\g-ogət̪-ó	&	g-okː-oɡət̪-ó	&	‘jump’\\ 	
+\end{tabular}
+\z  
+Likewise, extension suffixes always surface L in perfective verb forms. See \ref{tab:ch5:pal} for some relevant examples.
+
+Perfective verb forms always occur with enclitic object markers or pronouns. A full paradigm of object markers in the perfective was provided in example \ref{ex:ch7:pfvom} in Chapter \ref{chap:7:pronouns}.
+ 
+ 
+\subsection{Venitive imperfective verb forms}\label{sec:ch11:venitive}
+
+Venitive imperfective verb forms consist of two components, a circumfix \textit{á- -ó}, and an all-L tone melody on the root. This section describes the morphological patterns used to mark the venitive imperfective, while section \ref{sec:ch11:venitivesem} describes the semantics of this form.
+
+In contrast to the regular imperfective, and like the perfective the tone patterns of the venitive imperfective are simple. When consonant-initial, the root is always low-toned no matter the size and shape of the root.\ea 
+\begin{tabular}[t]{ll}g-á-vəleð-ó		&	‘pull’\\g-á-vədað-ó		&	'sweep'\\g-ɜ́-dugəðən-ú	&	'work'\\
+g-á-lag-ó		&	'weed'\\g-ɜ́-nin-ú		&	'search, look for'\\g-á-lalːəɲ-ó	&	'run'\\g-á-kəlː-ó		&	'pull branches from tree'\\g-á-sːó			&	'eat'\\ 
+\end{tabular}
+\z 
+These examples illustrate that the \textit{á- -ó} circumfix undergoes normal vowel harmony within the root. In addition, the prefixal component interacts with morphemes on either side due to normal vowel hiatus processes (\sectref{sec:ch5:hiatus}). To the left, the clause vowel always deletes in venitive imperfective verb forms. %THIS PREDICTS THAT EXTRACTION CONTRASTS ARE NEUTRALIZED --- CHECK!? 
+To the right, when roots are vowel-initial, the \textit{á-} prefix on the root. In such cases, its H tone appears on the initial vowel of the root.\ea 
+\begin{tabular}[t]{ll}g-óɡət̪-ó	&	'jump'\\g-ákəm-ó	&	'judge'\\g-ápː-ó		&	'carry'\\g-áfː-ó		&	'shoot, build'\\g-ílið-ú	&	'buy'\\g-árnəð-ó	&	'divide'\\ 	
+\end{tabular}
+\z If there is a durative/iterative prefix, it is also low-toned unless vowel-initial.\ea 
+\begin{tabular}[t]{lll}g-á-dərn-ó	&	g-á-dat-tərn-ó	&	‘press’\\g-ógət̪-ó	&	g-ókː-oɡət̪-ó	&	‘jump’\\ 	
+\end{tabular}
+\z  Unlike the regular imperfective and like the perfective, object markers always appear as suffixes in the venitive imperfective. There is no interaction between them and the tone pattern of the stem.  \ea 
+\begin{tabular}[t]{lll}&	ɡ-á-vəleð-ó	&	‘s/he is about to pull’\\\textsc{1sg}	&	ɡ-á-vəleð-ə́-ɲé	&	‘s/he is about to pull me’\\\textsc{2sg}	&	ɡ-á-vəleð-á-ŋá	&	‘s/he is about to pull you (sg)’\\\textsc{3sg}	&	ɡ-á-vəleð-ə́-ŋó	&	‘s/he is about to pull him’\\\textsc{1inc.dual}/\textsc{2pl}&	ɡ-á-vəleð-ə́-ńda&	‘s/he is about to pull us/you’\\\textsc{3pl}	&	g-á-vəleð-ə́-lo	&	‘s/he is about to pull them’\\ 	
+\end{tabular}
+\z 
+As discussed in Section \ref{sec:ch7:om}, the suffixal pattern is attributable to the tone melody imposed by the venitive imperfective.
+
+
+\subsection{Iterative verb forms}\label{sec:ch11:iterative}
+
+Many verb roots in Moro undergo a partial reduplication process which marks pluractionality, either iterative or durative semantics depending on the root. This section focuses on the morphological processes and allomorphs. The semantic contribution and lexical restrictions of this form are described in Section \ref{label:iterativesem}.\footnote{We are grateful to Hannah Sande for her work on the Moro iterative with Angelo Naser in Fall 2015 which supplied helpful material for this section as well as section \ref{label:iterativesem}.}
+
+Iterative reduplication has several variants which are mostly phonologically conditioned. The first two variants involve partial reduplication triggered by the shape of the verb root. The prefix is of the shape \textit{CaC}- for consonant-initial roots and \textit{Vk:}- for vowel-initial roots, where C and V are copies of the first segment in the verb root. \ea  \label{ex:ch11:iter1}
+\begin{tabular}[t]{lll}
+Imperfective	&	\multicolumn{2}{l}{Iterative imperfective}\\g-a-mʷándəð-eə 	&	g-a-mám-mʷandəð-eə	&	‘ask’\\g-a-ðə́w-á		&	g-a-ðáð-ðəw-a		&	‘poke’\\g-a-kə́v-á		&	g-a-gák-kəv-a		&	‘pinch’\\g-a-də́rn-a		&	g-a-dát-tərn-a		&	‘press’\\g-ogə́t̪-a			&	g-ókː-oɡət̪-a			&	‘jump’\\g-al-a			&	g-ákː-al-a			&	‘slice’\\ 	
+\end{tabular}
+\z 
+The examples in \ref{ex:ch11:iter1} are all given in the regular imperfective, which is associated with default tone. In such cases, H tone appears on the iterative prefix itself. This is unsurprising from the perspective of the default tone patterns described in Section \ref{sec:ch11:defaulttone}, as H tone always associates with heavy syllables within the macrostem.
+In imperfective verbs, additionally, the \textit{v-} prefix (\sectref{sec:ch11:vprefix}) can precede the vowel-initial prefix without altering the tone pattern:
+
+\ea \begin{tabular}[t]{lll}Imperfective	&	\multicolumn{2}{l}{Iterative imperfective}\\g-ɜ-v-ɜ́nd-iə		&	g-ɜ-v-ɜ́kː-ɜnd-iə	&	‘hold, catch’\\ g-ɜ-v-ɜ́g-iə́ 		&	g-ɜ-v-ɜ́kː-ɜg-iə		&	‘put’\\g-a-v-ágə́ðat̪-a	&	g-a-v-ákː-agəðat̪-a	&	‘go around				in circles’\\ 	
+\end{tabular}
+\z 
+The other variant of the iterative also occurs before vowel initial roots, but there the /k:/ of the partial reduplicant is replaced by \textit{Vr:-}, again reduplicating the first vowel, creating a heavy syllable which attracts H tone on the first vowel in imperfective verbs. While both  \textit{Vr:-} and the \textit{Vk:-} reduplication occur with vowel-initial roots, the choice of form itself is phonologically conditioned. The basic generalization seems to be that \textit{Vr:-} is only possible with verbs that lack the liquids /l r ɾ w/. This generalization is illustrated in \tabref{tab:ch11:viter}. Note that in the case of `fall' the initial vowel of the root is deleted in the \textit{Vr:-} pattern and the r: is realized as a regular coda /r/, resulting resulting in an VrC- sequence at the beginning of the root. This process may be triggered before coronal consonants which are intervocalic.
+
+\begin{table}
+\begin{tabular}[t]{lll}%check with Elyasir
+\lsptoprule
+Perfective	&	\multicolumn{2}{l}{\textit{Vr:-} iterative perfective}\\
+\midrule
+g-ap-ó 		& g-ar:-ap-ó 	& `carry'\\
+{g-it-ú} 	& {g-ir-t-ú} 	& `fall'\\
+g-abot-ó 	& g-ar:-abot-ó 	& `climb'\\
+{g-əŋətʃ-ú} & g-ər:-əŋətʃ-ú & `show (n.i.), teach (i)'\\
+{g-ɜnt̪-ú} 	& g-ɜr:-ɜnt̪-ú 	& `enter'\\
+g-ɜncin-ú 	& g-ɜr:-ɜncin-u & `put on (clothes)'\\
+g-indətʃ-ú 	& g-ir:-indətʃ-ú &  `try, imitate'\\
+\midrule 
+Perfective	&	\multicolumn{2}{l}{\textit{Vk:-} iterative perfective}\\
+\midrule
+g-əl:-ó 	&	g-ək-əl:-ó &  `take branch from tree' \\
+g-əw-ó  	&  g-əkəw-ó  & `pinch'\\
+g-abort-ó	&	g-ak-abort-ó &	`ride' \\g-iɾic-ú 	&	g-ik-iɾic-ú & `light a fire (w.)'\\
+g-oɾobac-ó 	&	g-ok-oɾobatʃ-ó & `answer (w.)'\\
+g-abalac-ó 	& 	g-ak-abalatʃ-ó 	& `deny'\\
+g-arnəð-ó 	& g-ak-arnəð-ó & `share'\\
+\lspbottomrule
+\end{tabular}
+\caption{\textit{Vk:-} vs. \textit{Vr:-} iteratives with vowel-initial verb roots}\label{tab:ch11:viter} 
+\end{table}
+
+The absence of /l r ɾ w/ in the root does not guarantee a \textit{Vr:-} iterative, as the \textit{Vk:-} alternant occurs in many forms that lack liquids (e.g. \textit{g-ókː-oɡət̪-a} `jump' from \ref{ex:ch11:iter1}). Such exceptions are actually relatively common. Yet exceptions the other way are less common. Only, three roots with liquids have been found to take the \textit{Vr:-} prefix. In all three cases, the \textit{Vr:-} prefix ends up forming a cluster with the liquid in the root due to vowel deletion. 
+
+\ea
+\begin{tabular}[t]{lll}
+Perfective	&	\multicolumn{2}{l}{\textit{-r-} iterative perfective}\\
+g-ilið-ú 	&	g-ír-lið-ú	&	‘buy’ \\ga-vəleð-ó & ga-vərleð-ó & `pull'\\
+g-ɜwut-ú &  g-ɜr-wut-ú & `drop, throw'\\
+\end{tabular}
+\z 
+Note that `pull' is not actually vowel initial and may be a irregular form.
+
+The fact that one variant of the iterative contains /r/ may not be an accident, as \textit{-r} seems to contribute plurality to distinguish first person inclusive plural and dual in the subject agreement paradigm (\sectref{sec:ch11:subjectagreement}) and in pronouns more generally (Chapter \ref{chap:7:pronouns}). Additionally, plural imperatives are marked with an \textit{-r} suffix (Chapter \ref{chapter:imperative}). As such, /r/ seems to be a general exponent of plurality in number of contexts in Moro.
+
+\subsection{Preverbal object markers}\label{sec:ch11:objectpre}
+
+High-toned object markers are positioned before the root or the durative/iterative prefix if one is present. Unlike the postverbal object markers discussed in section \ref{sec:ch11:objectpost}, preverbal object markers are incorporated into the macrostem and play a role in the distribution of tone in the macrostem. This explains the fact that only some components of object markers are actually able to appear postverbally, resulting in multiple exponents in some imperfective verb forms with object markers (See Section \ref{sec:ch7:om} for examples).  
+
+The interaction of object marker prefixes with default tone in the macrostem is described below. If an object marker prefix is present, no H tone is found on the verb root in the regular imperfective. The \textsc{3pl} object marker is a low-toned suffix, and therefore H tone is observed on the root. The additional H tone on the aspect suffix is due to the addition of the object marker. \ea 
+\begin{tabular}[t]{lll}
+				&	ɡ-a-və́léð-a		&	‘s/he is about to pull’\\\textsc{1sg}	&	ɡ-a-ɲə́-vəleð-a	&	‘s/he is about to pull me’\\\textsc{2sg}	&	ɡ-a-ŋá-vəleð-a	&	‘s/he is about to pull you (\textsc{sg})’\\\textsc{3sg}	&	ɡ-a-ŋó-vəleð-a	&	‘s/he is about to pull him’\\\textsc{1inc.dual}/\textsc{2pl}	&	ɡ-á-ńdə-vəleð-a	&	‘s/he is about to pull us/you’\\\textsc{3pl}	&	g-a-və́léð-á-lo	&	‘s/he is about to pull them’\\ 
+\end{tabular}	
+\z If both the object marker and the durative/iterative are present, then H tone only appears on the object marker.\ea 
+\begin{tabular}[t]{ll}g-a-ŋó-ðað-ðəw-a	&	‘he’s poking her’\\g-a-ɲé-ɡak-koreð-a	&	‘he’s scratching me’\\g-á-ńdə-vaf-fəleð-a	&	‘he’s pulling us’\\ 	
+\end{tabular}
+\z If an object marker precedes a vowel-initial root or a vowel-initial durative/iterative prefix, the vowel of the object marker is deleted. Its H tone appears on the preceding prefix if it does not otherwise bear H tone.  \ea 
+\begin{tabular}[t]{lll}/g-a-ɲé-abaʧ-a/	&	[gáɲabaʧa]	&	‘s/he is about to lift me’ \\/g-ɜ-ŋɜ́-ɜwut̪-ɜ/	&	[gɜ́ŋɜwut̪-ɜ]	&	‘s/he is about to drop you’\\/g-a-ɲé-akː-aləf-ət̪-iə/	&	[gɜ́ɲɜkkɜləfət̪iə]	&	‘s/he keeps promising me’\\ 	
+\end{tabular}
+\z Finally, if an object marker prefix appears, the \textit{v-} prefix cannot: EXAMPLE such as ‘s/he sang for me’. % TODO EXAMPLE such as ‘s/he sang for me’ All other prefixes and suffixes do not change the basic tone pattern of regular imperfectives. Some high-toned prefixes that occur to the left of the object marker can cause a following H tone on the root to downstep, but other than this, there is no significant alteration.
+\ea 
+\begin{tabular}[t]{ll}é-ɡ-a-kwə́réð-a	&	‘I am about to scratch’\\ɡ-é-kw$^{\downarrow}$ə́réð-a		&	‘(s/he)…who is about to scratch’\\é-ɡ-$^{\downarrow}$áff-a		&	‘I am building’\\á-ɡ-a-ðáð-ðəw-a	&	‘you are poking (\textsc{iter}.)’\\ɡ-é-ð$^{\downarrow}$áð-ðəw-a	&	‘(s/he)…who is poking (\textsc{iter}.)’\\ 
+\end{tabular}
+\z 
+
+
+\section{Aspectual and deictic semantics in the macrostem}\label{sec:ch11:macrostemsem}
+
+This section describes the semantics of the verbal inflection markers which operate directly on the event description of verb and have no effects on information structure. This includes a discussion of aspect: imperfective (\sectref{sec:ch11:imperfectivesem}), perfective (\sectref{sec:ch11:perfectivesem}), and the iterative (\sectref{sec:ch11:imperfectivesem}) are covered. In addition, the semantics of venitive verb forms are discussed in the context of the venitive imperfective (\sectref{sec:ch11:venitivesem}).
+
+Aspect and deixis categories in Moro have different interpretations depending on the semantic properties of verb it attaches to. Different lexical categories of verbs behave differently under different distinctions, as we will see below. One notable property of these markers is that they encode multiple semantic distinctions at the same time. So the imperfective encodes both present tense and particular aspectual choices, while the perfective always encodes past tense and different aspectual choices.
+
+Additional discussions of tense and aspect can be found in Chapter \ref{chapter:auxiliaries} on auxiliaries as well as \ref{chapter:embeddedclauses}; additional discussions of venitive semantics can be found in Chapter \ref{chapter:embeddedclauses} on embedded clauses, as there is a venitive form in the imperfective, and Chapter \ref{chapter:imperative}, as there is a venitive form in imperative verbs as well.
+
+\subsection{Imperfective semantics}\label{sec:ch11:imperfectivesem}
+
+Imperfective verb forms describe events which have not been completed. The default interpretations of imperfective verb forms vary with the lexical aspect, also called Aksionsart, of the verb phrase in question, as illustrated in \tabref{tab:ch11:ipfvasp}. For durative events, such as accomplishments and achievements, and states, imperfective verb forms are interpreted as ongoing, and must hold of the present. In this sense the imperfective is a portmanteau marker for present tense and imperfective aspect.
+
+Punctual events and changes of state, on the other hand, have an inchoative interpretation in the imperfective by default, roughly equivalent to English `about to.' This interpretation is due to the fact that the imperfective seems to include a present tense meaning, and as punctual events and changes of state happen instantaneously, at least for linguistic purposes, the time at which these these events take place can never really correspond with the time of utterance. In order for punctual events to receive a present progressive interpretation, the iterative prefix must be added, as discussed in section \ref{sec:ch11:iterativesem} and also below for habitual uses.
+
+While the interpretation often suggested for imperfective punctual event types is `just about to,' there is no strict entailment that the event take place in the immediate future, as the following example shows:
+
+%TODO insert examples with `tomorrow'
+
+This example indicates that the closeness of the event seems to be subject to pragmatic considerations. So the only strict entailments of the imperfective are that the described event is not completed at the present time.
+
+%question: does this interpretation have to hold of the immediate future?
+
+\begin{table}
+\begin{tabular}{lll}
+\lsptoprule
+			&	Durative 						&	Punctual \\
+			\midrule 
+Bounded		&	Accomplishments 				&	Achievements \\
+event		&  g-áf-a égéə́    						&	g-ɜwút-ɜ gəla \\ 
+			& '(S)he is building the house.' 	& `(S)he is about to drop the plate.' \\
+\midrule
+Unbounded	&  Activities			& 	Semelfactives \\
+event		&  ga-lál:əɲ-a			&	gɜ-rə́mɛ́tʃ-ɜ əsi\\ 
+			& '(S)he is running.' 	&   `(S)he is about to blink (eye).'\\%NB: this is different from `blink' in the dictionary, which is `kəvetʃ'
+\midrule 
+State		&  States 				&   Changes of state\\
+			&  ga-bwáɲ-á Kúku		& 	ga-v-ə́d-éa oraŋ\\
+			&  `(S)he likes Kuku.'	&   `He is about to become a man' \\
+\lspbottomrule
+\end{tabular}	
+\caption{Imperfective aspect with different lexical aspect classes}\label{tab:ch11:ipfvasp}
+\end{table}
+
+In addition to punctual and inchoative interpretations, all durative classes can be used in the imperfective with a present habitual meaning. Contexts have been included in the following examples as the pragmatic contexts for habituals seem less inguitive.
+
+\ea Habitual imperfective with accomplishment\\
+	Context: We have a friend, Kuku, who works very hard at building houses. In fact, he works so hard that he builds a new house every day.\\
+		\gll kúku g-áf-a égéə́    eteto\\
+			Kuku \textsc{cl}g-build-\textsc{ipfv} house always\\
+		\glt `Kuku is always building.'  \hfill EJ060217
+
+\ex Habitual imperfective with activity\\
+	Context: We have a friend, Kaka, who is training for a race. She goes running every day so that she can get as fast as possible for her race.\\
+		\gll káka ga-láliɲ-a eteto\\
+			Kaka \textsc{cl}g-run-\textsc{ipfv} always\\
+		\glt `Kaka is always running.'  \hfill EJ060217
+\z
+In contrast, punctual event types can only be used in the imperfective with a habitual meaning when they occur with an iterative prefix:
+
+\ea Habitual imperfective and iterative imperfective with achievement	
+	Context: We have a friend, Kaka, who is very clumsy, but she likes to cook. Whenever she is finished cooking, she puts food in a bowl and drops it.\\
+	\ea[\#]{\gll káka g-ɜwút-ɜ gəla eteto\\
+		Kaka \textsc{cl}g-drop-\textsc{ipfv} bowl always\\}	
+	\ex Suggested in this context:\\
+		\gll káka g-ɜ́r-wut-ɜ gəla eteto\\
+			 Kaka \textsc{cl}g-\textsc{iter}-drop-\textsc{ipfv} bowl always\\
+		\glt `K. always drops the bowl'  \hfill EJ060217
+	\z
+\ex  Habitual imperfective and iterative imperfective with semelfactive	
+	\ea[\#]{\gll gɜ-rə́mɛ́tʃ-ɜ əsi eteto\\
+		\textsc{cl}g-blink-\textsc{ipfv} eye  always\\}	
+	\ex  \gll gɜ-kɜ́-rəmɛtʃ-ɜ əsi eteto\\
+			 \textsc{cl}g-\textsc{iter}-blink-\textsc{ipfv} always\\
+		\glt `(S)he always blinks his/her eye.' \hfill EJ060217
+	\z
+\z
+The requirement that the iterative be used in this context is a natural consequence of a few independent generalizations: 1) that achievements and semelfactive verbs describe a single event; 2) habitual require reference to either a plurality of events, or, presumably, events with internal structure; 3) the iterative is a pluractional marker, deriving plural events from singular ones.
+
+%The one caveat about this point is that changes of state with present habitual interpretations imply that the change itself occurs regularly, as illustrated.
+%
+%- The sky gets dark every night.
+%
+%While somewhat odd, regular states get their normal interpretation in habitual contexts.
+
+%Check: Changes of state, states, in habitual
+
+\subsection{Perfective semantics}\label{sec:ch11:perfectivesem}
+
+The interpretation of the perfective is uniform across different semantic classes, as illustrated in \ref{tab:ch11:pfvasp} by the suggested translations into the English simple past. The perfective aspect frames events and states as completed and in their entirety. Additionally, perfectives are always interpreted as having occurred in the past. As such, the perfective is likely best seen as a combination of past tense and perfective aspect.
+
+\begin{table}
+\begin{tabular}{lll}
+\lsptoprule
+			&	Durative 				&	Punctual \\
+			\midrule 
+Bounded		&	Accomplishments 		&	Achievements\\
+event		&  g-af-ó égéə́   				&	g-ɜwut-ú gəla \\ 
+			& '(S)he built a/the house.' 	& `(S)he dropped the plate'\\
+\midrule
+Unbounded	&  Activities				& 	Semelfactives \\
+event			&  ga-lal:əɲ-ó			&	gɜ-rəmɛ́ʃ-ú əsi \\ 
+			& '(S)he ran.' 					&  `(S)he blinked (his/her eye).'\\
+\midrule 
+State		&  States 					&  Changes of state\\
+			& ga-bwaɲ-ó Kúku			& ga-d-ó oraŋ\\
+			& 	`(S)he wanted Kuku.'			& `(S)he is (=has become) a man.' \\%check interpretation of 'like'
+\lspbottomrule
+\end{tabular}	
+\caption{Perfective with different lexical aspect classes}\label{tab:ch11:pfvasp}
+\end{table}
+
+There are some subtle differences in the interpretation of the perfective with different lexical aspect forms based on the independent differences between these forms. With punctual events and changes of state, the perfective simply entails that the described event has already occurred. With  durative events such as accomplishments and activities, adverbial modification reveals that the perfective encodes the event in its entirety rather than simply highlighting its endpoint.
+
+\ea \ea Context: I started and finished building a house in one day.  \label{ex:ch11:perfacha}
+\gll é-g-af-ó égéə́    ŋínɜ́ŋí\\
+\textsc{1sg}-\textsc{cl}g-build-\textsc{pfv} house today\\
+\glt `I built a house today.'
+\ex Context: I started and finished building a house in four days.  \label{ex:ch11:perfachb}
+\gll é-g-af-ó égéə́    í-ðiɲíní marlon\\
+\textsc{1sg}-\textsc{cl}g-build-\textsc{pfv} house \textsc{loc}-days four\\
+\glt `I built a house in four days.' (Comment: `You finished in four days.')
+\ex Context: I have been working on the house for four days but have not finished yet. \label{ex:ch11:perfachc}\\
+\gll \# é-g-af-ó égéə́    í-ðiɲíní marlon\\
+{} \textsc{1sg}-\textsc{cl}g-build-\textsc{pfv} house \textsc{loc}-days four\\
+\ex Suggested alternative for context in \REF{ex:ch11:perfachc}  \label{ex:ch11:perfachc}\\
+\gll é-gá-g-áf-a égéə́    í-ðiɲíní marlon\\
+\textsc{1sg}-\textsc{pstredup}-\textsc{cl}g-build-\textsc{ipfv} house \textsc{loc}-days four\\
+\glt `I've been building the house for four days.'  \hfill EJ053117
+\z 
+\z
+In examples \REF{ex:ch11:perfacha} and \REF{ex:ch11:perfachb} the time adverb must describe the entire time in which the house was built. If the house has been being built for the past four days, the perfective is semantically infelicitous \REF{ex:ch11:perfachc}, and instead the past imperfective must be used, marked either by past reduplication for one of our consultants, illustrated in \REF{ex:ch11:perfachc}, equivalent to the past imperfective auxiliary \textit{gawó} for Mr. Julima (Section \ref{sec:ch14:pstipfv}). 
+
+True states, which are relatively rare, when used in the perfective imply that the described state has ceased to exist, as in the example of `want' in \tabref{tab:ch11:pfvasp}. Many verbs which are translated with stative verbs in English are actually change-of-state verbs in Moro. For example, `I know Kuku' is \textit{égalaŋet̪ó kúkuŋ}, and `I despise Kuku' is \textit{éganeðó kúkuŋ}, both in the perfective. The imperfective counterparts of these verbs thus have the expected inchoative meanings:  \textit{égaláŋét̪a kúkuŋ} is `I am about to get to know Kuku' and \textit{éganéða kúkuŋ} is `I am about to dislike Kuku.' Nevertheless, the fact that a small number of verbs such as \textit{bwáɲá} `like' can be used in the imperfective with a present tense meaning indicates that stative verbs are a small but distinct class from change-of-state verbs.
+
+\subsection{Iterative semantics}\label{sec:ch11:iterativesem}
+
+The iterative prefix is a pluractional marker which marks plural events. The type of pluractionality is always defined relative to an entire event, rather than indicating any sort of repeated internal structure to the event. The iterative can generally occur on all verb types except for those describing activities or those with a distinct lexical iterative.
+
+We begin with perfective achievements. In Moro, the verb \textit{abə́rwa} `fly' is describes a punctual event, an achievement, which means something closer to `take off.' The iterative form of this verb is entails multiple flying events.
+
+\ea 
+\ea  \gll  k-abər-ó		 	\\
+	  \textsc{cl}g-fly-\textsc{pfv} \\ 
+\glt  ‘(S)he flew, (s)he jumped over.'		
+\ex 
+\gll  g-ak-abr-ó 		 	\\
+	  \textsc{cl}g-fly-\textsc{pfv} \\ 
+\glt  ‘(S)he flew repeatedly.'\\ (Comment: ‘(S)he flies and lands, flies and lands.’)	\hfill AN110915
+\z 
+\z 
+
+Now consider the following transitive achievement verb. With a singular object \REF{ex:ch11:itersgo}, the iterative must describe multiple biting events. With a plural object \REF{ex:ch11:iterplo}, the non-iterative alternant is semantically infelicitous:
+
+\ea \label{ex:ch11:itersgo}
+\ea 
+\gll  omona 	g-ɜnduð-ú	ŋín-íŋ:i\\
+	  leopard \textsc{cl}g-bite-\textsc{pfv} dog-\textsc{scl}ŋ.this\\
+\glt `A leopard bit this dog.'	
+\ex 
+\gll  omona 	g-ɜk-ɜnduð-ú	ŋín-íŋ:i\\
+	  leopard \textsc{cl}g-bite-\textsc{pfv} dog-\textsc{scl}ŋ.this\\
+\glt `A leopard bit this dog repeatedly.'	 \hfill AN110915
+\z 
+\ex \label{ex:ch11:iterplo}
+\ea[\#]{
+\gll  ŋíní 	ŋ-ɜnduð-ú	lidʒi l-oaɲa\\
+	  dog \textsc{cl}ŋ-bite-\textsc{pfv} people \textsc{cl}l-many\\
+\glt `A dog bit lots of people.'	}
+\ex 
+\gll  ŋíní 	ŋ-ɜk-ɜnduð-ú	lidʒi l-oaɲa\\
+	  dog \textsc{cl}ŋ-\textsc{iter}-bite-\textsc{pfv} dog-\textsc{scl}ŋ.this\\
+\glt `A dog bit lots of people.' \hfill AN110915
+\z 
+\z 
+The fact that iterative marking is obligatory with plural objects in some contexts shows that iterativity is not an optional marker, but instead is required whenever a plural event is being described.
+
+At the same time, the requirement of an iterative with the plural object shows that the iterative entails multiple `biting' events, not multiple `biting lots of people' events, for the iterative to be felicitious. Thus, the iterative event can distribute over plural objects. At the same time, the iterative-marked verb cannot be modified by a adverb like \textit{lómʌnto} `one time':	
+
+\ea[\#]{
+\gll  ŋíní 	ŋ-ɜk-ɜnduð-ú	lóma nto\\
+	  dog \textsc{cl}ŋ-\textsc{iter}-bite-\textsc{pfv} once\\    }
+	  \z
+	  
+The same basic generalizations apply to durative events such as achievements and activities, and further reveal that iterative marking is obligatory, as is plural marking on the object if the described event cannot apply repeatedly to the same object. So the the iterative version of `build the house' requires a plural object because it is a verb of creation \REF{ex:ch11:iterbuild}, while `cultivate the field' does not \REF{ex:ch11:iterfarm}, presumably because is not a verb of creation and it is would be possible to cultivate a single field or farm repeatedly.
+
+\ea 
+\ea[\#]{  
+\gll Kúku g-á-f-af-a égéə\\
+Kuku \textsc{cl}g-\textsc{rtc}-\textsc{iter}-build-\textsc{ipfv} house\\
+\glt 'Kuku is building the house repeatedly.' (intended)}
+\ex \gll Kúku g-á-f-af-a négéə\\ 
+Kuku \textsc{cl}g-\textsc{rtc}-\textsc{iter}-build-\textsc{ipfv} houses\\
+\glt 'Kuku is building houses' \label{ex:ch11:iterbuild}
+\z
+\ea \label{ex:ch11:iterfarm}
+\gll  Kúku 	g-a-lá-lag-a giə\\
+	  dog \textsc{cl}g-\textsc{rtc}-\textsc{iter}-cultivate-\textsc{ipfv} field\\
+\glt `Kuku is repeatedly cultivating the field.'	
+\ex 
+\gll  Kúku 	g-a-lá-lag-a niə\\
+	  dog \textsc{cl}g-\textsc{rtc}-\textsc{iter}-cultivate-\textsc{ipfv} fields\\
+\glt `Kuku is repeatedly cultivating fields.'	
+\z 
+\z 
+
+These observations help clarify why iterative marking plays a central role in marking semelfactives and changes-of-state verbs. Recall from section \ref{sec:ch11:imperfectivesem} that in the imperfective such verbs must have an inchoative meaning. When these verbs are put into the iterative, they are able to have normal progressive interpretations in the imperfective.
+\ea 
+\ea \gll Kúku g-a-ðów-á\\
+		Kuku \textsc{cl}g-\textsc{rtc}-fatten-\textsc{ipfv}\\
+	\glt 'Kuku is about to get fat.'
+\ex	\gll Kúku g-a-ðá-ðow-á\\
+		Kuku \textsc{cl}g-\textsc{rtc}-\textsc{iter}-fatten-\textsc{ipfv}\\
+	\glt 'Kuku is getting fat.'
+\z
+\z
+
+Verbs that describe activities are inherently iterative. In some cases, the activities have the appearance of iterative marked verbs, but have an unpredictable relationship with their non-iterative counterparts.
+
+\ea Irregular iterative activities\\
+\begin{tabular}[t]{llll}
+\multicolumn{2}{l}{Imperfective}  & \multicolumn{2}{l}{Iterative imperfective activity} \\
+{ga-bwáɲ-á} & `(s)he wants, likes,' &  {ga-bá-p:waɲ-a} & `(s)he's looking for' \\
+{g-ɜŋɜ́tʃ-ɜ́} & `(s)he's about to show' &  g-ɜ́r-ɜŋɜtʃ-ɜ  & `(s)he is teaching' \\
+{ga-válə́ɲ-a} & `(s)he's about to flee' &  {ga-lá-l:əɲ-a} & `(s)he's running' \\
+{g-el-a} & `(s)he's about to come' &  {ga-v-érl-a} & `(s)he's walking' \\
+\end{tabular}
+\z  
+The verbs on the right seem to be historically related to those on the left, though there are some irregularities such as the reduplication of /l/ rather than /v/ for `run' and the addition of the progressive \textit{v-} for `walk,' which usually . All are activities, none can take additional iterative morphology, and all bear a loose semantic relationship to their non-iterative counterparts. The non-iterative counterparts are usually achievements with the exception of \textit{-bwáɲ-} `want' which is a state. The activities seem to be ambiguous between their irregular activity meaning and an iterative interpretation. Hence, \textit{gaverla nega eteto} `He's coming home every day,' is the habitual form the of achievement \textit{-erl-} `come'.  
+
+A second class of activities are not derived but nevertheless cannot occur in the iterative. In some cases, these may be historically iterative, such as \textit{kɜ-rúðɜ́cəð-iə} `(s)he is  mixing,' with its initial /r/. In other cases they do not resemble iterative verbs at all, such as \textit{ga-válə́ŋ-a} `(s)he is singing,'  \textit{ga-tə́ŋát̪--a} `(s)he is licking it,' \textit{ga-mán-á} `(s)he is cooking by boiling it.' One conclusion that could be drawn from this observation is that the iterative generally serves to derive unbounded, durative, activity-like meanings from punctual or telic ones.
+
+There is one final class of verbs which cannot be iterative marked: punctual verbs with a distinct lexical iterative counterpart: compare punctual \textit{gɜbə́gɜ́} `(s)he's about to hit it' to durative \textit{gɜ́p:wɜ}  `(s)he's beating it' and punctual \textit{gáf:a} `she's about to shoot it (with a rock or gun)' to durative \textit{gavə́ndədʒa} `(s)he is stoning it.' The possibility of an equivalent inherently iterative verb must preclude the use of iterative verb forms in these and similar case.
+
+%CHECK THIS VERB!!
+
+
+
+%ga-lə́ŋét̪--a & `(s)he knows' & ga-lá-ləŋet̪--a & `(s)he realizes'
+
+% éga-man-ó ŋaðəmana
+%`boil for a long time' (cooking beans, vegetables, sweet potato; 
+%
+%*éga-má-mana ŋaðəmana
+
+%Kuku gáfa égéə
+%'K built houses'
+%
+%Kuku gafó négéə
+%'K built houses'
+%
+%Kuku kag:afó negeə
+%'K built houses'
+%
+%Kuku káfafa négéə
+%'K built houses'
+%
+%\# Kuku káfafa égéə
+%'K built houses' 
+%
+%Kuku kalagó giə
+%`K. cultivated the field.' 
+%
+%Kuku ka-lá-laga niə
+%`K. is farming many times.'
+%
+%Kuku ka-lá-laga giə
+%`K. is farming many times.'
+%
+%
+%egeə gogoná
+%
+
+ 
+% 
+%- Check accomplishments
+%
+%égiðú
+%
+%
+%- Check whether activities (cook, run) can take iterative when they have a bounded object
+%
+%- Double check whether, `scatter', 'burp' can ever take an iterative.
+
+\subsection{Venitive imperfective semantics}\label{sec:ch11:venitivesem}
+
+This section describes the semantics of venitive verb forms (from Latin \textit{venire} `come'). This section focuses on venitive imperfectives, whose morphology was discussed earlier in Section \ref{sec:ch11:venitive}. The venitive imperfective is the only venitive verb form that can occur in a declarative main clause. Venitive forms also occur in imperative (Chapter \ref{chapter:imperative}) and infinitive verbs (Chapter \ref{chapter:embeddedclauses}). In each case, there is a contrast between a semantically unmarked form and a venitive form which is associated with a meaning which is absent in the regular form.
+
+More concretely, venitive verb forms possess a venitive entailment, identical to the verb `come': there must be motion towards the origo, the contextually supplied deictic center. With second and third person subjects, including in imperatives, the origo is interpreted as the location of the speaker, so the default venitive entailment involves motion towards the speaker.
+
+A baseline illustration of a venitive entailment can be seen in the regular imperative versus venitive imperative pair below (see Chapter \ref{chapter:imperative} for more on these forms):
+
+\ea \begin{tabular}[t]{lll}
+Imperative & ŋgátó	& 	‘Depart!’ \\
+Venitive imperative & 	ŋgatia	& 	‘Depart towards me!’\\
+\end{tabular}
+\z
+Here, the venitive form of the imperative includes in the command that the commandee move towards the speaker.
+
+%Additionally, there is a component of venitivity in the semantic contribution of the locative applicative (\sectref{sec:ch11:locappl}) %example?
+
+Speaker comments and back-translations often suggest that the venitive implies  motion originating at some distance from the origo. It is not clear if this could be overcome in an appropriate context or if it is a semantic requirement of the venitive. In either case, this is the reason that some earlier work on Moro mistakenly referred to the venitive as a `distal' verb form (e.g. Rose 2014, Jenks \& Rose 2017), which contrasted it with a `proximal' imperfective, which is what we have been calling the regular imperfective. The reason that `distal' and `proximal' are misleading is that the regular imperfective can be used for motion which is distant from the origo but which does not move towards it.
+\ea \begin{tabular}[t]{lll}
+Imperative & dáŋó nwʌŋ	& 	`Stay there!’ (distant) \\
+Venitive imperative & 	daŋa nwʌŋ	& 	‘Stay there, then come!’\\
+\end{tabular}
+\z
+The locative adverb \textit{nwʌŋ} `there' refers to the location of the addressee. The fact that it can occur with the regular imperative verb form demonstrates that the regular imperative has no `proximal' entailments, and hence that the venitive contributes a motion entailment rather than a positional one.
+
+Venitive imperfective forms combine the normal temporal entailments of imperfective aspect with the venitive entailment. In the case of verbs which involve motion along a path, or a vector, such as agentive verbs of motion (walk, run), transfer of possession (give, send), or events involving objects or attention moving along vectors (throw, look), the venitive entailment applies to that path. The regular imperfective and perfective, by comparison, lack any special spacial entailments:
+\ea \begin{tabular}[t]{lll}
+Perfective &  gerló & `He walked.'\\
+Imperfective & gavérla & `He is walking.'\\
+Venitive imperfective &  gérló & `He’s walking here.'\\
+\end{tabular} %double check with Elyasir
+\z 
+While the regular imperfective lacks any special spacial entailments, it cannot be used to describe motion towards the origo. Instead, it can be used to describe motion away from the origo or is tangential to the origo, moving neither towards nor away from it.
+
+Verbs without path components in their meaning can still occur in venitive verb forms, including the venitive imperfective.  In such cases, a venitive entailment is simply added to the expected meaning of the verb, typically as motion following or accompanying the described event. Consider the translations for the three-way inflection on the change-of-state verb \textit{-dówá} `fatten.'
+\ea \begin{tabular}[t]{lll}
+Perfective &  gadowó	& 	‘(S)he is fat (lit. has fattened).’\\
+Imperfective & gadówá	& ‘(S)he is about to fatten.’\\
+Venitive imperfective &  gádowó  &  ‘(S)he is about to fatten, then come.’\\
+\end{tabular} %double check with Elyasir
+\z
+
+Venitive imperfective verb forms with first person subjects are interpreted with the addressee's position as the origo, in contrast with second and third person subjects, where the speaker's position tends to represent the origo. This generalization is illustrated below for a path verb and a non-path verb.
+
+\ea \begin{tabular}[t]{lll}
+\textsc{1sg}-venitive ipfv & é-gérló	& 	‘I am walking to you.’ \\
+\textsc{2sg}-venitive ipfv & á-gérló	& 	‘You are walking to me.’ \\
+\end{tabular}
+\ex \begin{tabular}[t]{lll}
+\textsc{1sg}-venitive ipfv & é-gádowó	& 	‘I will fatten then come to you.’ \\
+\textsc{2sg}-venitive ipfv & á-gádowó	& 	‘You will fatten then come to me.’ \\
+\end{tabular}
+\z
+The venitive examples above with first person subjects show that the origo should can shift subject to contextual factors.
+
+Locative adverbs that modify venitive verb forms describe the source of the venitive entailment, not the origo, leading to some impossible combinations when the venitive entailment is taken into account.
+
+\ea  \gll  g-érl-ó ɜnwʌŋ / ɜtu / \# ɜni \\
+	  \textsc{cl}g-walk-\textsc{ven.ipfv} there(n.h.) {} there(distant) {} here \\ 
+\glt  ‘(S)he walked here from there.'		
+\z 
+The proximal adverb is impossible \textit{ɜni} is impossible in this sentence because the source of a venitive verb form cannot be the origo.
+%
+%
+%*gérló ʌnni 		>Bad because argument must be the source, as exx. below show
+%gérló ʌnwʌŋ 		‘He’s walking from there.’
+% (speaking to the person who is standing at that point)
+%		‘He’s walking from there.’
+%
+
+%égérló	ʌnni			‘I’m coming walking from here’
+%
+%
+%égavérla ʌ́nni			‘I’m walking around here’
+%
+%
+%
+%*égavérla ʌnwʌŋ/tú		‘I’m walking around over there’
+%
+%ágavérla ʌ́nni		‘You are walking around here.’
+%ágavérla ʌ́nwʌŋ	‘You’re walking around there’		(you’re not coming)
+%
+%égawó égavérla ʌ́nwʌŋ	‘I was walking around over there’
+%ígiðí ɲerle ʌ́nwʌŋ		‘I will walk around over there’
+%
+%> Temporal distance rescues these examples (Juwon’s insight)
+%
+%
+%2.  gerló				‘I walked’
+%gavérla ʌnni			‘He is walking here.’/’He walks here’
+%gavérla ʌnni ŋoman-ŋoman	‘He would walk here sometimes.’
+%gavérlet̪a t̪a			‘He walks there.’
+%
+%gʌnni gerlo, gét̪o		‘He is walking, coming.’
+%*gét̪o gʌnni gerlo
+%gʌtú geto, géverla		‘He is coming from far, walking.’
+%*géverla gʌtú geto		
+%
+%gérló 			‘He’s about to come/ he’s walking from far away’
+%gʌ́t̪ú gérlo		‘He’s walking’
+%
+%*ǵérlet̪ó,  *gáverlet̪o, 
+%
+%*gérló ʌnni 		>Bad because argument must be the source, as exx. below show
+%gérló ʌnwʌŋ 		‘He’s walking from there.’
+% (speaking to the person who is standing at that point)
+%gérló tu/twe 		‘He’s walking from there.’
+%				(different place from the addressee)
+%gʌnwʌŋ	= where you are
+%gʌtu		= where you aren’t
+%
+%
+%ígiðí ewé égéverla ʌ́nwʌŋ	‘I will be walking there/from there.’
+%égawó égaverlá ʌ́nni		‘I walked here’
+%
+%> (not sure what’s going on tone-wise in these exx.)
+%
+%égérló				‘I’m coming walking’
+%ígʌ́nni égérló			‘I’m coming walking (towards you)’
+%égérló	ʌnni			‘I’m coming walking from here’
+%égérló	ʌnwʌŋ			‘I’m coming there to walk’ (where you are)
+%égérló	tú			‘I’m coming from there to walk’  (where you are not) (puzzling?)
+%egavə́tá tú égéverla		‘I’m going there walking’
+
+\section{Extension suffixes and voice}\label{sec:ch11:extension}
+%this intro is directly from Rose 2013 section 6
+
+Moro has a series of extension suffixes that appear following the verb root and before the final \textsc{amd} vowel, in the following order.
+
+\ea
+$\sqrt{}$-\textsc{caus-appl-loc.appl-ap-pass-amd}
+ \z 
+
+These markers are the the causative \textit{-i}, the benefactive applicative \textit{-ət̪ },  the locative applicative \textit{-at̪}, the antipassive/reciprocal \textit{-əð}, and the passive/reflexive \textit{-ən}. Extension suffixes are valence-affecting affixes, that is, affixes which impact the number of arguments licensed by the verb or the interpretation of these arguments. More specifically, the causative and applicative suffixes add arguments with specific semantic roles while the passive and antipassive suffixes remove agents and themes, respectively. The passive also functions as a reflexive marker, while the anti-passive functions as a reciprocal marker. 
+
+The specific syntactic properties of clauses are discussed in Chapter \ref{chapter:syntax}, along with discussions of the notion of subject and object in Moro. This section focuses on the morphology of each of these markers as part of the macrostem along with general overviews of their syntactic effects and semantic contribution.
+
+Some representative verb forms of the verb for \textit{kəv} ‘pinch’ are given in Table \ref{tab:ch11:ext1}, drawn from Strabone \& Rose (2012). The fact that each these markers can occur in the imperative, discussed in \ref{chapter:imperatives}, demonstrates that the imperative is the realization of a macrostem without a preverb, and that these markers are internal to the macrostem.
+\begin{table}
+	\begin{tabular}[t]{llll}
+	\lsptoprule
+				& 						& {Regular} 	& {Regular} \\
+\textit{-kəv-} `pinch'				&		{Perfective}	& {imperative} 	& {imperfective} \\
+\midrule No extension suffix		&	gakəwó &  kə́wó 			&	 gakə́vá \\Causative &  gɜkəví &  kə́ví &  gɜkə́víə \\%doesn't this violate the generalization about the causative that it always has a H?Benefactive applicative & gɜkəvət̪ú & kə́və́t̪ú & gɜkə́və́t̪iə\\Locative applicative & gakəvat̪ó &  kə́vát̪ó & gakə́vát̪a \\Antipassive / Reciprocal & gakəvəðó &  kə́və́ðó & gakə́vəðeə \\Passive / Reflexive & gɜkəvənú &  kə́vənú &  gɜkə́və́niə \\
+					\lspbottomrule
+	\end{tabular}
+	\caption{Examples of extension suffixes in three AMD inflections}
+	\label{tab:ch11:ext1}
+\end{table}There are several points of note. First, each extension suffixes appears before the final aspect/mood vowel, except for the causative, which combines with or replaces the final aspect mood vowel when it occurs without any other extension suffixes. 
+
+\tabref{tab:ch11:ext1} demonstrates that whatever tone pattern is specified by the inflectional status of the macrostem applies to the forms with extension affixes, too (See Section \ref{sec:ch11:inflection} for an overview and Section \ref{sec:ch11:macrostem} for details). Setting aside the causative, which specifies its own tone pattern, this means that other affixes are low-toned in the perfective, high-toned in the imperative, and default tone is found in the regular imperfective. Since the root shown is a CVC root with H tone extension, H tone appears on the following extension suffix, but not the final AMD vowel.
+
+The causative, benefactive applicative and passive/reflexive all trigger vowel harmony, raising the root and prefix vowels as well as the final aspect/mood vowel. This is illustrated more clearly in \tabref{tab:ch11:exvh}. \tabref{tab:ch11:exvh} also illustrates another phonological process involving extension suffixes: all but the locative applicative trigger the palatalization of preceding dental stops. Additional examples are provided in the sections below.
+
+\begin{table} %double check these forms, esp. loc. appl. and antipassive
+\caption{High-vowel harmony and palatalization with extension suffixes (perfective forms)} \label{tab:ch11:exvh}
+\begin{tabular}[t]{lll}
+\lsptoprule
+No extension suffix &  ég-wandat̺-ó  &  ‘I watched it’  \\
+Causative & 	ígɜ-wɜndɜtʃ-í & `I made s.o. watch it'\\
+Benefactive applicative & ígɜ-wɜndɜtʃ-ət̪-ú	& ‘I watched it for s.o.’ \\
+Locative applicative & éga-wandat̪-at̪-ó	& ‘I watched it somewhere’ \\
+Antipassive / Reciprocal &  éga-wandatʃ-əð-ó & ‘I watched s.o.’ \\
+Passive / Reflexive & ígɜ-wɜndɜtʃ-ən-ú	& ‘I was watched’ \\
+\lspbottomrule
+\end{tabular}
+\end{table}
+
+The sections below discuss each of these affixes in isolation. They can also co-occur, and their co-occurence and order is discussed separately, in Section \ref{sec:ch11:extorder}.
+
+There is comparative evidence that the passive and benefactive applicative suffixes may have both contained high front vowels historically. The passive suffix is transcribed as \textit{-ino} in Tira and \textit{-inu} in Otoro, while the applicative is transcribed as \textit{it̪o} in Tira and \textit{ijo} in Otoro (Stevenson 1943). As Moro front vowels have centralized, the high [ə] has maintained the ability to palatalize. However, there is little evidence to suggest that \textit{-əð} contained a high front vowel. The comparable suffix (described as derivative) in Tira is \textit{-ðo} and in Otoro is \textit{-öði/ɛði} (Stevenson 1943). The Otoro cognate suffix does contain a mid-low front vowel, so it is conceivable that the Moro suffix was \textit{-eð}, which may have triggered palatalization, but this remains conjecture. 
+
+
+
+\subsection{Causative \textit{-i}}\label{sec:ch11:causative}The causative suffix \textit{-i} adds an agent to the verb, a causer, which is realized as the subject. The causative occurs added after the root and before the passive and benefactive applicative suffixes if present. If additional extension suffixes are not present, the causative fuses with or causes deletion of the aspect/mood/deixis suffixes. The causative suffix triggers a number of phonological alternations, including palatalization, vowel harmony, and particular tone patterns. 
+
+In addition to the morphological causative suffix \textit{-i}, some unaccusative verbs can mark a causative alternation in the final consonant of the root (\sectref{sec:ch11:ucalt}). Additionally, a periphrastic causative can be formed with the verb \textit{-ŋgit-} `let, allow,' which takes an infinitive clausal complement (\sectref{sec:ch15:infinitives}). 
+\subsubsection{Morphophonology of the causative}\label{sec:ch11:causpalatal}
+
+The causative suffix is \textit{-i}, realized \textit{-i} in the perfective and venitive imperfective and \textit{-iə} in the imperfective (\tabref{tab:ch11:caus}). These specific suffixal forms are somewhat unexpected from the perspective of normal vowel hiatus strategies, a point which is discussed below in section \ref{ex:ch11:clausevhiatus}. \tabref{tab:ch11:caus} also demonstrates that the causative suffix triggers high vowel harmony (See \sectref{section:vharmony}): roots with low vowels shift their vowels to the high vowel system in the causative.
+
+\begin{table}
+\begin{tabular}[t]{lllll}
+\lsptoprule
+Perfective	& Causative pfv 	& Imperfective & \multicolumn{2}{l}{Causative ipfv} 	 \\
+\midrule
+g-oas-ó			& 	g-uɜs-í 		& g-oás-a		& 	g-uɜ́s-iə 	& ‘wash’	\\ga-ratʃ-ó		&	gɜ-rɜʧ-í 		& ga-rátʃ-á		&	gɜ-rɜ́ʧ-iə 	& ‘pour’\\ ga-lag-ó		&	gɜ-lɜg-í 		& ga-lág-á		&	gɜ-lɜ́g-iə 	& ‘cultivate’\\ 
+g-udən-ú		& 	g-udən-í 		&	g-udə́n-ɜ		&	g-udə́n-iə	& ‘fart’\\
+gɜ-kið-ú		&	gɜ-kið-í		&	gɜ-kíð-iə	&	gɜ-kíð-iə	&	‘open’\\
+gɜ-bug-ú		&	gɜ-bug-í		&	gɜ-búg-wɜ́	&	gɜ-búg-iə	&	‘hit’\\
+\lspbottomrule
+\end{tabular}
+\caption{Causative verb forms} \label{tab:ch11:caus}    \end{table}  
+
+In addition to vowel harmony, the causative suffix palatalizes preceding dental stops /t̪ d̪/  to [ʧ ʤ]. In this section palatalization in the causative is discussed in some detail; the same generalizations described below hold for all palatalizing extension suffixes. The causative perfective forms below illustrate this pattern in the causative for a number of verb forms:\ea   \begin{tabular}[t]{lll}     Perfective	& Causative Perfective 	& 	 \\ga-təŋat̪-ó	& gɜ-təŋɜʧ-í & ‘lick’	\\ga-rat̪-ó	&	gɜ-rɜʧ-í & ‘prepare soil’\\ ga-wat̪-ó	&	gɜ-wɜʧ-í & ‘sew’\\ga-dogat̪-ó	&	gɜ-dugɜʧ-í & ‘repair’\\ga-rəmwət̪-ó&	gɜ-rəmwəʧ-í & ‘take care of’\\ga-wːaðat̪-ó&	gɜ-wːɜðɜʧ-í & ‘find’\\ga-wəndat̪-ó&	gɜ-wəndɜʧ-í & ‘watch’\\	g-ogət̪-ó	&g-ugəʧ-í & ‘jump’\\g-ɜwut̪-ú	&g-ɜwuʧ-í & ‘throw’\\g-ənt̪-ú		&g-ənʧ-í & ‘enter’\\ga-ɾət̪-ó	&gɜ-ɾəʧ-í & ‘dance’\\ga-land̪-ó	&gɜ-lɜnʤ-í & ‘close’\\ga-d̪oat̪-ó	&gɜ-d̪uɜʧ-í & ‘send’\\
+\end{tabular} \z 
+There are a few exceptional verbs where palatalization does not take place with the causative:
+
+\ea Exceptions with no palatalization\\
+\begin{tabular}[t]{lll}Perfective	& 	Causative Perfective & \\gɜ-t̪-ú	& gɜ-t̪-í & ‘drink’	\\ gɜ-t̪und̪-ú	& gɜ-t̪und̪-í & ‘cough’	\\ ga-kad̪-ó	& gɜ-kɜd̪-í & ‘plant’	\\	
+\end{tabular} \z It is unclear why these particular forms do not palatalize. They are the only three exceptions to this pattern so far attested in the language. 
+
+Palatalization is only found with dental stops; alveolar stops consistently do not palatalize before the causative suffix:\ea \begin{tabular}[t]{lll}
+	Perfective&	Causative Perfective & \\ka-doat-ó	&kɜ-duɜt-í & ‘speak’\\	ka-wəd-ó	&kɜ-wəd-í & ‘burn’	\\	k-ɜnd-ú	&k-ɜnd-í & ‘catch’ 	\\
+ \end{tabular}
+\z
+The combinations [t̪i], [t̪ə] do not show palatalization within verb roots: \textit{kɜt̪íðɜ} ‘thread, roll’ \textit{kɜt̪ə́ðə́niə} ‘slip’ (\textit{d̪i} and \textit{d̪ə} sequences within verb roots are not so far attested), so this phonological process is conditioned only by affixes. Other affixes with \textit{-i} do not trigger palatalization. For example, the regular infinitive suffix \textit{-i} (a raised version of /-e/) does not palatalize a preceding dental stop, whether that stop is root-final, or is in the applicative affix (17c). \ea \begin{tabular}[t]{llll}
+	   &     	Perfective	& 	Infinitive 	 & 		\\a. & 	g-ənt̪-ú				& 	... ɜ́ŋ-ə́nt̪-i & 		‘enter’ \\b. & 	g-ɜwut̪-ú			& ... ɜ́ŋ-ɜwút̪-i	 & 	‘throw’ \\c.	& gɜ-kɜd̪-ət̪-ú			& ... ɜ́ŋə́-kɜ́d̪-ə́t̪-i	& 	‘plant for’\\ 	 \end{tabular}
+	       	\z 
+
+%wasó ndreða		‘Wash the clothes.’
+%wasatʃó ndreða ʌni	‘Wash the clothes here.’
+%			 Why is the locative applicative palatalized here?? IS THIS CAUSATIVE AS WELL? The clothes are washed??
+% 
+%matʃo gadatʃó kukuŋ eway	‘The made Kuku become a slave.’
+
+%Is the `enter' pattern typical of verbs with a locative argument?
+\subsubsection{Vowel hiatus and realization of the causative vowel}
+Extension affixes follow the root and precede the final aspect/mood vowel. The only exception to this pattern is the causative. As shown below, the causative vowel /-i/ is present, but the final aspect/mood vowel (\textit{-ó} or \textit{-ú}) is not realized.\ea
+\begin{tabular}[t]{lllll}
+& 	         	‘pinch’		&			&	‘plant’\\&		Perfective	& Imperative			&	Perfective&	Imperative\\Plain		&	k-a-kəw-ó	&	kə́w-ó	&	k-a-kad̪-ó	&	kád̪-ó\\Causative  	&   k-ɜ-kəv-í	&	kə́v-í	&	k-ɜ-kɜd̪-í	&	kɜ́d̪-í\\Passive		&	k-ɜ-kəv-ən-ú&	kə́v-ə́n-ú	&	k-ɜ-kɜd̪-ən-ú& 	kɜ́d̪-ə́n-ú\\
+\end{tabular}
+\z If the causative appears with another extension marker following it, the final aspect/mood vowel is realized. This is illustrated in the following example, where the passive/reflexive follows the causative. Note that the [ə] of the passive/reflexive marker is not realized after the causative vowel. \ea
+\begin{tabular}[t]{llll}
+a.&	k-ɜ-við-ú			&	b.	&	k-ɜ-við-i-n-ú\\&	\textsc{cl.sm-rtc}-vomit-\textsc{pfv}	&		&	\textsc{cl.sm-rtc}-vomit-\textsc{caus-pass-\textsc{pfv}}\\&	‘he vomited’		&		&	‘he made himself vomit’\\
+\end{tabular}
+\z 					The other extension markers have a –(V)C shape, but the causative marker is a single vowel whose juxtaposition with the final aspect vowel would create a V-V hiatus sequence: /-i-ú/. Instead of expected [kɜkəviú], however, the actual form is [kɜkəví]. The same pattern is found in infinitive forms where the causative /-i/ plus /-e/ suffix is realized as [í].
+However, in sentences and across other morpheme boundaries word-internally, vowel hiatus in verbs is usually resolved via deletion of the first vowel regardless of the quality of the vowels (\sectref{sec:ch5:hiatus}), as illustrated below. 
+\ea Sentential contexts Verb + Noun: deletion of the first vowel 
+\begin{tabular}[t]{llll}a.&	k-a-wːaðat̪-ó  evəla	&	[ó-e] → [é]	&	[kawːaðat̪ évəla]\\
+& \multicolumn{3}{l}{‘(s)he found the wild cat’}\\b.&		k-a-wːaðat-ó  ugi&	[ó-u] →	[ú]	&	[kawːaðat̪ úgi]\\& \multicolumn{3}{l}{‘(s)he found the tree’}\\c.&		k-uə́ndit̪-ú evəla	&	[ú-e] →	[é]	&	[kuə́ndit̪ évəla] \\& \multicolumn{3}{l}{‘(s)he listened to the wild cat’}\\d.&		áŋə́-wːaðat̪-e ugi	&	[e-u] →	[u]	&	[áŋə́wːaðat̪ ugi]\\& \multicolumn{3}{l}{‘her/him to find the tree’}\\e.&		ɜ́ŋə́-wːɜð-i ugi	&	[i-u] →	[u]	&	[ɜ́ŋə́wːɜð ugi]	\\& \multicolumn{3}{l}{‘her/him to make find the tree’}\\f.&		ɜ́ŋə́-wːɜð-i ɜt̪úli	&	[i-ɜ] →	[ɜ]	&	[ɜ́ŋə́wːɜð ɜt̪úli]\\& \multicolumn{3}{l}{‘her/him to make find the spear’}\\g.&	ɜ́ŋə́-wːɜð-i ajén		&	[i-a] →	[a]	&	[ɜ́ŋə́wːɜð ajén] \\
+& \multicolumn{3}{l}{‘her/him to make find the mountain’}\\\end{tabular}
+\z Internal to the verb, vowel hiatus arises between the clause marker and a vowel-initial root, and between an object marker prefix and the root (See example \REF{ex:ch11:clausevhiatus} above). In all such cases, the first vowel is deleted, even if this eliminates a segmental morpheme. This means that preservation of a single-segment morpheme cannot be the explanation for why the causative vowel is retained.  Given these generalizations, we would have predicted the resolution of the causative-aspect/mood vowel sequence in  /k-ɜ-kəv-i-ú/  to be [kɜkəvú], with V1 deletion, and not the attested [kɜkəví]. This indicates that the combination of causative and perfective suffixes is subject to a special, morphologically-conditioned vowel hiatus resolution rule.
+  %As for the causative \textit{-i} + aspect/mood/deixis \textit{-u} or \textit{-i} or \textit{-o} or \textit{-e}, there are no such sequences in the noun morphology for comparison. The reverse sequences /u-i/ /o-i/ and /e-i/ all result in [ə], but this is a reduced vowel and could have derived from any of the front or back vowels. 
+%The vowel hiatus patterns observed between causative and the aspect/mood vowel do not pattern like vowel hiatus resolution in the rest of the verb stem or in sentential contexts, where V1 deletion consistently occurs. It is also not the case that suffixes behave differently than prefixes, as vowel hiatus between the aspect vowel and an object suffix also results in V1 deletion: /k-a-vəleð-ó-álánda/ → [kavəleðálánda] ‘he pulled us (\textsc{excl}.)’. The causative pattern is more similar to vowel hiatus resolution in nouns in that features of the first vowel are preserved, resulting either in loss of the second or fusion between the two. 
+%The explanation we offer for the causative is that segments and features belonging to the inner derived stem (i.e. root, causative) are more faithfully preserved than those outside the derived stem, entailing a different co-phonology for the derived stem.
+
+In the causative imperfective construction, no vowels are deleted, and vowel hiatus emerges intact, though final /ɜ/ is reduced, resulting in surface [iə], notably \textit{ia} in Written Moro. The diphthong [iə] is often the raised realization of a final /-a/ in the imperfective, as shown below and discussed in Section \ref{sec:ch11:ipfvform}. This means that in inherently high-vowel verb roots which have final \textit{-iə} in the imperfective normally, the causative is undetectable in the imperfective.\ea
+\begin{tabular}[t]{lll}
+  Imperfective	&	Causative imperfective			 \\ga-kád-á		&	gɜ-kɜ́d-iə				&	‘plant’\\g-udə́n-ɜ			&	g-udə́n-iə				&	‘fart’\\
+gɜ-kíð-iə		&	gɜ-kíð-iə				&	‘open’\\\end{tabular}
+\z 
+\subsubsection{Tone pattern of the causative}
+The causative imposes its own particular tone pattern, H-L, in those verb forms that have default or predictable tone, namely the regular imperfective, consecutive, infinitive and other subordinate forms. As outlined in Section \ref{sec:ch11:defaulttone}, the tone pattern in the regular imperfective on the syllable structure and shape of the stem. For most root shapes, the causative form has the same tone pattern as the basic regular imperfective.\ea	
+\begin{tabular}[t]{lllll}
+Root shape&	Tone  & Imperfective	& \multicolumn{2}{l}{Causative imperfective}\\CV́CV́C	&	HH	&	k-a-dóɡát̪-a	&	k-ɜ-dúɡɜ́ʧ-iə	&	‘fix’\\ 	 	&		&	k-a-və́léð-a	&	k-ɜ-və́líð-iə		&	‘pull’\\CV́C		&	H-L	&	k-a-váð-a	&	k-ɜ-vɜ́ð-iə		&	‘shave’\\	 	&		&	k-a-sát̪-a	&	k-ɜ-sɜ́ʧ-iə		&	‘chew’\\CV́CCV́C	&	HL	&	k-a-mʷándəð-eə&	k-ɜ-mʷɜ́ndəð-iə	&	‘ask’\\ 		&		&	k-a-wə́ndat̪-a	&	k-ɜ-wə́ndɜʧ-iə	&	‘see’\\CV́CC	&	H-L	&	k-a-wárð-a	&	k-ɜ-wɜ́rð-iə		&	‘write’\\		&		&	k-a-lánd̪-a	&	k-ɜ-lɜ́nʤ-iə		&	‘close’\\VCV́C	&	LH	&	k-oɡə́t̪-a		&	k-ugə́ʧ-iə		&	‘jump’\\		&		&	k-abátʃ-a	&	k-ɜbɜ́ʧ-iə		&	‘lift’\\V́CCVC	&	HL	&	k-áŕnəð-eə	&	k-ɜ́ŕnəð-iə		&	‘divide’\\	
+\end{tabular}
+\zNevertheless, there are key differences observed with two shapes of verb roots. First, CVC roots with a H-H tone pattern (where H tone extends from a root onto the following affix) are H-L in the causative imperfective, neutralizing the tone distinction between H-H and H-L CVC roots. Second, verb roots that lack a high tone altogether, either because there is no root vowel or because the root is VC, are specified with H tone in the causative. In the former, the H tone is realized on the preceding root clause vowel, and in the latter, it is realized on the root vowel. \ea	       	
+\begin{tabular}[t]{lllllll}Root shape	&	Tone&	Imperfective	&	Tone	&	\multicolumn{2}{l}{Causative imperfective}	\\CV́C			&	H-H	&	k-a-ðə́w-á		&	H-L	&	k-ɜ-ðə́w-iə	&	‘poke’\\	& 	&	k-a-lág-á	&		&	k-ɜ-lɜ́g-iə	&	‘cultivate’\\C			&	L-L	&	k-a-s:-a		&	H-L	&	k-ɜ́-s:-iə	&	‘eat’\\VC			&	L-L	&	k-al-a		&	H-L	&	k-ɜ́l-iə		&	‘slice’\\	&		&	k-oað-a		&		&	k-uɜ́ð-iə	&	‘mill, grind’\\	
+\end{tabular}
+\zThus, causative suffixes enforce the presence of a H tone on the root (or on the preceding vowel if there is no root vowel) and L tone on the causative imperfective vowel.  Apart from this restriction, the other aspects of default tone are still present.
+In contrast to default tone in the imperfective, the causative does not affect melodic tone patterns on the verb, as the following examples illustrate. \ea
+\begin{tabular}[t]{llll}
+& `cultivate' & `slice' & `jump' \\
+Perfective (L-H) 			&	ga-lag-ó	&	g-al-ó	&	g-ogət̪-ó	\\
+Causative perfective &	gɜ-lɜg-í	&	g-ɜl-í	&	g-ugətʃ-í\\
+& \\Venitive imperfective (H-L-H)  &	g-á-lag-ó	&	g-ál-ó	&	g-ógət̪-ó\\
+Causative venitive imperfective	&	g-ɜ́-lɜg-í	&	g-ɜ́l-í	&	g-úgətʃ-í\\
+& \\Imperative (H-H)	&	lág-ó		&	ál-ó		&	ógə́t̪-ó \\
+Causative imperative		&	lɜ́g-í		&	ɜ́l-í	&	úgə́ʧ-í\\
+& \\Venitive imperative (L-L)		&	lag-a		&	al-a		&	ogət̪-a \\
+Causative venitive imperative	&	lɜg-iə		&	ɜl-iə	&	ugəʧ-iə\\
+\end{tabular}\z 
+In summary, default tone is partially affected by the causative tone pattern, whereas tone patterns of other verb forms are identical in the causative. 
+
+
+\subsubsection{Use of the causative}\label{sec:ch11:caususe}
+
+The causative suffix is productive in Moro. As the number of illustrations of the causative in the previous sections attest, most types of verbs can inflect for the causative. The examples below illustrate the causative on three syntactic subcategories of verbs: intransitive verbs that are unaccusative (whose single argument is a theme), intransitive verbs that are unergative (whose single argument is an agent), transitive verbs, and ditransitive verbs. In each case, the argument that is realized as a subject in non-causative verb becomes an object in the causative verb. 
+
+\ea Causative of unaccusative intransitive\\
+	\gll   í-g-ʌ-tuð-í ŋéra \\
+		\textsc{1sg-cl}g-\textsc{rtc}-rise-\textsc{caus.pfv} girl\\
+	\glt 	 `I woke the child.' (\textit{Lit}: `I made the child rise.')
+\ex  Causuative of unergative intransitive\\
+ 	\gll í-g-ugətʃ-í  ŋéra \\
+ 		\textsc{1sg-cl}g-\textsc{rtc}-jump-\textsc{caus.pfv} child\\
+	\glt  `I made the child jump.'
+\ex  Causuative of transitive\\
+ 	\gll kúku g-ʌ-lʌg-í ŋálo-ŋ í-kí			 \\
+ 	Kuku \textsc{cl}g-\textsc{rtc}-cultivate-\textsc{caus.pfv} Ngalo-\textsc{acc} \textsc{loc}-field \\
+ 	\glt  `Kuku made Ngalo cultivate the field.'
+\ex  Causuative of ditransitive\\
+ 	\gll í-gɜ-nɜtʃ-í kúku-ŋ ŋálo-ŋ adama			 \\
+ 	\textsc{1sg-cl}g-\textsc{rtc}-give-\textsc{caus.pfv} Kuku-\textsc{acc} Ngalo-\textsc{acc} book \\
+ 	\glt  `I made Kuku give Ngalo the book.'
+ \z 
+The causative suffix occurs in the causative alternation for many unaccusative verbs, although many unaccusative verbs mark the causative alternation simply in a change in the final consonant on the root (\sectref{sec:ch11:ucalt}).  Causatives also occur on adjectives, although the adjectival causative is slightly different in not triggering high-vowel harmony (\sectref{sec:ch10:causadj}).
+
+In general, the causer must have directly cause the event, or else a periphrastic causative with \textit{-ŋgit-} `let' can be used. However, the causer does not need to be human or even animate:
+
+\ea \gll rɜmwɜ́  í-r:i r-í-bug-əð-í-ánó r-ɛ-tuð-í ŋéra \\
+sky \textsc{scl}r-this  \textsc{cl}r-\textsc{dpc1}-hit-\textsc{ap}-\textsc{pfv}-inside \textsc{cl}r-\textsc{rtc}-wake-\textsc{caus.pfv} child\\
+`the sky thundering woke the child' 
+\z 
+
+Additional discussion of the causative and valence-increasing processes more generally can be found in Chapter \ref{chapter:syntax}.
+
+%what about verbs that already have a `built in' cause, -c/t- final, ð/t final, etc.
+%
+%éganatʃó Kukuŋ adama `I gave Kuku the books'
+%ígɜŋgitú Naloŋ naŋanatʃé  Kukuŋ adama
+%ígɜnɜtʃí Kukuŋ Naloŋ adama `BOTH MEANINGS?'
+%
+%thunder `rumwa rɜbugɜðí-ánó `The sky thundered.'
+%
+%ŋawa ŋadoŋó
+%
+%rɜmwɜ́  íribugɜðí-ánó rɛtuðí ŋéra `the sky thundering woke the child' 
+%
+%
+
+%Replicate adjective example below for verbs
+%48a. ləbátéa laɲedó	‘The earth muddied.’ (elicited: melted)%48b. ŋáwá ŋaɲedwé ləbatea	‘The water muddied the earth.’%48a. ləbátéa laɲedó	‘The earth muddied.’ (elicited: melted)
+
+
+
+
+\subsection{Benefactive applicative \textit{-ət̪}}\label{sec:ch11:benappl}
+
+The benefactive applicative suffix is [ət̪].  This suffix adds an object to the verb which is interpreted as a beneficiary, a person who benefits from the action, or on whose behalf it is done. A very similar suffix is used to express the comparative (\sectref{sec:ch10:comp}). The benefactive applicative triggers high vowel harmony and palatalization of preceding dental stops (\tabref{tab:ch11:exvh}).
+
+\subsubsection{Morphophonology of the benefactive applicative}
+
+The benefactive applicative suffix [ət̪] occurs as a suffix on the root before the \textsc{amd} suffix. This suffix triggers high vowel harmony, and the form of the imperfective suffix is  Some basic examples of the benefactive applicative are provided in \tabref{tab:ch11:appl}. The benefactive applicative is toneless, and occurs with whatever tone pattern is specified for the macrostem as a whole.
+
+\begin{table}
+\begin{tabular}[t]{lllll}
+\lsptoprule
+Perfective	& 	Ben. appl. pfv 	& Imperfective & \multicolumn{2}{l}{Ben. appl. ipfv} 	 \\
+\midrule
+g-af-ó			&	g-ɜf-ət̪-ú		&	g-áf-a		&	g-ɜ́f-ət̪-iə			& `build'\\%check
+g-oas-ó			& 	g-uɜs-ət-ú		& 	g-oás-a		& 	g-uɜ́s-ət̪-iə 	& ‘wash’	\\ga-lag-ó		&	gɜ-lɜg-ət-ú		& 	ga-lág-á	&	gɜ-lɜ́g-ə́t̪-iə 	& ‘cultivate’\\ 
+%gɜ-kið-ú		&	gɜ-kið-í		&	gɜ-kíð-iə	&	gɜ-kíð-iə	&	‘open’\\
+%gɜ-bug-ú		&	gɜ-bug-í		&	gɜ-búg-wɜ́	&	gɜ-búg-iə	&	‘hit’\\
+\lspbottomrule
+\end{tabular}
+\caption{Benefactive applicative verb forms} \label{tab:ch11:appl}    \end{table}  
+
+% is ə realized i after ð? all alveolars? kawúdít̪ú `it burned for Kuku'/'I burned it for Kuku" CHECK TABLE 2:10 for a list. Alternatively, it could be that all verbs taking /ia/ in the imperfective get this form.
+
+The form of the benefactive applicative varies depending on a number of phonological factors. First, if the final consonant of the root is a sonorant, then the benefactive applicative is just [t̺]. VOWEL HARMONY? FV of imperfective?
+% TODO EXAMPLES
+
+% TODO If \textit{-ət̪} follows a nasal, /r/:
+ 
+break /ker/ 'she was not able to speak' (lit: broken in the mouth)
+
+cry /ar/  'was crying there' (vr-t)
+vaj-ó `die'
+
+
+irəwu-t `move down to' (causative?)
+
+%\ea	\gll matʃó 	g-a-ðáŋ-t̪-a 				n-égá\\%clg.man		\textsc{sm.cl}g-\textsc{rtc}-go up-\textsc{loc.appl.ipfv}	\textsc{loc-cl}g.wall\\%		\trans ‘the man is going up to (his) house’\\ 
+%
+%descend /irəwu-t/ `they moved down to the land'
+
+Second, the benefactive applicative suffix fronts /ət̪/$\to$[it̪] when it is preceded by a alveopalatal affricate:
+\ea
+\begin{tabular}[t]{lll}&	Perfective	&	Benefactive applicative perfective\\‘raise’ 		& ga-mətʃ-ó		&	gɜ-mədʒ-it-ú\\‘see’	&	gʌ-sʌtʃ-ú		& 	gʌ-sʌdʒ-it̪-ú	\\\end{tabular}
+\z
+
+These data also demonstrate a voiceless dissimilation effect in the benefactive applicative, whereby the voiceless palatal affricate [tʃ] becomes voiced to [dʒ] before the voiceless [t̪] of the applicative (See Section \ref{sec:ch5:dissimilation} for more details on consonant dissimilation).
+
+If the root to which a benefactive applicative suffix ends in the dental stops /t̪ d̪/ , these sounds are palatalized to the alveopalatal affricates [tʃ dʒ]. Palatalization of the preceding consonant triggers the [-it̪.] form of the benefactive applicative suffix as well as dissimilation. Vowel fronting, palatalization, and dissimilation triggered by the benefactive applicative suffix all take place in the examples illustrated below, in many cases in addition to high vowel harmony.
+\ea
+\begin{tabular}[t]{lll}&	Perfective	&	Benefactive applicative perfective\\‘lick’ 			& ga-təŋat̪-ó	&	gɜ-təŋɜʤ-it̪-ú\\‘prepare soil’	&	ga-rat̪-ó	&	gɜ-rɜʤ-it̪-ú\\‘sew’			&	ga-wat̪-ó	&	gɜ-wɜʤ-it̪-ú\\‘repair’		&	ga-dogat̪-ó	&	gɜ-dugɜʤ-it̪-ú\\‘take care of’	&	ga-rəmwət̪-ó	&	gɜ-rəmwəʤ-it̪-ú\\‘find’			&	ga-wːaðat̪-ó	&	gɜ-wːɜðɜʤ-it̪-ú\\‘watch’			&	ga-wəndat̪-ó	&	gɜ-wəndɜʤ-it̪-ú\\‘jump’			&	g-ogət̪-ó		&	g-ugəʤ-it̪-ú\\‘throw’			&	g-ɜwut̪-ú		&	g-ɜwuʤ-it̪-ú\\‘enter’			&	g-ənt̪-ú		&	g-ənʤ-it̪-ú\\‘dance’			&	ga-ɾət̪-ó	&	gɜ-ɾəʤ-it̪-ú\\‘close’			&	ga-land̪-ó	&	gɜ-lɜnʤ-it̪-ú\\‘send’			&	ga-d̪oat̪-ó	&	gɜ-d̪uɜʤ-it̪-ú\\
+\end{tabular}
+\z
+The same few verbs for which palatalization does not take place in the causative also do not palatalize in the applicative:
+
+\ea
+\begin{tabular}[t]{lll}
+&	Perfective	&	Benefactive applicative perfective\\‘drink’	&	gɜ-t̪-ú	&	gɜ-t̪-ət̪-ú\\‘cough’	&	gɜ-t̪und̪-ú	&	gɜ-t̪und̪-ət̪-ú\\‘plant’	&	ga-kad̪-ó	&	gɜ-kɜd̪-ət̪-ú\\
+\end{tabular}
+\z
+
+Alveolar stops do not show palatalization. Palatalization only affects dentals. 
+\ea
+\begin{tabular}[t]{lll}
+&	Perfective	&	Benefactive applicative perfective\\‘speak’	&	ga-doat-ó	&	gɜ-duɜt-ət̪-ú\\‘burn’	&	ga-wəd-ó	&	gɜ-wəd-ət̪-ú\\‘catch’	&	g-ɜnd-ú	&	g-ɜnd-ət̪-ú\\
+\end{tabular}
+\z
+
+%If the final consonant of the root is [t̪], it is replaced with [tʃ] in the benefactive applicative. Really? Aren’t they just rɜdʒit̪ú?  (see above) The same applies to [d̪  [dʒ]. The vowels are also raised: %This cannot be true: all of the verbs above end in dental d/t too!
+%
+%\begin{tabular}[t]{ll}
+%	la-rat̪ó gí				&	‘they tilled the field’\\%	lɜ-rɜʧú ʤorʤəŋ gí		&	‘they tilled the field for George’\\ Causative?
+%\end{tabular}
+%
+%If a passive suffix is added to a root that ends in t̪, it also palatalizes the dental. The combination applicative-passive /t̪-n/ is usually realized as [tʃin], but if the root ends in a dental already, then the two verb forms become homophonous:
+%\begin{tabular}[t]{ll}
+%	gí kɜrɜʧ-in-ú			&	‘the field was tilled’\\%	gí kɜrɜʧ-in-ú ʤorʤ	&	the field was tilled for George’\\
+%\end{tabular}
+
+\subsubsection{Use of the benefactive applicative}
+
+The benefactive applicative adds an argument argument to the verb which is interpreted as a recipient of the action or on whose behalf the action is done. This argument is realized as an object. The suffix is very productive, and seems to appear on verbs of any kind of transitivity:
+
+%TODO CHECK, esp unaccusatives: is the recip the subject or the object?
+
+\ea Benefactive applicative of unaccusative intransitive\\
+	\gll   íg-ʌ-tuð-í ŋéra \\
+		\textsc{1sg-cl}g-\textsc{rtc}-woke-\textsc{caus.pfv} girl\\
+	\glt 	 `The child woke up *for Kuku*.' %TODO check
+	\glt 	 `OR: The door closed *for Kuku*. 'kɜ-lɜndʒ-it̪-ú %TODO check
+\ex  Benefactive applicative of unergative intransitive\\
+ 	\gll í-g-ugədʒ-it̪-ú  ŋéra \\  %TODO double check this example
+ 		\textsc{1sg-cl}g-\textsc{rtc}-jump-\textsc{caus.pfv} child\\
+	\glt  `I jumped for the child.'
+\ex  Benefactive applicative of transitive\\
+ 	\gll kúku g-ʌ-lʌg-ət̪-ú lɜŋg-en í-kí			 \\
+ 	Kuku \textsc{cl}g-\textsc{rtc}-cultivate-\textsc{caus.pfv} mother-\textsc{3p.poss} \textsc{loc}-field \\
+ 	\glt  `Ngalo cultivated the field for his mother.'   %TODO double check this example
+\ex  Benefactive applicative of ditransitive\\
+ 	\gll í-g-ɜ-nɜtʃ-í kúku-ŋ ŋálo-ŋ adama			 \\
+ 	\textsc{1sg-cl}g-\textsc{rtc}-give-\textsc{caus.pfv} Kuku-\textsc{acc} Ngalo-\textsc{acc} book \\
+ 	\glt  `Kuku gave Nalo the book for his mother   %TODO double check this example
+ \z 
+
+This argument must be animate/human. %TODO what about animals? Does there have to be an agent?
+
+%	\gll  
+%	\glt 	 `The child sang a song *for the cow, for Kuku, for the tree*.'
+%
+%	\gll 
+%		
+%	\glt 	 `The grass dried for Kuku.'
+%
+
+\subsection{Locative applicative \textit{-at̪}}\label{sec:ch11:locappl}
+
+The locative applicative suffix \textit{-at̪} adds a locative object or goal to the meaning of a verb. Like all extension suffixes, it appears following the verb root and before the final aspect-mood-deixis suffix.
+
+\subsubsection{Morphophonology of the locative applicative}\label{sec:ch11:locapplform}
+
+The general form of the locative applicative is \textit{-at̪}, or \textit{ɜt̪} in macrostem forms with high-vowel harmony, as summarized in \tabref{tab:ch11:loc}. The locative applicative does not trigger palatalization or high vowel harmony.
+
+\begin{table}
+\begin{tabular}[t]{lllll}
+\lsptoprule
+Perfective	& 	Loc. appl. pfv 	& Imperfective & \multicolumn{2}{l}{Loc. appl. ipfv} 	 \\
+\midrule
+ga-lag-ó	&	ga-lag-at̪-ó		& 	ga-lág-á	&	gɜ-lág-át̺-a 	& ‘cultivate’\\ 
+ga-kəl-ó 	&	ga-kəl-at̪-ó 		& ga-kə́l-á 	&	ga-kə́l-át̪-a 	 & ‘cut’ 			\\ %checkga-pəg-ó	&	ga-pəg-at̪-ó		& 	ga-pə́g-á	&	gɜ-pəg-át̺-a 	& ‘weed’\\ 
+ga-toð-ó	&	ga-toð-at̪-ó		& 	ga-tóð-á	&	gɜ-tóð-át̺-a 	& ‘wake’\\ 
+g-abət-ó	&	ga-abədw-at̪-ó		& 	g-abətw-a	&	gɜ-abədw-át̺-a 	& ‘climb’\\ 
+gɜ-dɜdəð-ú	&	gɜ-dɜdəð-ɜt̪-ú	& 	gɜ-dɜ́d:əð-ɜ	&	gɜ-dɜ́d:əð-ɜt̪-ɜ 	& ‘hiccup’\\ 
+ga-s-ó	&	ga-s-at̪-ó		& 	gá-s-a	&	gá-s-at̺-a 	& ‘eat’\\ 
+%g-al-ó		&	g-al-at̪-ó 		& g-ál-a	&	g-ál-at̪-a & ‘slice’	 \\%ga-kəl-ó 	&	ga-kəl-at̪-ó 		& & & ‘slice’ 	\\ %check again
+\lspbottomrule
+\end{tabular}
+\caption{Locative applicative verb forms} \label{tab:ch11:loc}    \end{table}  
+
+
+While the locative applicative is the only extension suffix which does not trigger palatalization of preceding dental stops, it does undergo a form of local palatal consonant harmony. When this suffix is preceded by /tʃ,nd,s/ (except for the verb \textit{gasó} `eat'), the form of the suffix is \textit{-atʃ}:
+
+\ea Palatal harmony with locative applicative
+\begin{tabular}[t]{lll}
+& Perfective & {Locative applicative perfective} \\
+`see'  	&  gɜ-sɜtʃ-ú 	& gɜ-sɜdʒ-ɜtʃ-ú \\ 
+`raise' &  ga-mətʃ-ó 	& ga-mədʒ-atʃ-ó \\ 
+`pour' 	& ga-ratʃ-ó  	& ga-radʒ-atʃ-ó \\
+`blink' & gɜ-rə́mɜ́tʃ-ú		& gɜ-rəmɜdʒ-ɜtʃ-ú\\
+`dip' & gɜ-təvɜtʃ-ú		& gɜ-təvɜdʒ-ɜtʃ-ú\\
+`cough' & ga-tund-ú  	& ga-tund-ɜtʃ-ú \\
+`catch' & g-ɜnd-ú  		& g-ɜnd-ɜtʃ-ú \\
+'wash' 	& g-oas-ó		& g-oas-atʃ-ó  \\ 
+'shake' & gɜ-tɜs-ú		& gɜ-tɜs-ɜtʃ-ú  \\ 
+\end{tabular}
+\z 
+The same consonant dissimilation process which occurs with the benefactive applicative also takes place in these verb forms (see also `climb' in \tabref{tab:ch11:loc}), resulting in voicing of the stop in the root.
+
+Another context where the \textit{-atʃ} variant of the locative applicative occurs is with verbs which take the \textit{-ia} or \textit{-ea} variant of the imperfective:
+\ea Palatal variant of locative applicative with \textit{-ia} imperfective 
+\begin{tabular}[t]{lll}
+& Imperfective & {Locative applicative imperfective} \\
+`give milk'  	&  gɜ-míð-iə 	& gɜ-míð-ɜtʃ-ɜ \\ 
+`wrap' &  ga-də́ɾ-iə 	& gɜ-dɜ́r-ɜtʃ-ɜ \\ %find more
+\end{tabular}
+\z 
+
+
+When the locative applicative suffix attaches to roots which end in /r,n,l/, it surfaces as [-t̪]:
+\ea
+\begin{tabular}[t]{lll}
+		&	Perfective 	&  Locative applicative perfective \\
+`die' 		& 	g-aj-ó 			&	g-aj-t̪-ó\\ 
+`cry' 	& 	g-ar-ó		& 	g-ar-t̪-ó \\
+`rain' & 	ŋ-a-dan-ó & 	ŋ-a-dan-t̪-ó \\
+\end{tabular}
+\z
+
+These forms only differ from their benefactive applicative counterparts in that no high vowel harmony has been triggered. This means with verbs that have inherent high vowel harmony and end in /r,n,l/, these forms are identical. %(FIND!)?
+ 
+The \textit{-et̪} or \textit{-it̪} variants of the locative appliative occur with roots in which the last vowel is /e/ or /i/, respectively. An
+
+\ea 
+\begin{tabular}[t]{lll}
+			&	Perfective 		&  	Locative applicative perfective \\
+`break' & 	ga-ker-ó 	&	ga-ker-et̪-ó\\ 
+`twist' & 	ga-með-ó 	&	ga-með-et̪-ó\\ 
+`refuse' & 	ga-neð-ó 	&	ga-neð-et̪-ó\\ 
+`chop' & 	ga-reð-ó 	&	ga-reð-et̪-ó\\ 
+`pull' 		& 	ga-valeð-ó	& 	ga-valeð-et̪-ó \\
+`scrape'	& 	g-a-teð-ó		&  	g-a-teð-et̪-ó \\
+`vomit' 		& 	gɜ-við-ú		& 	gɜ-við-it̪-ú		\\
+`open' 		& 	gɜ-kið-ú		& 	gɜ-kið-it̪-ú		\\
+`drink'	& 	gɜ-t-ú		&  	gɜ-t-it̪-ú \\
+\end{tabular} 
+\z %dance?
+%`Drink' is an exception, notable because it is a consonant-only root which nevertheless triggers high-vowel harmony.
+
+%ask: gamwandaðatʃeðó ega (??}
+%divide in : garə́nəð-ətʃ-əð-iə  -- note əð repetition
+
+
+%todo: check more roots with /i/,/e/: áŕnəð `divide'; bét̪ `be satisfied, give up' (to satisfy? cause?); ðiɲ `be scared', erl `walk'; el `come' (same v); id `fall'; ker 'break'
+
+
+\subsubsection{Use of the locative applicative}\label{sec:ch11:locappluse}
+
+The locative applicative co-occurs with an overt locative expression such as a locative-marked noun , either \textit{é(k)-} \REF{ex:ch11:loce} or \textit{n-} \REF{ex:ch11:locn}, a adpositional phrase \REF{ex:ch11:locad}, or  the locative clitic \textit{-u} \REF{ex:ch11:locu}.
+
+\ea
+\ea 	\gll k-a-kə́l-á 		rða  \\\textsc{sm.cl}g-\textsc{rtc}-cut-\textsc{ipfv}	\textsc{cl}r.meat		\\\trans ‘s/he is cutting the meat’\\\ex 	\gll k-a-kəl-át̪-a 				rða 		ík-wíjɜ́\\	\textsc{sm.cl}g-\textsc{rtc}-cut-\textsc{loc.appl.ipfv}		\textsc{cl}r.meat	\textsc{loc.cl}g-\textsc{cl}g.floor\\	\trans ‘s/he is cutting the meat on the floor’\\ \label{ex:ch11:loce}\ex 	\gll k-a-bəd̪́w-át̪-a 				n-aleta̪  \\	\textsc{sm.cl}g-\textsc{rtc}-climb-\textsc{loc.appl.ipfv}	\textsc{loc-cl}g.wall\\	\trans ‘s/he is about to climb over the wall’\\ \label{ex:ch11:locn}\ex	\gll matʃó 	ga-ðáŋ-t̪-a 				n-égá\\clg.man		\textsc{sm.cl}g-\textsc{rtc}-go up-\textsc{loc.appl.ipfv}	\textsc{loc-cl}g.wall\\		\trans ‘the man is going up to (his) house’\\\ex	POSTPOSITION EXAMPLE\\\label{ex:ch11:locad} %todo get this example\ex 	\gll k-a-bə́dw-át̪-ɜ́-u  \\	\textsc{sm.cl}g-\textsc{rtc}-climb-\textsc{loc.appl.ipfv-loc}.\\	\trans s/he is about to climb up \\ \label{ex:ch11:locu}
+\z
+\z
+
+The locative applicative is not required, however - WHEN DOES IT APPEAR? In these examples, no locative applicative is used in the first example which conveys a source, but it does appear in the second example to convey a goal, and differentiates the two sentences:\\
+% TODO - WHEN DOES IT APPEAR? -SR Marks goal arguments, not sources -PJ
+\ea\ea \gll k-a-lə́v-á 			isukwɜrɜ 		é-kə́lá	\\	\textsc{sm.cl}g-\textsc{rtc}-scoop-\textsc{ipfv}	\textsc{cl}j.sugar		\textsc{loc-cl}g.plate\\	\trans ‘s/he is scooping sugar from a plate’\\\ex \gll k-a-lə́v-át̪-a 				isukwɜrɜ 	é-kə́lá	\\		\textsc{sm.cl}g-\textsc{rtc}-scoop-\textsc{loc.appl}-\textsc{ipfv}	\textsc{cl}j.sugar	\textsc{loc-cl}g.plate\\	\trans ‘s/he is scooping sugar into a plate’\\\z
+\z
+
+
+
+The malefactive use of \textit{-at̪} can be seen by a comparison with the benefactive applicative \textit{-ət̪}.
+
+\ea
+\ea \gll é-g-a-mː-at̪-ó 				ŋeɾá 		ád̪ámá  \\	1\textsc{sg.sm-cl}g-take-\textsc{loc.appl-\textsc{pfv}}		\textsc{cl}ŋ.girl		\textsc{cl}g.book	\\	\trans ‘I took the book from the girl’\\\ex	\gll í-g-ɜ-mː-ət̪-ú 				ŋeɾá 		ád̪ámá    \\	1\textsc{sg.sm-cl}g-take-\textsc{appl-\textsc{pfv}}		\textsc{cl}ŋ.girl		\textsc{cl}g.book	\\	\trans ‘I took the book for the girl’\\
+\z
+\z
+
+The benefactive applicative raises vowels, but the malefactive does not. There is no location expressed with these sentences. Other examples are shown below:
+
+\ea
+\ea	\gll ŋálːo		g-a-sː-at̪-ó 			kúkə-ŋ 		átʃə́váŋ\\	\textsc{cl}g.Ngalo	\textsc{sm-cl}g-eat-\textsc{loc.appl-\textsc{pfv}}	\textsc{cl}g.Kuku-\textsc{oc}	\textsc{cl}g.food\\	\trans	‘Ngalo ate Kuku’s food’\\\ex \gll israel 		g-a-pəg-at̪-ó 			kúkəŋ 		gi\\	\textsc{cl}g.Israel	\textsc{sm-cl}g-weed-\textsc{loc.appl-\textsc{pfv}}	\textsc{cl}g.Kuku-\textsc{oc}	\textsc{cl}g.farm\\	\trans	‘Israel weeded Kuku’s farm’ (but Kuku did not want him to)\\
+\z
+\z
+
+Necessary for passivization.
+
+% TODO What about these? -aðat̪ or -ad̪at̪%kabwanaðat̪ó éðáð ~ 			he begged in the street	July 2, 2013	(bwan)%kabwanad̪at̪ó éðáð ~ %kabwanat̪ó éðáð%kalaŋad̪at̪ó íki     (Thetog)			he sang in the field in some way  July 2, 2013%lawədʒat̪ó	they chose in some location	(wət̪)%lawəd̪at̪ó
+
+
+
+\subsection{Antipassive and reciprocal \textit{-əð}}\label{sec:ch11:antipassive}
+
+%The anti-passive/distributive \textit{-əð} also causes a diphthong to be formed, ex. \textit{gavə́daða} ‘s/he is sweeping’ vs. \textit{gavə́daððeə} ‘s/he sweeps for a living’. %The [ə] is not realized between two \textit{ð}, and they form a geminate. Given this, the suffix may actually be \textit{-əðe} rather than \textit{-əð}. Indeed, Angelo prefers a transcription with final [ea] rather than [eə]. 
+
+The suffix \textit{-əð}  has two main uses: an \textit{anti-passive}, which suppresses the object of a transitive verb \REF{ex:ch11:apb2}, a \textit{reciprocal}, where there is mutual action by a plural subject \REF{ex:ch11:recipb}, and a semi-reciprocal, where there is mutual action by two individuals towards a part of the other individual. We gloss this suffix as \textsc{ap} in all cases. %Check distributive
+
+\ea Basic use of anti-passive
+\ea \gll	é-g-ákəm-a 	udʒí  \\	1\textsc{sg.sm-cl}g-judge-\textsc{ipfv}	\textsc{cl}g.man	\\	\trans ‘I am judging the man’\\\ex \gll	é-g-ákəm-əð-eə  (*udʒí)	\\	1\textsc{sg.sm-cl}g-judge-\textsc{ap-\textsc{ipfv}} \\	\trans ‘I am judging (e.g. some unspecified person)’\\ \label{ex:ch11:apb2}
+\z 
+\ex  Distributive use of anti-passive\ea	k-a-kə́l-á		\\	\textsc{sm.cl}g-\textsc{rtc}-chop-\textsc{ipfv}\\	\trans ‘he is chopping up’\\\ex \gll	k-a-kə́l-ə́ð-eə 			eð-ano	\\	\textsc{sm.cl}g-\textsc{rtc}-chop-\textsc{ap-\textsc{ipfv}}	\textsc{cl}g.meat-part\\	\trans ‘he is chopping up strips of meat’\\ \label{ex:ch11:apd2}
+% TODO Check ano in (d)
+\z 
+
+\ex Reciprocal use of anti-passive\ea \gll	l-a-noán-a 		ŋeɾá\\	\textsc{sm.cl}l-\textsc{rtc}-tend-\textsc{ipfv}	\textsc{cl}ŋ.child  	\\	\trans ‘they are tending to the child’\\\ex \gll	l-a-noán-ə́ð-eə  		\\	\textsc{sm.cl}l-\textsc{rtc}-tend-\textsc{ap-\textsc{ipfv}} \\	\trans ‘they are tending to each other’\\ \label{ex:ch11:recipb}
+\z
+\z
+More details on the syntactic effects of these uses of the antipassive can be found in Chapter \ref{chapter:syntax}.
+
+\subsubsection{Morphophonology of the antipassive}
+The suffix \textit{-əð} attaches directly after the root and preceding other extension suffixes, although it shows variable order with respect to the locative applicative depending on scope and meaning (see \sectref{sec:ch11:antipassiveorder}). This suffix can be realized as [ð] if the preceding consonant is also [ð], creating a geminate.
+
+\ea
+\begin{tabular}[t]{ll}
+ga-və́dað-a		&	‘he is sweeping it’\\ga-və́dað-ð-eə 	&	‘he sweeps for a living’\\
+\end{tabular} 
+\z
+
+The anti-passive does not cause any vowel harmony. All vowels remain low or high depending on their original value. However, the anti-passive does cause palatalization of preceding dental stops, like the causative, passive, and applicative. 
+
+\ea
+\ea \gll l-a-wət̪-ó 	ɲəwa 	tə́lːɜ́ŋ	\\	\textsc{sm.cl}l-\textsc{rtc}-choose-\textsc{pfv}  \textsc{cl}ɲ.young.women only\\	\trans ‘they chose only grown girls’\\\ex \gll	l-a-wətʃ-əð-ó\\		\textsc{sm.cl}l-\textsc{rtc}-choose-\textsc{ap-\textsc{pfv}}  	\\			\trans ‘they chose each other’\\
+\z
+\z
+
+The anti-passive causes diphthongization of the final suffix in verb forms that usually end in \textit{-a} (or \textit{-ɜ}), such as the regular imperfective \REF{ex:ch11:eab}. There is no diphthong in the perfective \REF{ex:ch11:ead}, which ends in -ó (or ú), or the infinitive, which ends in -e \REF{ex:ch11:eaf}. 
+% TODO (CHECK THAT)
+
+\ea
+\ea \gll 	g-a-ðə́w-á 			iɾiə́  		\\	\textsc{sm.cl}g-\textsc{rtc}-poke-\textsc{ipfv}  	\textsc{cl}j.cow\\	\trans ‘s/he is about to poke cows’\\\ex \gll	g-a-ðə́w-ə́ð-eə  		\\	\textsc{sm.cl}g-\textsc{rtc}-poke-\textsc{ap-\textsc{ipfv}}  \\	\trans ‘s/he gives injections (= lit.  poke people)’\\ \label{ex:ch11:eab}\ex \gll 	g-a-ðəw-ó 			iɾiə́		\\	\textsc{sm.cl}g-\textsc{rtc}-poke-\textsc{pfv}  		\textsc{cl}j.cow\\	\trans 	‘s/he poked cows’\\\ex \gll 	g-a-ðəw-əð-ó		\\	\textsc{sm.cl}g-\textsc{rtc}-poke-\textsc{ap-\textsc{pfv}}  		 \\	\trans ‘s/he gave injections’\\ \label{ex:ch11:eab}\ex \gll 	…áŋə́-ðə́w-é 			iɾiə́		\\	3\textsc{sg.sm}-poke-\textsc{inf}  		\textsc{cl}j.cow\\	\trans 	‘…s/he poke cows’\\\ex \gll 	…áŋə́-ðə́w-ə́ð-e	\\	\textsc{sm.cl}g-\textsc{rtc}-poke-\textsc{ap-\textsc{pfv}}  		 \\	\trans ‘s/he gave injections’	\\ \label{ex:ch11:eaf}
+\z
+\z
+
+%TODO check (e) and (f)
+
+If the suffix is \textit{-əðe} instead of \textit{-əð}, this could be construed as a vowel-hiatus resolution effect, such that if the vowels are of different heights (mid and low), a diphthong is formed /əðe-a/ → [əðea] or [əðeə], but if they are of the same height (both mid), the first vowel is dropped: /əðe-o/ → [əðo] and /əðe-e/ → [əðe]. 
+
+The suffix is usually low-toned, but it can acquire high tone through extension of H tone on a short root in verb forms like the regular imperfective or the infinitive that have ‘default tone’:  \textit{l-a-noán-ə́ð-eə}  ‘they are tending to each other’ from example \ref{ex:ch11:recipb} above. See chapter on regular imperfective tone distribution
+% TODO Fill in the X in above paragraph
+
+\subsubsection{Anti-passive use of anti-passive suffix}
+When \textit{-əð} is used in the anti-passive sense, this means that there is an unexpressed but implied object. The anti-passive is therefore used with transitive verbs. As the unexpressed but implied object is non-specific, the use of the anti-passive can express an occupation or habitual sense. Moro does not usually mark non-human direct objects on the verb unless they are plural, so the use of the anti-passive conveys human direct objects.
+\ea
+\ea \gll 	é-g-a-mː-ó 			kodʒa-ŋ  \\	1\textsc{sg.sm-cl}g-\textsc{rtc}-take-\textsc{pfv}	\textsc{cl}g.Koja-\textsc{oc}\\	\trans ‘I married Koja’\\\ex \gll	é-g-a-mː-əð-ó  \\	1\textsc{sg.sm-cl}g-\textsc{rtc}-take-\textsc{ap-\textsc{pfv}}	 \\	\trans ‘I got married (= lit.  I took someone)’\\
+\z
+\z
+
+\ea
+\ea \gll	matʃó 		g-wásː-a 		lədʒí	\\	\textsc{cl}g.man	\textsc{sm.cl}g-wash-\textsc{ap-\textsc{pfv}}	\textsc{cl}l.person	\\	\trans ‘the man is washing people’\\\ex \gll	udəmiə 			g-oasː-əð-ea\\		\textsc{cl}g.medicine.man	\textsc{sm.cl}g-wash-\textsc{ap-\textsc{pfv}}		\\	\trans ‘the medicine man is cleansing (people)’\\\ex	* udəmiə g-oasː-əð-ea lədʒí
+\z
+% TODO sː in all instances
+\z
+It is ungrammatical to use the anti-passive marker in combination with an overt object, either a lexical noun or an object marker on the verb. 
+
+With ditransitives, \textit{-əð} co-occurs with the direct object and indicates the absence of the indirect object, the unspecified human recipient of the action.
+
+\ea
+\ea \gll	k-a-náʧ-a 			udʒí 		ád̪ámá  \\	\textsc{sm.cl}g-\textsc{rtc}-give-\textsc{ipfv}	\textsc{cl}g.man	\textsc{cl}g.book  \\	\trans ‘s/he is about to give the man a book’\\\ex \gll	kúku 	g-a-náʧ--ə́ð-eə 			wánde?\\		
+	% TODO CHECK THIS  	\textsc{cl}g.Kuku	\textsc{sm.cl}g-\textsc{rtc}-give-\textsc{ap-\textsc{ipfv}}	\textsc{cl}g.what\\	\trans ‘what is Kuku about to give (to s.o.)?’\\\ex \gll	k-a-náʧ-ə́ð-eə 		ád̪ámá  \\	\textsc{sm.cl}g-\textsc{rtc}-give-\textsc{ap-\textsc{ipfv}}	\textsc{cl}g.book \\	\trans ‘s/he is about to give a book (to s.o.)’\\
+\z
+\z
+
+\subsubsection{Distributive use of anti-passive}
+The distributive sense of -əð conveys an action applied to multiple objects in sequence. Unlike the anti-passive, the object can be left unexpressed or expressed overtly. The sense of repeated events conveys habitual aspect, and can be construed as an occupation.
+\ea
+\ea \gll	k-a-gað-ó\\				\textsc{sm.cl}g-\textsc{rtc}-mix-\textsc{pfv}\\		\trans ‘she mixed ingredients (as in leaves with sesame)’\\\ex \gll	k-a-gað-ð-ó	\\	\textsc{sm.cl}g-\textsc{rtc}-mix-\textsc{ap-\textsc{pfv}}\\	\trans ‘she mixed a lot of things (at one time or on more than one occasion)’\\ %rejected by elyasir\ex \gll	k-a-gáð-a		\\		\textsc{sm.cl}g-\textsc{rtc}-mix-\textsc{ipfv}\\ 		\trans ‘she is about to mix’\\\ex \gll 	 k-a-gáð-ð-ea	\\	\textsc{sm.cl}g-\textsc{rtc}-mix-\textsc{ap-\textsc{ipfv}}\\	\trans ‘she mixes habitually (it’s her job to do so)’\\
+\z
+\z %rejected by elyasir
+
+%\ea
+%\ea \gll	g-a-və́dað-a		 \\%		\textsc{sm.cl}g-\textsc{rtc}-sweep-\textsc{ipfv}\\%		\trans ‘he is sweeping’\\%%\ex \gll	g-a-və́dað-ð-eə 	\\%	\textsc{sm.cl}g-\textsc{rtc}-sweep-\textsc{ap-\textsc{ipfv}}	\\%	\trans ‘he sweeps for a living’\\
+%\z
+%\z %rejected by elyasir
+
+
+\subsubsection{Reciprocal use of anti-passive suffix}
+The suffix \textit{-əð} also indicates reciprocal voice, indicating two or more agents perform an action on each other. 
+
+\ea
+\ea \gll 	k-oas-ó 			ndréð	\\	\textsc{sm.cl}g-wash-\textsc{pfv} 	\textsc{cl}n.clothes\\	\trans ‘s/he washed clothes’\\\ex \gll 	l-oas-əð-ó		\\	\textsc{sm.cl}l-wash-\textsc{ap-\textsc{pfv}} \\	\trans ‘they washed each other’\\\z\z
+	
+\ea	\ea \gll	 	ŋalːo 	     l-ɜ-p-ú 			rlo\\	\textsc{cl}g.Ngalo  \textsc{sm.cl}l-\textsc{rtc}-beat-\textsc{pfv} 	\textsc{cl}r.goat\\	\trans ‘Ngalo beat the goat’\\ \ex \gll  	ŋalːo 	     l-ɜ-p-əð-ú 			t̪ut̪u-ga\\	\textsc{cl}g.Ngalo  \textsc{sm.cl}l-\textsc{rtc}-beat-\textsc{ap-\textsc{pfv}} 	\textsc{cl}g.Tutu-\textsc{cl}g.\textsc{inst}\\	\trans ‘Ngalo fought Tutu’\\
+\z
+\z
+
+In the following case, the verb itself has an inherent reciprocal meaning, which is greater emphasized by the use of the \textit{-əð} suffix (they are equal to each other, that is, more equal):
+\ea
+\ea \gll l-a-dəwat̪-ó\\	\textsc{\textsc{sm.cl}}l-\textsc{rtc}-be.equal-\textsc{pfv}\\ 		\trans ‘they are equal’\\\ex \gll	l-a-dəwatʃ-əð-ó	\\	\textsc{sm.cl}l-\textsc{rtc}-be.equal-\textsc{ap-\textsc{pfv}} \\	\trans ‘they are the same’
+\z
+\z
+In this example, the agent of the action is singular but is performing a reciprocal action between two other people. The \textit{-at̪} suffix gives the sense of malfactive (persuade against) and the \textit{-əð} is reciprocal. Note that \textit{-əð} has palatalized the stop of the preceding suffix. 
+
+\ea
+\gll	k-a-wː-atʃ-əð-ó 	ŋálo-ŋ-ə́nda 	ŋúl		kúku-ga\\	\textsc{sm.cl}g-\textsc{rtc}-persuade-\textsc{loc.appl-ap-\textsc{pfv}}	Ngalo-\textsc{acc-assoc}	\textsc{3sg.pron}	Kuku-\textsc{cl}g.\textsc{inst}\\
+	‘he spread rumours between Ngalo and Kuku (about Ngalo to Kuku and vice versa)’\\
+\z
+% TODO Recheck. ASSOC?!?!? -- does it take a -ŋ with vowel-final nouns even in subject position?
+
+\subsection{Passive and reflexive \textit{-ən}}\label{sec:ch11:antipassive}
+
+The passive marker in Moro is typically the last in sequences of extension suffixes. It triggers high vowel harmony and palatalization on preceding dental stops. The marker is used in three types of syntactic environments: passives, reflexives, and semi-reflexives.
+
+\subsubsection{Morphophonology of the passive}
+
+The passive is normally realized as the suffix \textit{-ən}. 
+
+\textit{-n} 
+- after causative
+- after verbs ending in /n/ and /r/?
+
+/abwer-n/ beat 'corn was beaten before getting ripe'
+
+\subsubsection{Passive use of the passive}
+
+
+The verbs below are inherently labile, and passive marking is optional. However, when used, the passive implies the presence of an unspecified agent.
+
+51a. égekʌ́ndəɲó egea 	‘I pulled over the house.’51b. égekʌ́ndə́ɲá 	‘I’m pulling over the house.’ (?)51c. égea gekʌ́ndəɲó	‘The house collapsed.’    NO PASSIVE MARKING? %check with Elyasir51d. égea kikʌndiɲənó	‘The house was pulled over (by  s.o.).’ 52a. égakeró égéʌ	‘I broke the house.’ (i.e. ruin harmony within the house)52b. égakérá égéʌ	‘I’m breaking the house.’  %check with Elyasir52c. égéʌ gakeró	‘The house is broken.’ 52d. égéʌ gakəréa	‘The house is breaking.’ 52e. égéʌ gʌkirənú	‘The house was broken (by s.o.).’ 52f. égéʌ gakírnia	‘The house is being broken (by s.o.).’ 
+
+\subsubsection{Reflexive use of the passive}
+
+
+\subsubsection{Semi-reflexive use of the passive}
+
+
+
+\subsection{Manner \textit{-aðat}}
+
+%NEed to check these with Elyasir
+‘Way’ extension suffix
+
+Q: ágásá|ðát̪au acevan?		‘How do you eat?’
+A: égása ðat̪a acevan t̪ia.		‘I eat food like this.’
+		Need to double check the tone of these forms!
+Q: ágávə́ðat̪au ega			‘How do you sweep the house?’
+A: égavə́dáðat̪a ege(a) t̪ia		‘I sweep the house like this.’
+
+%IS THIS A clitic or an extension suffix?
+%SHIT!! The ð could be agreeing with the class of t̪ia!
+
+\subsection{Verbs with alternating finals}
+
+While the affixes in the earlier section are fully productive, the semantics of many verbs are inherently causative, or reflexive, reciprocal. Rather than taking distinct agglutinating suffixes, these verbs show an alternation in the root which resembles the distinct extension suffixes described in the previous section. %WHAT?
+
+
+\subsubsection{The unaccusative/causative class}\label{sec:ch11:ucalt}
+Many common verbs shows an alternation between an unaccusative form, which takes only a theme and sometimes a locative argument, and a causative form, which adds a causer, illustrated in \tabref{tab:ch11:ucalt}. These verbs are characterized by an alternation between \textit{-t̪ } in the unaccusative and {-tʃ} in the causative, along with vowel raising in some but not all cases. In the sense that it involves palatalization and sometimes vowel raising, the causative form of these verbs is clearly related to historical \textit{-i}, but the perfective form of these verbs occurs with the regular perfective suffix \textit{-ó}/\textit{-ú} rather than the \textit{-í} found in the regular perfective causative (\sectref{sec:ch11:causpalatal}). \begin{table}
+\begin{tabular}[t]{llll}
+\lsptoprule
+\multicolumn{2}{l}{Unaccusative perfective}	& 	\multicolumn{2}{l}{Causative perfective} \\
+\midrule
+g-ɜnt̪-ú		& `(s)he entered s.w.'	& g-ɜntʃ-ú	&	`(s)he took it in s.w.' \\ga-məɲat̪-ó 	& `(s)he exited s.w.' & 	gɜ-məɲɜtʃ-ú 	& `(s)he took it out s.w.' \\
+g-ogovəð-ó	& '(s)he returned s.w.' & g-ogovatʃ-ó	& 	'(s)he returned it s.w.' \\
+ga-bət̪-ó 	& `(s)he ascended' & ga-bətʃ-ó &  `(s)he lifted it' \\  
+g-uɾuwt̪-ú 	& `(s)he descended' & g-uɾuwtʃ-ú &  `(s)he lowered it' \\
+ga-mət̪-ó 	& `(s)he's alive, lives s.w.' & ga-mətʃ-ó &  `(s)he raised s.o.' \\
+g-ondət̪-ó 	& `(s)he dried' & 	g-ondətʃ-ó 	& ‘(s)he dried it’ \\
+\lspbottomrule
+  	 \end{tabular}
+\caption{Alternating unaccusative/causative verbs}	\label{tab:ch11:ucalt} 
+\end{table}
+Not all unaccusative verbs show a lexical alternation, and their causative alternant occur with the regular causative suffix: a final \textit{-í}, palatalization, and vowel harmony, e.g. \textit{g-a-land̪-ó} `to close (v.i.)' $\rightarrow$ \textit{g-ɜ-lɜnʤ-í} ‘to close (v.t.).’ While no clear semantic generalizations govern which unaccusative verbs fall into which class, the vast majority of verbs involving change-of-location are in the alternating class.
+
+Some of the alternative verbs have simpler forms without any suffix at all. For example, \textit{gaməɲó} `he left' plus the locative applicative \textit{-at̪} results in the alternating verb \textit{gaməɲat̪ó} 	 `exit' above. Yet most of alternating verbs cannot appear without the underived form
+
+These verbs are closely related to adjectives, which show a causative alternation without triggering vowel harmony in the causative (\sectref{sec:ch10:causadj}). In the imperfective, the final vowel does raise in the causative, e.g. \textit{gabə́cɜ} `(s)he's about to lift it,' \textit{góndəcɜ} `(s)he's about to strengthen it,' where the initial /a/ and /o/ do not harmonize. Yet causative adjectives, and adjectives in general, do not show final vowel alternations distinguishing perfective and imperfective, so these forms remain verbal.
+
+The irregular or lexical causatives above exist alongside regular causatives for the same verbs.\ea 
+	\ea \gll í-g-ɜntʃ-í kúku-ŋ ega  \\
+		 \textsc{1sg-cl}g-\textsc{rtc}-raise-\textsc{caus.pfv} Kuku-ŋ house\\
+		\glt 	 `I made Kuku enter the house.'
+	\ex \gll é-g-a-mətʃ-é kúku-ŋ \\
+		 \textsc{1sg-cl}g-\textsc{rtc}-live-\textsc{caus.pfv} Kuku-ŋ\\
+		\glt 	 `I made Kuku be alive.', `I raised Kuku.'
+	\ex \gll é-g-avətʃ-é kúku-ŋ n-ajen \\
+		 \textsc{1sg-cl}g-\textsc{rtc}-return-\textsc{caus.pfv} Kuku-ŋ on-mountains\\
+		\glt 	 `I made Kuku return to the mountains.'
+	\z
+\z
+More work is needed to determine whether there are semantic differences between the two forms.
+
+%what about məɲ-ən? can these be 'recausativized'
+
+
+\subsubsection{The transitive/applicative class}
+
+\begin{table}
+\begin{tabular}[t]{llll}
+\multicolumn{2}{l}{Perfective}	& 	\multicolumn{2}{l}{Applicative perfective} \\
+ga-rac-ó	& `(s)he poured it'	& ga-rajt̪-ú	&	`(s)he poured it for s.o.' \\ga-rac-ó	& `(s)he poured it'	& ga-rajt̪-ú	&	`(s)he poured it for s.o.' \\  	 \end{tabular}
+\caption{Alternating transitive/applicative verbs}	\label{tab:ch11:taalt} 
+\end{table}
+
+
+This can't just be phonology. Consider the following unaccusative-causative alternating verb in the applicative:
+
+égaməcó Kúku `I raised Kuku'
+ígɜmədʒət̪ú Kúku lɜŋg-én `I raised Kuku for his mother'
+Kuku gɜmədʒet̪ú lɜŋg-én `Kuku is alive for his mother'
+
+
+%give: nac- in passive? in applicative? /nein/ in pass in Werria, indicating inherent applicative
+%
+%Kuku gamət̪ó `Kuku's alive'
+%
+%égaməcó Kúku `I raised Kuku'
+%
+%ígɜmədʒət̪ú Kúku lɜŋg-én `I raised Kuku for his mother'
+%
+%Kuku gɜmədʒet̪ú lɜŋg-én `Kuku is alive for his mother'
+%
+%Kuku gɛmədʒit̪:inú lɜŋg-én Kuku was raised for his mother'
+%
+%égamədʒ-atʃ-ó Kuku-ŋ najén `I raised Kuku in the mountains'
+%
+%Kuku gɜmədʒ-ɜtʃ-ən-ú najén `Kuku was raised in the mountains'
+
+
+
+égaké kukú 'I hate Kuku'
+Kuku gɜkin-ú 'Kuku is hated'
+Kuku nəNaloŋ lakeðó K and ŋalo `hate each other'
+égakatʃé kúku-ŋ lɜŋgen `I hate Kuku's mother'
+
+eganeðó Kuku `I don't like Kuku'
+%eganeðetó Kuku-ŋ lɜŋgen `I don't like Kuku's '
+Kuku ganáŋán:a `Kuku doesn't look like...'
+
+Kuku gɜniðənú `Nobody likes Kuku, i.e. Kuku isn't liked'
+Kuku gɜniðənú `Nobody likes Kuku, i.e. Kuku isn't liked'
+
+kuku ganeðó lədʒi `Kuku doesn't like people'
+Kuku ganéðá ŋaloŋ 'Kuku is about to hate ŋalon'
+Kuku ganá-néðá ŋaloŋ 'Kuku doesn't hate ŋalon'
+
+
+%'be alive'  məc ~ mət
+%hate? key (trans) ~keð (recip.)
+%reach,arrive -rəmat- `arrive at' vs.  
+
+
+\subsubsection{The -ð/-t̪ class}
+
+If the final consonant of the root is \textit{ð}, the benefactive applicative replaces [ð] with [t̪]. There is no [ə]:\\
+
+\ea \begin{tabular}[t]{ll}
+	íg-ili-ð-ú 	diə́		&	‘I bought a cow’\\	íg-ili-t̪-ú kódʒaŋ diə́ 	&	‘I bought a cow for Kodja\\
+	íg-ili-ð-it-ú ŋalo-ŋ diə&	‘I bought a cow from Kodja’\\ %	TODO (is this double applicative??? Why not ɜt̪?)
+	%check: I bought a cow FRoM KOdja FOR NALO; if əð goes away again, this is an instance where AP>APP
+	íg-ili-t-ú kojaŋ  diə tá-ŋaloŋ &  `I bought a cow for Kodja from Nalo' \\
+ka-pəláð-á ádámá ano	& ‘He opened up the book.’\\kʌ-pəlɜt̪-ú ŋerá ádámáno	& ‘He opened up the book for the girl.’\\& \\		k-ið-ú ŋə́mə́gə́niə			&	‘s/he worked (= she did work)’\\	k-it̪-ú udʒí ŋə́mə́gə́niə		&	‘s/he did work for the woman\\
+	k-ið-it̪-ú ŋə́mə́gə́niə ega	&		she worked at the house\\
+	
+	k-it̪-ú lidʒi lela ŋə́mə́gə́niə ega	&		she worked for the woman at the house \\
+
+egɜ-k-i k-ið-itʃ-ən-ú lidʒi lela ŋə́mə́gə́niə	&		this house was worked at for the woman \\
+\end{tabular}
+	\z 
+
+lidʒi lel:a `women'
+lidʒi leloraŋ `men'
+lidʒi 'people'
+
+udʒi gega `women of the house'
+
+
+kogóvəðeə ulʌlítu 	'he is returning tomorrow'
+kogóvat̪a isudan 		'he is returning to Sudan' 		(presumably locative)
+
+This is not always the case, suggesting that verbs like `buy' above are inherently either antipassive or applicative marked. 
+
+\begin{tabular}[t]{ll}
+kavaɾəðó			&	‘he raked’\\kɜvɜɾəðit̪ú kúkəŋ	&	‘he raked for Kuku’\\
+\end{tabular}
+
+Why not kɜvɜɾət̪ú ??
+
+
+%Are there others?
+
+
+\subsection{Order and distribution of multiple extension suffixes}\label{sec:ch11:extorder}
+
+\subsubsection{Order of antipassive with respect to other extension suffixes}\label{sec:ch11:antipassiveorder}
+
+The suffix \textit{-əð} is ordered before the applicative suffix \textit{-ət̪}.
+\ea
+\gll k-ɜ-g-ɜð-ð-ət̪-ú 			lidʒí 		loáɲa 		laŋa\\\textsc{sm.cl}g-\textsc{rtc}-mix-\textsc{ap-appl-\textsc{pfv}}	\textsc{cl}l.person	\textsc{cl}l.many	\textsc{cl}l.thing		\\\trans ‘she mixed many things for people’\\
+\z
+
+%do we have a more clear cut example with the basic use? 
+
+%CHECK: I got married (to someone) for my mother.
+
+It is also ordered before the causative suffix \textit{-i}:
+
+% TODO EXAMPLES
+
+It is ordered before the passive suffix \textit{-ən}:
+
+% TODO EXAMPLES
+
+The order of the \textit{-əð} suffix with respect to the locative applicative is more complicated. This example illustrates that when \textit{-əð} has the distributive sense, it precedes the locative applicative.
+
+\ea
+\gll k-a-gáð-ð-at̪-a 				wárá 		í-kí	\\\textsc{sm.cl}g-\textsc{rtc}-mix-\textsc{ap-loc.appl-\textsc{ipfv}}	\textsc{cl}g.baobab	\textsc{loc-cl}g.field\\\trans ‘she (habitually) mixes baobab leaves in the field’\\
+\z
+
+The reverse order apparently indicates a more specific location, or greater emphasis placed on the location:
+
+\ea
+\gll k-a-gáð-atʃ-əð-ea 				wárá 		í-kí	\\\textsc{sm.cl}g-\textsc{rtc}-mix-\textsc{loc.appl-ap-\textsc{ipfv}}		\textsc{cl}g.baobab	\textsc{loc-cl}g.field\\\trans ‘she is mixing baobab leaves in this particular field’\\
+\z
+
+When -əð has a reciprocal sense, it follows the locative applicative, as seen above in (X).
+Consider the following examples with the verb ‘take’, which also has the sense of marry, used antisymmetrically to mean that a man got married (‘he took a woman’). If the reciprocal is used, it means that a man and woman married each other, or it can mean that men each got married separately. An iterative prefix can be added to that mean that many people got married or that two people got married again. If the locative applicative is added to this verb to indicate a certain location, it precedes the reciprocal. This sentence also has another meaning of many people going as a group (in the sense that they took each other)
+
+\ea
+\ea \gll	l-a-mː-əð-ó\\		\textsc{sm.cl}l-\textsc{rtc}-\textsc{iter}-take-\textsc{ap-\textsc{pfv}}\\		\trans ‘they married each other’ or ‘they each married’\\\ex \gll 	l-a-ma-mː-əð-ó 	\\		\textsc{sm.cl}l-\textsc{rtc}-\textsc{iter}-take-\textsc{ap-\textsc{pfv}}\\ 		\trans ‘many people got married’ or ‘two people got married again’\\\ex \gll	l-a-ma-mː-atʃ-əð-ó 	\\		\textsc{sm.cl}l-\textsc{rtc}-\textsc{iter}-take-\textsc{loc.appl-\textsc{pfv}}\\ 		\trans ‘many people went in a group to a certain place’ or \hspace{3cm} ‘many people got married in a certain place’\\
+\z
+\z
+
+The same ordering is observed when the \textit{-at̪} suffix indicates malfactive rather than locative:
+
+\ea
+\ea \gll k-a-mː-at̪-ó 			ŋálo-ŋ 		lavəɾa\\\textsc{sm.cl}g-\textsc{rtc}-take-\textsc{loc.appl-\textsc{pfv}}	Ngalo-\textsc{oc}	\textsc{cl}l.stick\\\trans ‘he took the stick from Ngalo’\\\ex \gll	l-a-mː-atʃ-əð-ó 			ŋavəɾa\\\textsc{sm.cl}l-\textsc{rtc}-take-\textsc{loc.appl-\textsc{pfv}}	\textsc{cl}ŋ.stick\\\trans ‘they took sticks from each other’\\
+\z
+\z
+
+Therefore, the order of the anti-passive/distributive/reciprocal with respect to the locative applicative differs depending on the meaning. While the locative and malfactive senses of the applicative both precede reciprocal, they appear to follow the distributive meaning. This could mean that there are two separate, identical suffixes, or it could mean that scope relationships dictate the order. 
+
+%Need to test:%	loc.appl + antipassive%	mal.appl + antipassive (incompatible??)%	dist-mal.appl
+
+This is further complicated by the fact that \textit{-əð} can be repeated both before and after \textit{-at̪}, and the \textit{-atʃəð} combination appears to indicate a more emphasized location, as discussed above:
+
+\ea
+\gll k-a-gáð-ð-atʃ-əð-ea 				wárá 		í-kí	\\\textsc{sm.cl}g-\textsc{rtc}-mix-\textsc{ap-loc.appl-ap-\textsc{ipfv}}		\textsc{cl}g.baobab	\textsc{loc-cl}g.field\\\trans ‘she (habitually) mixes baobab leaves in this particular field’\\
+\z
+
+
+\subsubsection{Combination with other suffixes}
+The locative applicative \textit{-at̪} and the benefactive applicative \textit{-ət̺} do not co-occur as a sequence of suffixes, such as \textit{at̪ət̪} (or \textit{atʃət̪}) or \textit{ət̪at̪}. When both meanings must be expressed, a single suffix \textit{-it̪} is employed. In the first examples (a,d), the locative applicative \textit{-at̪} is shown. This contrasts with the benefactive applicative \textit{-ət̪} (b,e). Finally the combined locative and benefactive is shown in (c,f)
+
+\ea
+\ea	\gll é-g-ab-at̪-ó 				ád̪ámá 		é-lná  \\		1\textsc{sg.sm-cl}g-carry-\textsc{loc.appl-\textsc{pfv}}	\textsc{cl}g.book	\textsc{loc-cl}l.room\\		\trans ‘I carried the book into the room’\\\ex	\gll í-g-ɜb-ət̪-ú 			ŋeɾá 		ád̪ámá  \\		1\textsc{sg.sm-cl}g-carry-\textsc{appl-\textsc{pfv}}	\textsc{cl}ŋ.girl		\textsc{cl}g.book	\\	 	\trans ‘I carried the book for the girl’\\\ex	\gll í-g-ɜb-it̪-ú 				ŋeɾá 		ád̪ámá 		é-lná  \\	1\textsc{sg.sm-cl}g-carry-\textsc{loc.appl/appl-\textsc{pfv}}	\textsc{cl}ŋ.girl		\textsc{cl}g.book	\textsc{loc-cl}l-room\\	\trans ‘I carried the book for the girl into the room’\\\ex	\gll	?		átʃə́váŋ 		í-kí	\\		\textsc{sm.cl}g-\textsc{rtc}-carry-\textsc{loc.appl-\textsc{pfv}}	\textsc{cl}g.food	\textsc{loc-cl}g.field\\		\trans ‘she stirred food in the field’\\\ex \gll	k-ɜ-duw-ət̪-ú 			ŋeɾá 		átʃə́váŋ\\		\textsc{sm.cl}g-\textsc{rtc}-carry-\textsc{loc.appl-\textsc{pfv}}	\textsc{cl}ŋ.girl		\textsc{cl}g.food	\\ 		\trans ‘she stirred food for the child’ \\\ex	\gll k-ɜ-duw-it̪-ú 			ŋeɾa 		átʃə́váŋ 		í-kí\\	\textsc{sm.cl}g-\textsc{rtc}-carry-\textsc{loc.appl/appl-\textsc{pfv}}	\textsc{cl}ŋ.girl		\textsc{cl}g.food	\textsc{loc-cl}g.field	\\		\trans ‘she stirred food for the child in the field’ \\
+\z
+\z
+% TODO Fill in first word in (d)
+% TODO What about this??? Is this the raised form of -et̪? Note no locative on ege
+% \ea
+% 	\ea \gll kiðú ŋə́mə́gə́niə				\\%		\trans she worked (= she did work)\\%%	\ex \gll kiðit̪ú ŋə́mə́gə́niə ega			\\%		\trans she worked in the house			July 2, 2013\\
+% \z
+% \z
+
+In addition to \textit{-at̪}, there is another form of the locative that refers to a specific or emphasized location. This affix is -\textit{atʃəðe}. This may be a combination suffix, consisting of the locative \textit{-at̪} and another suffix \textit{-əðe} that triggers palatalization of /t̪/ to [tʃ]. The anti-passive suffix is -\textit{əð(e)}, and triggers palatalization, but it is not clear that this is the anti-passive (what happens if one combines anti-passive and locative??). Some examples of the meaning distinction between the two affixes is shown below:
+%TODO what happens if one combines anti-passive and locative??
+
+\ea
+\ea \gll 	 álə-g-a-gáð-at̪-a 				waɾá 		í-kí\\		1\textsc{pl.ex}-\textsc{sm.cl}g-\textsc{rtc}-mix-\textsc{loc.appl-\textsc{ipfv}}	\textsc{cl}g.baobab	\textsc{loc-cl}g.field\\	\trans ‘we are mixing baobab leaves in the field’\\		\ex \gll	álə-g-a-gáð-atʃəðe-a 			wáɾá 		í-kí\\		1\textsc{pl.ex}-\textsc{sm.cl}g-\textsc{rtc}-mix-\textsc{loc.appl-\textsc{ipfv}}	\textsc{cl}g.baobab	\textsc{loc-cl}g.field\\	\trans‘we are mixing baobab leaves in a specific field’\\
+\z
+\z
+
+As for the locative-benefactive combination, which is \textit{-it̪}, as demonstrated above, if the location is specific or emphasized, then the suffix is \textit{-iðit̪}:
+
+\ea
+\gll k-ɜ-duw-iðit̪-ú 				ŋeɾá 	  átʃə́váŋ 	í-kí	\\\textsc{sm.cl}g-\textsc{rtc}-mix-\textsc{loc.appl/appl-\textsc{pfv}}	\textsc{cl}ŋ.girl	  \textsc{cl}g.food	\textsc{loc-cl}g.field\\\trans ‘s/he stirred the food for the child in a specific field’\\
+\z
+
+The distributive precedes the locative applicative:
+
+\ea
+ \gll k-a-gáð-ð-at̪-a			wáɾá 		í-kí\\	\textsc{sm.cl}g-\textsc{rtc}-mix-dist-\textsc{loc.appl-\textsc{ipfv}}	\textsc{cl}g.baobab	\textsc{loc-cl}g.field	\\			\trans ‘he is mixing baobab leaves a lot in field’ \\
+\z
+
+However, the locative applicative precedes the causative and passive. 
+
+% TODO EXAMPLES
+
+
+\subsubsection{Order of benefactive applicative with respect to other extension suffixes}
+
+The suffix \textit{-ət̪} follows the causative suffix \textit{-i}, where it is realized as [t̪]:
+\ea
+\gll ówːá  		g-ubəð-i-t̪-ə́-lo 				ŋíní\\\textsc{cl}g.woman 	\textsc{sm.cl}g-flee-\textsc{caus-appl-\textsc{pfv}-3pl.om}	\textsc{cl}ŋ.dog\\\trans ‘the woman made the dog run away from them’\\
+\z
+
+The suffix \textit{-ət̪} precedes the passive suffix \textit{-ən}. As the passive routinely triggers palatalization of dental stops, the /t̪/ of the benefactive applicative suffix is also palatalized.
+
+\ea 
+	\gll adama kw-ʌ-dwʌdʒ-itʃ-in-ú kúku-ŋ\\ %check transcription
+		book  \textsc{cl}g-\textsc{rtc}-send-\textsc{appl-pass-pfv} Kuku-\textsc{acc} \\
+	\glt `The book was sent to Kuku.'
+\z
+
+The locative applicative also follows the causative:
+
+
+
+
+The locative applicative cannot co-occur with the benefactive applicative as such. That is, there is no sequence \textit{-at̪-ət̪} or \textit{ət̪-at̪}. Instead, the combination of locative and benefactive is realized as [it̪]:
+
+\ea
+\ea \gll é-g-ab-at̪-ó 				ád̪ámá 		é-lná  \\	1\textsc{sg.sm-cl}g-\textsc{rtc}-carry-\textsc{loc.appl-\textsc{pfv}}	\textsc{cl}g.book	\textsc{loc-cl}l.room\\	\trans ‘I carried the book into the room’\\\ex \gll	í-g-ɜb-ət̪-ú 				ŋeɾá 		ád̪ámá  \\	1\textsc{sg.sm-cl}g-\textsc{rtc}-carry-\textsc{appl-\textsc{pfv}}	\textsc{cl}ŋ.girl		\textsc{cl}g.book	 \\	\trans I carried the book for the girl\\\ex \gll	í-g-ɜb-it̪-ú 				ŋeɾá 		ád̪ámá 		é-lná  \\	1\textsc{sg.sm-cl}g-\textsc{rtc}-carry-\textsc{appl-\textsc{pfv}}	\textsc{cl}ŋ.girl		\textsc{cl}g.book	\textsc{loc-cl}l.room\\	\trans ‘I carried the book for the girl into the room’\\
+\z
+\z
+
+In the following example, the verb form derives from the root \textit{doad} ‘speak, tell’. It appears to also have a locative/malfactive applicatve \textit{-at̪} suffix followed by reciprocal \textit{-əð}. It is not clear what the presence of \textit{-at̪} is contributing, except possibly a malfactive sense. %check: i'm pretty sure it is simply adding the goal argument...
+
+\ea
+\gll 	l-a-doád-atʃ-əð-ea 			é-ŋén\\\textsc{sm.cl}l-\textsc{rtc}-speak-\textsc{loc.appl-ap-\textsc{pfv}} \textsc{	loc}-word\\\trans ‘they are discussing, negotiating together’\\
+\z
+
+
+
+% TODO Order of applicative and passive?
+a-g-a-ləŋ-ən-ṯ-ə-ñe.
+2sg-clg-rtc-give.birth.rt-pass-loc.appl-pfv-1sg.om
+`you have been born to me.'
+
+
+DATA WITH ANGELO
+Locative applicative - Passive
+
+é-g-a-v-álə́ŋ-ac-in-ia elo	LOC.APPL-PASS ‘I am being sung about.’
+é-g-a-v-aləŋ-ac-in-ia		LOC.APPL-PASS ‘I am having songs written for.’ (?) 
+%CHECK RECORDINGS FOR VOWEL HEIGHT
+
+ég-ogwac-ó ŋen/oleia	LOC.APPL?	‘I answered’ (Lit: ‘I returned word / language, speech’
+íg-ugw-it̪-u kukuŋ adama	LOC.APPL.APPL- 	‘I returned the book to kuku’
+Kuku kugw-ic-in-ú adama	LOC.APPL.APPL-PASS 	 ‘Kuku was given back the book.’
+ NB extension suffixes
+adama kugw-ic-in-ú kukuŋ LOC.APPL.APPL-PASS	‘The book was given back to Kuku’
+
+%check: I returned the boy to the village
+
+%Extension suffixes: ordering and scope, p. 57
+
+kúku kʌlʌgí ŋaloŋ íkí			‘Kuku made ŋalo cultivate the field.’
+ogəŋa					‘hoe, adze?’
+kúku kʌlʌgí ŋaloŋ ogəŋga		‘Kuku made ŋalo cultivate with the hoe.’
+ scopally ambiguous
+ 
+kúku kʌbugí ŋaloŋ ŋera		‘Kuku made Ngalo punch the child.’
+kuku kʌbugəní ŋaloŋ		1) ‘Kuku was punched by Ngalo’
+					2) Kuku was made to punch Ngalo.’  (both are ok)
+PASS-CAUS
+ 
+kúku kʌŋgitú ŋaloŋ nə́ŋə́pəni vəgá	‘Kuku made Ngalo punch himself.
+
+kúku kʌŋgitʃənú nə́ŋə́pəni ŋaloŋ	‘Kuku was allowed to punch Ngalo.
+				(Comment: Nobody stopped him, he was allowed to do what he liked…)
+(attempts to order passive and causative kind of failed here)
+ 
+Kúku na ŋalo lʌpəðú			‘Kuku and Ngalo punched each other.’
+ 
+Kúku na ŋalo lʌlʌg-i-ð-ú íkí		‘Kuku and ŋalo made each other cultivate the field.’
+
+Kuku na ŋalo lʌŋgitʃ-ið-ú lʌppi lʌmia	‘K and ŋalo made e.o. punch the boys.’
+    let/make-AP -Punch- boys
+
+Kuku lʌ-pʌð-i-ð-i lʌmia			‘K and ŋ made the boys punch each other.’
+
+ 
+ígʌdwʌðí kukuŋ ləbaba		‘I made Kuku push the door open.’
+ígʌŋgitú lʌmiʌ lʌd̪wet̪waðe		‘I made the boys push each other.’
+ 
+ 
+éga-ðwatw-að-ó ləbaba			‘I pushed the door many times.’
+ 
+lʌmiə lʌ-dwʌtw-ʌð-e			‘The boys pulled each other.’
+ 
+lʌmiə lʌw:ʌ Kuku-ga			‘The boys like Kuku.’
+lʌmiə labwaɲa Kukuŋ			‘The boys love Kuku.’
+
+lʌmiə lʌw:-ʌð-iʌ				‘The boys like each other.’
+kuku na kaka labwáɲ-áð-ea		‘Kuku and Kaka love each other.’
+ 
+Kuku na ŋalo lʌpʌð-ʌc-ið-ú *(ík-udʒi)	‘Kuku and Ngalo punched each other for the woman.’
+
+- Additional repeating əð, this time around another suffix.
+
+kuku na ŋalo lʌ-pitʃ-idʒ-ið-ú matʃó gícʌ	‘K. and ŋalo beat the bad person for each other’s sake.’
+	 Repeating applicative dʒ here, again unexpectedly...
+Kuku and ŋalo lʌlʌugitʃiðú ini		‘Kuku and Ngalo cultivated the fields for each other.’
+Kuku and ŋalo lʌdwʌtwʌtʃiðú lʌbʌbʌ	 ‘Kuku and Ngalo pushed the door for each other.’
+
+%Extension suffixes, object asymmetries with relfexives, binding, scope p. 64
+ 
+B and B: ‘send’ = ðwat̪o (Werria) = dwat̪o (ðotəgovəla)
+ikʌ-dwʌdʒ-it̪-u kuku adama					‘I sent Kuku a book.’		
+adama kwʌdwʌdʒ-itʃ-in-ú kúkuŋ			‘A book was sent to Kuku.’	Appl-Pass
+égadwadʒit̪ú lemmiə ododo leŋgen-andá		‘I sent every boy to his mother.’	
+égadwadʒit̪ú lemmiə leŋgen-andr ododo		‘I sent every boy to his mother.’ or 
+‘I sent the boys to all their mothers.’
+*égadwʌdʒit̪ú leŋgenandá lemmia (ododo)		‘Attempted: I sent their mother the boys)
+ 
+lemmiə (ododo) lʌdwʌdʒitʃinú leŋgendandá ododo	‘I sent every boy to his mother.’ or 
+‘I sent the boys to all their mothers.’
+leŋgendandá *(lə́lemiə) lʌdwʌdʒitʃinú lemia ododo	‘The boys’ mothers were sent all the boys.’ 
+ígʌsʌtʃú						‘I saw it’
+ígʌsʌdʒʌtʃú Kukuŋ ísúk				‘I saw Kuku in the market.
+ígʌsʌdʒʌtʃú lemiə ódódó enega dəŋgen		‘I saw each boy at his house.’
+ígʌsʌdʒʌtʃú lemiə lənəlnəŋ enega dəŋgen		‘I saw each boy at his house.’
+ígʌsʌdʒʌtʃú lemiə ódódó ləŋgen-ala			‘I saw each boy with his mother.’ (??)
+ígʌsʌdʒʌtʃú lemiə ododo lənəlnəŋ			‘I saw each boy by himself.’
+ not sure what the lənəlnəŋ element is here…
+ 
+ 
+égá kʌŋki, lʌmiə l-ʌ-sʌdʒ-ʌtʃ-in-ú-u  ‘My house, the boys were seen at.’
+
+éga kʌŋki gʌ-sʌdʒ-ʌtʃ-in-ú-u lʌmia	‘At my house was seen by boys.’
+
+éga kʌŋki gʌ-sʌdʒ-ʌtʃ-in-ú-u acevan	‘At my house was eaten food.’
+ 
+(*é)négá dəŋgen nʌsʌdʒ-itʃ-in-ú lʌmia ododo		‘At his1/*2 house was seen [every boy]2.’
+ 
+ígʌŋʌtʃú lʌmia ododo lʌng-en-andá			1)  ‘I showed the mother to each boy.’
+							2) ‘I showed each boy to his mother.’
+*ígʌŋʌtʃú lʌng-en-andá lʌmia ododo
+
+
+%Last ditch try at extension suffixes, p. 119
+ígʌlʌgi kukuŋ gi		‘I made Kuku cultivate the field.’ 
+kuku na ŋalo lʌlʌgiðu gi	‘Kuku and ŋalo made e.o. cultivate the field’
+igʌŋgitú kukuŋ na ŋalo lʌlʌg-itʃ-ið-in-iə	‘I made Kuku and Nalo cultivate each other’s fields’ (??)
+kukuŋ na ŋalo lʌlʌg-itʃ-ið-in-ú gi	‘Kuku and Nalo were made to cultivate each other’s fields’ 
+> CAUS > APPL > RECIP > PASS
+kukuŋ na ŋalo lʌlʌg-itʃ-ið-ʌt-ú gi	‘Kuku and Nalo cultivated the fields for each other.’
+kukuŋ na ŋalo lʌlʌg-i-n-ú gi		‘Kuku and Nalo were made to cultivate the fields.’
+ 
+kúku gwas-ó ŋaloŋ re			‘Kuku washed Ngalo’s arm.’
+kúku gwas-en-ú re				‘Kuku washed his own arm.’
+kuku na ŋalo loas-əð-ó re		‘Kuku and ŋalo washed each other’s arm’
+ 
+iðiəŋ-en			his son
+Kukú gwasó iðiəŋen				‘Kuku washed his son.’
+ 
+
+
+\section{The clitic group}\label{sec:ch11:clitic}
+
+\subsection{Postverbal object markers}
+
+\subsection{Instrumental \textit{=ya}}
+
+\subsection{Locative \textit{=u}}
+
+
+%\section{Dialectal variation in verbal morphology}
+%
+%{In some dialects, such as Kain Moro, the preverb does not undergo vowel harmony with the root.}
