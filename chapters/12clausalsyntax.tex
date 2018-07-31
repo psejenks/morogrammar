@@ -1,184 +1,1464 @@
 \chapter{Clausal syntax}\label{chapter:syntax}
 
-This chapter describes the syntax of indicative verbal clauses, which are clauses where a verb serves as the main predicate rather than a non-verbal predicate or a copular clause. This chapter is restricted to simple clauses, those with a single verb and with no auxiliary. The basic syntax of such clauses is Subject-Verb-Object-Adverb, as in the following example:
+This chapter describes the syntax of indicative clauses where a verb serves as the main predicate. This chapter is restricted to simple clauses, those with a single verb and with no auxiliary. The basic syntax of such clauses is Subject-Verb-Object-Adverb, as in the following example:
 
-While there can be multiple objects and the distribution of adverbs is quite free. Nevertheless, a look at simple transitive clauses in texts reveal that the vast majority of the time, objects are immediately preverbal and adverbs are sentence-final. %todo texts how often?
+\ea \gll ðamala ð-a-s-ó ŋaɲa aten-aten\\
+camel \textsc{cl}ð-\textsc{rtc}-eat-\textsc{pfv} grass slowly\\
+\glt `The camel ate the grass slowly.' 
+\z  
 
-Moro clauses show nominative-accusative alignment both in terms of their syntax and their morphology. Thus, verbs agree with the sole argument of intransitive verbs as well as the agent of transitive verbs. These arguments pattern alike syntactically as well, occurring before the verb and serving a distinguished role in a number of syntactic and morphological processes such as passivization and coordination.
+Moro clauses show nominative-accusative alignment both in terms of their syntax and their morphology. Thus, verbs agree with the preverbal subject, which is the sole argument of intransitive verbs and the agent of transitive verbs. The patient or theme of transitive verbs is marked with accusative case and appears postverbally, in object position, unless it is focused or topicalized. 
 
-This chapter describes the morphosyntactic properties of the four classes of syntactic elements which occupy such clauses and their interactions in their typical order of appearance: subjects, verbs, objects, and adverbs. The focus of this chapter is primarily syntactic, with emphasis on word order, valence alternations, and the distribution of arguments versus adjuncts.
+One notable property of Moro clauses is that while the order of subject, verb, and objects are fixed, postverbal elements are not ordered by grammatical relations but by rather by animacy and obliqueness (\sectref{sec:ch12:objnoun}). When there are multiple objects, these are almost always ordered according to their animacy rather than by their grammatical role. Nominal arguments always precede adpositional ones. While adverbs are ordered freely, and can occur between verbs and their arguments on either side, they tend to occur at the end of the verb phrase. 
+
+This chapter identifies the main properties of subjects (\sectref{sec:ch12:subjects}), reviews different transitivity classes of verbs and transitivity alternations (\sectref{sec:ch12:verbs}), then provides an overview of different classes of objects (\sectref{sec:ch12:objects}). Afterwards, the chapter details the syntax of valence increasing morphology, including causatives, benefactive applicatives, locative applicatives, and manner applicatives (\sectref{sec:ch12:increasing}), and valence decreasing morphology, including passives, reflexives,  antipassives, and reciprocals, which are together marked with just two suffixes (\sectref{sec:ch12:decreasing}).
+
+In the discussion below I will adopt the following simple structure for the Moro clause.
+
+\ea \textit{Structure of the Moro clause}\\
+
+\Tree [.TP [.NP Subject ] [.T$'$ [.T PreVerb= ] [.VP [.VP [.V Macrostem ] [.NP {Object} ] [.AdP {Oblique} ] ] AdverbP ] ] ]
+\z
+This structure plays a limited role in the following discussion, but is included in order to clarify what is meant when the VP or verb phrase is discussed in this chapter and the following chapter. %evidence?
+
+%\z 
+%Despite these ordering restrictions among objects, Moro objects are largely symmetrical, and are freely passivized or extracted. When oblique objects are stranded, 
+%
+%One striking property of Moro clausal syntax is the pervasiveness of split constituents, described in section \ref{sec:ch12:extraposition}. These include split NPs from both subject and object position along with quantifier float and pervasive preposition stranding.
 
 \section{Subjects}\label{sec:ch12:subjects}
 
-Subjects in Moro are identified with the following properties. First, the subject is always preverbal, typically immediately before the verb (\ref{ex:ch12:1}):  %check can adverbs appear in this position
+Subjects in Moro must be a nominal constituent or a pronoun, either overt, when emphatic, or silent, when they continue the topic of discourse. Moro lacks constructions which give rise to postverbal subjects in other languages, such as locative inversion.
+
+The subject is typically an argument of the lexical verb it precedes. In simple transitive sentences, the agent must be the preverbal subject unless the verb is passivized (\sectref{sec:ch12:passive}), in which case there are more options. The only exception to this claim is the expletive class-g agreement found with some raising to subject verbs, and subjects which are raised from lower clauses (\sectref{sec:ch15:dpc1}).
+
+The following seven properties define subjects: 1) they are preverbal 2) they trigger verbal agreement  3) they must be the antecedent of reflexives, 4) they are targeted by passivization and causativization, 5) they cannot host in-situ \textit{wh}-questions, 6) extraction of subjects triggers a special subject extraction form of the clause vowel, and 7) the verb and its objects can be coordinated to the exclusion of the subject. 
+
+The first definitional property of subjects is that they are always preverbal, usually immediately before the verb (\ref{ex:ch12:1}): %check if adverbs can appear in this position
 
 \ea Subjects must be preverbal \label{ex:ch12:1}
-\ea ŋerá ŋ-ʌ-túnd-ʌ\\
-girl CLŋ-RTC-cough-IPFV\\
-`The girl is coughing'
-\ex *ŋ-ʌ-túnd-ʌ ŋerá\\
-CLŋ-RTC-cough-IPFV girl\\
-`The girl is coughing'
+\ea \gll ŋerá ŋ-ɜ-túnd-ɜ\\
+girl \textsc{cl}ŋ-\textsc{rtc}-cough-\textsc{ipfv}\\
+\glt `The girl is coughing'
+\ex[*]{ \gll ŋ-ɜ-túnd-ɜ ŋerá\\
+\textsc{cl}ŋ-\textsc{rtc}-cough-\textsc{ipfv} girl\\
+\glt `The girl is coughing'}
 \z 
 \z 
+While subjects cannot be postverbal, this restriction only really applies to pronouns and the nominal head of a noun phrase. It is not uncommon to find nominal modifiers which modify the subject occurring postverbally, a case of the split NPs discussed in Section \ref{sec:ch12:extraposition}.
 
 Second, subjects always trigger verb agreement, regardless of whether there is an overt noun phrase before the verb (Section \ref{sec:ch12:agreement}). Third, the subject appears in nominative case, visible only on proper human nouns, which is unmarked (Section \label{ex:ch12:2}):
 
 \ea Subjects must be nominative \label{ex:ch12:2}\\
-\ea \gll Kúku g-ʌ-túnd-ʌ\\
-Kuku CLŋ-RTC-cough-IPFV\\
+\ea \gll Kúku g-ɜ-túnd-ɜ\\
+Kuku \textsc{cl}g-\textsc{rtc}-cough-\textsc{ipfv}\\
 \glt `Kuku is coughing.'
-\ex \gll *Kúku-ŋ g-ʌ-túnd-ʌ\\
-Kuku-\textsc{acc} CLŋ-RTC-cough-IPFV\\
+\ex \gll *Kúku-ŋ g-ɜ-túnd-ɜ\\
+Kuku-\textsc{acc} \textsc{cl}g-\textsc{rtc}-cough-\textsc{ipfv}\\
 \glt `Kuku is coughing.'
 \z 
 \z 
 
-Fourth, in-situ content question words cannot appear in subject position, while they can occur object or adjunct positions (\citealt{roseetal14}, Section \ref{sec:ch12:contentquestion}): 
+Fourth, the subject is privileged for reflexive formation. Subjects must be the antecedent in reflexives marked with the passive suffix \textit{-ən} on the verb, as discussed in Section \ref{sec:ch12:passive}. The special status of subject position does not hold for reciprocal formed with the antipassive suffix \textit{-əð}, which can apply to objects causaitivized objects  \ref{sec:ch12:antipassive}).
+
+Fifth, and relatedly, subject position is privileged for the purposes of a number of valence affecting processes. The passive suffix \textit{-en} decreases the valence of a verb by promoting an object to subject position while suppressing the subject. Similarly, semi-reflexive uses of \textit{-en} also occurs in the context of body-affecting actions only when these are committed by the subject (Section \ref{sec:ch12:passive}). Similarly, causatives demote their non-causative counterpart to object position and add a new subject, a causer (\ref{sec:ch12:causative}).
+
+Sixth, in-situ content question words cannot appear in subject position, while they can occur object or adjunct positions (\sectref{sec:ch18:insitu}).
 
 \ea No in-situ subject wh-question \label{ex:ch12:3}
-\ea \gll ʌ́nʤʌ	ŋ-í-t̪únd̪-ʌ?	            \\		CLF-CLŋ.girl	CLŋ-who	SM.CLŋ-DPC1-cough-IPFV\\
-    \glt `Who is coughing' (Intended)
+\ea[*]{ \gll ʌ́nʤɜ	g-í-t̪únd̪-ɜ?	            \\
+		who \textsc{cl}g-\textsc{rtc}-cough-\textsc{ipfv}\\
+    \glt `Who is coughing?' (Intended)} \label{ex:ch12:3a}
+\ex  \gll ŋw-ʌ́nʤʌ́-ki	g-í-t̪únd̪-ɜ?	            \\
+		\textsc{foc}-who-\textsc{scl}g.{op}	\textsc{cl}g-\textsc{dpc1}-cough-\textsc{ipfv}\\
+    \glt `Who is it that's coughing?'\label{ex:ch12:3b}
+    \z 
 \z 
+Because in-situ content questions are prohibited, the only remaining option is a cleft, illustrated in \REF{ex:ch12:3b} (Chapter \ref{chapter:relative}).
+
+Seventh, subject extraction results in a special form of the clause marker, the part of preverb which marks clause type and voice: \textit{e-/i-}, glossed \textsc{dpc1} (\sectref{sec:ch11:clausemarker}). This clause marker is found in cases of raising of subjects from finite clauses (\sectref{sec:ch15:dpc1}), as well as in relative clauses and clefts formed on subjects (Chapter \ref{chapter:relative}).
+
+Eighth, the subject position is privileged in consecutive and simultaneous clauses: the required interpretation of subjects in these cases is as the subject of the previous clause (see Chapter \ref{chapter:chaining}).
+\ea \gll Kuku g-a-v-ət-ó egea, n-ə́ŋə́-ndr-é\\
+Kuku \textsc{cl}g-\textsc{rtc}-\textsc{prog}-go-\textsc{pfv} home.\textsc{acc} \textsc{comp2}-\textsc{3sg.cons}-\textsc{sleep}-\textsc{cons.pfv}\\
+`Kuku went home then went to sleep.'
 \z 
+Relatedly, subjects serve as the controller for the subject of infinitive clauses with particular verbs (such as \textit{-əndəʧin-} `try') and can be targeted by raising constructions (Section \ref{section:nonfinite}). Objects can also control nonfinite subjects and be the target of raising constructions, however, depending on the choice of the verb, so these syntactic properties are not definitional of subjects. In contrast, the subject of consecutive and simultaneous verb forms are always coreferential with preceding subjects when null.
 
-Fifth, subjects have a privileged role for purposes of binding. Subjects must be the antecedent in reflexive and reciprocal binding (Section \ref{sec:ch12:passive}, Section \ref{sec:ch12:antipassive}), 
+%This fact provides a relatively straightforward piece of evidence for the existence of a VP constituent in Moro. This is important in the face of the somewhat free order of constituents inside VP described in Sections \ref{sec:ch12:objects} and \ref{sec:ch12:adverbs}.
 
-\ea Reflexives are subject oriented
-\ea Subject as antecedent in reflexive
-\ex object cannot be antecedent in reflexive
-\z 
-\z 
-
-\ea Reciprocals are subject oriented
-\ea subject as antecedent in reciprocal
-\ex object cannot be antecedent in reciprocal
-\z 
-\z 
-
-Subjects also can be the antecedent in cases of semantic binding or variable binding, although in these cases of variable binding objects can bind one another (Section \ref{sec:ch12:objects}):
-
-\ea Variable binding from subject position
-\z 
-
-Sixth, subject position is privileged for the purposes of a number of valence affecting processes. The passive suffix \textit{-en} decreases the valence of a verb by promoting an object to subject position while suppressing the subject of its active counterpart. Passive \textit{-en} also occurs in the context of body-affecting actions only when these are committed by the subject (Section \ref{sec:ch12:passive}). Similarly, causatives demote their non-causative counterpart to object position and add a new subject, a causer (\ref{sec:ch12:causative}).
-
-Seventh, subjects are the target of syntactic raising and control constructions (Section \ref{section:nonfinite}). 
 
 \section{Verb classes and valence alternations}\label{sec:ch12:verbs}
 
-- discussions of different classes of verbs: unaccusative: 
-- appearance, disappearance
-- classes of labile verbs
- change of location, change of state
+This verb describes different categories of Moro verbs as are relevant for clausal syntax. Verbs and verbal morphology are described separately in Chapter \ref{chapter:verbs}, including diagnostics for verbhood. Moro verbs always occur between subjects and objects. Adverbs can either precede or follow the verb, but there is a general tendency for adverbs to follow the verb. Every finite clause has one main verb; Moro has no serial verb constructions.
 
-- unergative
-- transitive
-SO MANY CLASSES...how do I start to go about this? Which ones can undergo causative and which can't? which can take applicatives and which can't?
-- ditransitive 
+Verbs in Moro fall into several classes based on their aspectual properties and their valence or selectional properties. The different aspectual classes of Moro verbs are detailed in section \ref{sec:ch11:macrostemsem}. While there are correlations between these aspectual classes and clausal syntax, aspect is less important than their valence class.
+
+The valence class of the verb in a clause determines the number of arguments in the clause and the syntactic and semantic status of those arguments. Moro verbs can take one, two, or three arguments. Within each of these general categories additional distinctions exist based on semantic properties of the verb and its arguments. The valence of verbs is best diagnosed simply by examining the possible argument combinations of the verb, although the type of extension suffixes each class of verbs can combine with also provides useful information (\sectref{sec:ch11:extension}). In addition to these basic classes Moro has both particle verbs, consisting of a verb and a particle, and, within each valence, locative verbs, which take a locative argument rather than a nominal one.
+
+Moro lacks verbs without arguments; weather events, the most common place for such predicates, take a single argument. In the case of a verb like \textit{dən} `rain', its single argument is usually \textit{ŋawa} `water': \textit{ŋaw ŋadənó} `it rained.'
+
+Most arguments of verbs are obligatory in Moro. This claim is complicated by the observation that nonhuman object pronouns are always null or implicit (\sectref{sec:ch12:objects}), and by unergative intransitives, which take an optional object. The obligatoriness of objects can be seen more clearly in nouns which select for human objects, which are marked with the antipassive in the absence of an overt object (\sectref{sec:ch12:antipassive}). The obligatoriness of objects can be see most clearly in the case of locative objects, which must be expressed in Moro (\sectref{sec:ch12:locobj}).
+
+Another complication for the claim of obligatoriness that many putatively identical roots have different meanings depending on their transitivity. Thus, there are often shifts in meaning for particular roots depending on whether they have a locative object, a nominal objects, or an adpositional particle. Consider, for example, the following three sentences with the same verb root.
+
+%todo check
+
+%\ea
+%\ea \gll Kúku g-abr-ó nə-ðamala\\
+%Kuku \textsc{cl}g-ascend-\textsc{pfv} rock \textsc{on}-top\\
+%\glt `Kuku jumped onto the rock.'
+%\ex \gll Kúku g-abor-t̪-ó ðamala\\
+%Kuku \textsc{cl}g-ascend-\textsc{loc.appl-pfv} camel\\
+%\glt `Kuku drove/rode the camel.'
+%\ex \gll Kúku g-abor-t̪-ó ðamala nano\\
+%Kuku \textsc{cl}g-ascend-\textsc{loc.appl-pfv} camel\\
+%\glt `Kuku drove/rode the camel.'
+%\z 
+%\z 
+%
+%
+%aborto - go up, ascend
+%aborto - ride (tr.)
+%abortó nano `stomping'
+%
+%aboto is different in texts --- recheck
+
+This section does not discuss verbs which take various types of clausal arguments, which are discussed in Chapter \ref{chapter:embeddedclauses}.
+
+
+
+\subsection{Intransitive verbs}\label{sec:ch12:intransitive}
+
+Intransitive verbs are verbs that take a single argument which is realized as a subject. There are two kinds of intransitive verbs: unaccusative verbs and unergative verbs. Almost all unaccusative verbs alternate with a transitive, causative variant, in which case the semantic role which is realized as the subject of the intransitive variant becomes the object. This process is marked in different ways for different classes of unaccusative verbs. The defining property of unergative verbs is that they take an optional object.
+
+\subsubsection{Unaccusative verbs}\label{sec:ch12:unaccusative} 
+
+Two basic properties define unaccusative verbs: they can have inanimate subjects, and they cannot appear with an nominal object. Take, for example, the verb \textit{-tóð-} `move, rise, wake, stand,' which can take an inanimate subject, as in the following textual examples adapted from texts. 
+\ea 
+\gll \ldots ndə́  ðəbera ð-ə́-tođ-ó\\
+\ldots when wind \textsc{cl}ð-\textsc{dpc2}-rise-\textsc{pfv}\\
+\glt `\ldots when the wind rose' \hfill (MSC, `What do Moro people do?')\label{ex:ch12:windrise}
+\ex \gll \ldots ndə́  đǝbwaɲǝðia ð-ə́-tođ-ó\\
+\ldots when wind \textsc{cl}ð-\textsc{dpc2}-rise-\textsc{pfv}\\
+\glt `\ldots if war broke out' \hfill (MSC, `Chalendor and hyena')
+\z 
+In its 50 occurrences in the Moro Story Corpus, the verb \textit{-tóð-} never appears with a nominal object.
+
+%though toð never takes an object, it does two times occur with irnuŋ `village', with a meaning 'move from the village'. Yet this is the 'default' interpretation of a locative argument, I think. It needs to be checked what happens with a locative applicative Check -ðat- pass. 
+
+The verb \textit{-tóð-} can take the causative suffix \textit{-í} (\sectref{sec:ch11:causative}), which adds a causer argument, realized as the subject, resulting in the demotion of the theme to object position.
+\ea
+\ea \gll  	ŋerá ŋ-a-toð-ó í-ŋurið	\\
+			girl	\textsc{cl}ŋ-\textsc{rtc}-wake-\textsc{pfv} \textsc{loc}-sleep \\
+	\glt	‘The girl woke from sleep.’ 
+\ex \gll  	í-g-ɜ-tuð-í ŋerá í-ŋurið		\\
+				\textsc{1sg-cl}ŋ-\textsc{rtc}-wake-\textsc{caus.pfv} girl \textsc{loc}-sleep \\
+	\glt	‘I woke the girl from sleep.’ \label{ex:ch12:overtcauseb}
+\z 
+\z 
+Others unaccusative verbs which take a regular morphological causative are \textit{-reðó/-riðí} `return,' \textit{-ðat̪ó/-ðaɜtʃí} `pass,' and \textit{-drú/-drwí} `stop.' %check id `fall'
+
+Many other unaccusative verbs form their causatives with an irregular root alternation rather than the regular causative suffix, however. This kind of irregular causative formation is restricted to unaccusative verbs. Causative root alternations fall into two different classes: vowel harmony alternations, where the causative is marked via high vowel harmony \REF{ex:ch12:vharmcaus}, and palatalization, where a final dental stop or fricative becomes an alveopalatal affricate in the causative  \REF{ex:ch12:palatalcaus}.
+
+\ea Causative alternation with vowel harmony \label{ex:ch12:vharmcaus}
+\ea \gll  ŋerá ŋ-a-meɲ-ó ék-árrá\\
+girl \textsc{cl}ŋ-\textsc{rtc}-exit-\textsc{pfv} \textsc{loc}-jail\\
+\glt ‘The girl got out of jail.’ 
+\ex \gll í-g-ɜ-mɜɲ-ú ŋerá ék-árrá\\
+\textsc{1sg-cl}ŋ-\textsc{rtc}-exit.\textsc{caus}-\textsc{pfv} \textsc{loc}-jail\\
+\glt 	‘I got the girl out (of jail).’   \label{ex:ch12:vharmcausb}
+\z 
+\ex Causative alternation with palatalization \label{ex:ch12:palatalcaus}
+ \ea \gll  ŋerá ŋ-ɜnt̪-ú ék-árrá\\
+girl \textsc{cl}ŋ-enter-\textsc{pfv} \textsc{loc}-jail\\
+\glt ‘The girl entered jail.’ 
+\ex \gll í-g-ɜntʃ-ú ŋerá ék-árrá\\
+\textsc{1sg-cl}ŋ-\textsc{rtc}-exit.\textsc{caus}-\textsc{pfv} girl \textsc{loc}-jail\\
+\glt 	‘I put the girl into jail.’   \label{ex:ch12:palatalcausb}
+\z  
+\z 
+Both of these phonological changes are independently triggered by the causative suffix \textit{-í}, but the affix itself is absent in these forms. Compare the causative affix in the perfective verb form in \REF{ex:ch12:overtcauseb} with the regular perfective suffix in \REF{ex:ch12:vharmcausb} and \REF{ex:ch12:palatalcausb}. Verbs with a vowel harmony-marked alternation are rare, one other example is \textit{-wodó/-wudú} `burn,' while palatalization is quite common, as discussed in Section \ref{sec:ch11:ucalt}. As discussed in that section, most irregular unaccusatives can also be causativized with the regular causative suffix.
+
+Another class of unaccusative verbs have a zero-marked alternation, with no difference between the unaccusative and causative variants. As case marking is generally optional in Moro (\sectref{sec:ch6:case}), the presence of the citation accusative form in subject position in \REF{ex:ch12:unmarkedcausa} does not seem to be of syntactic importance.
+\ea Unmarked causative alternation \label{ex:ch12:unmarkedcaus}
+\ea \gll eg g-a-kər-ó  \\
+house \textsc{cl}g-\textsc{rtc}-break-\textsc{pfv} \\
+\glt ‘The house broke.’ \label{ex:ch12:unmarkedcausa}
+\ex \gll é-g-a-kər-ó egeə \\
+\textsc{1sg-cl}g-\textsc{rtc}-break-\textsc{pfv} house.\textsc{acc}\\
+\glt ‘I broke the house.’ (i.e. `I ruined harmony within the family.')
+\ex  \gll eg g-a-kír-n-ú\\
+house \textsc{cl}g-\textsc{rtc}-break-\textsc{pass-pfv} \\
+\glt ‘The house was broken.’ (i.e. `Harmony was ruined within the family.')
+\z 
+\z 
+In the example above, also discussed in Section \ref{sec:ch11:passpass}, the passive preserves an idiomatic meaning of the transitive verb which the unaccusative use of the verb in \REF{ex:ch12:unmarkedcausa} does not possess. Another verb which has an unmarked alternation is \textit{-ekəndəɲ-} `collapse.' Otherwise this pattern seems somewhat uncommon. 
+
+There is on unaccusative verb which does not have a morphological alternation at all, \textit{-idú} `fall.' The transitive variant of this verb, \textit{-wud̪ú} `drop,' is unrelated. Perhaps related to the availability of this lexical causative, it is impossible to form a causative, regular or irregular, on \textit{-id-} `fall.' 
+
+Besides an alternation with a causative form, another definitional property of unaccusatives is that they cannot be passivized or reflexivized with the extension suffix \textit{-ən}. Consider the example below, illustrating the restriction with the root \textit{-toð-} `wake, move,' which takes the regular causative suffix.
+\ea No passive with unaccusative verbs \label{ex:ch12:unaccnopass}
+\ea \gll  	ŋerá ŋ-ɜ-tuð-i-in-ú \\
+			girl	\textsc{cl}ŋ-\textsc{rtc}-wake-\textsc{caus-pass-pfv} \textsc{loc}-sleep \\
+	\glt	‘The girl was woken.’ 
+\ex[*]{\gll ŋerá ŋ-ɜ-tuð-ən-ú \\
+			girl	\textsc{1sg-cl}ŋ-\textsc{rtc}-wake-\textsc{pass-pfv} \\}	
+\z 
+\z 
+This restriction on passivization is impossible to detect for many unaccusative verbs because their causative alternants involve phonological changes in the root that are also triggered by the passive suffix, namely palatalization and high vowel harmony (\sectref{sec:ch11:passive}). As a result, when these verbs are passivized there is no obstacle to interpreted the resulting forms as the passivized causative variants of the verb.
+
+At the same time, many unaccusative verbs take an optional locative phrase as their complement. For example, the verb \textit{-toð-} `move, rise, wake, stand up' that began this discussion 
+
+
+
+Unaccusative roots never combine with the antipassive/reciprocal \textit{-əð}. This restriction is a little easier to detect as this suffix does not trigger palatalization or high vowel harmony. Attempts to combine unaccusative verbs with this suffix have been consistently rejected.
+
+%can unaccusative verbs take a locative argument that can be passivized?
+
+\subsubsection{Unergative verbs}
+
+Unergative verbs are agentive intransitive verbs, those with a single argument, an agent, and which are typically intransitive. There are two classes of unergative verbs, 1) that take an optional cognate object and an optional locative object and 3) those that only take an optional locative object. 
+
+Focusing on the first class, the root \textit{-ndr-} `sleep' can take the object \textit{ŋuriði} `sleep (n.),' although this object can only occur if it is modified somehow.
+\ea 
+	\ea	\gll   kúku g-a-ndr-ó (\#ŋuriði)\\
+		Kuku \textsc{cl}g-\textsc{rtc}-sleep-\textsc{pfv} sleep\\
+		\glt `Kuku slept.'
+	\ex	\gll   kúku g-a-ndr-ó ŋuriði ŋ-é-ŋer-á\\
+		Kuku \textsc{cl}g-\textsc{rtc}-sleep-\textsc{pfv} sleep \textsc{cl}ŋ-\textsc{dpc1}-good-\textsc{adj}\\
+		\glt `Kuku slept a good sleep.'\label{ex:ch12:unergb}
+	\z
+\z 
+This cognate object in \ref{ex:ch12:unergb} is an object of the verb, as it can be passivized.
+
+\ea	\gll   ŋuriði ŋ-ɜ-ndr-ən-ú  íŋ:-é-ŋer-á\\
+		sleep \textsc{cl}ŋ-\textsc{rtc}-sleep-\textsc{pass-pfv} \textsc{scl}ŋ-\textsc{dpc1}-good-\textsc{adj}\\
+		\glt `A good sleep was slept.'
+\z 
+Note that the subject relative clause modifying the subject follows the verb, a case of a split subject NP (\sectref{sec:ch12:extraposition}). 
+
+Similarly, punctual verbs of caused motion such as \textit{-ogət̪-} `jump', can take a dummy object, which is simply the nominalized version of the verb `jump', e.g.:
+\ea	
+	\gll	kúku g-ogət̪-ó (ð-ógót̪-áŋ ð-ogən-á)\\
+			Kuku \textsc{cl}g-jump-\textsc{pfv} \textsc{cl}ð.\textsc{nom}-jump-\textsc{nom} \textsc{cl}ð-big-\textsc{adj}\\
+	\glt 	`Kuku jumped a big jump.'
+\z %can this verb have a locative object? can this object be passivized?
+
+%Unergative verbs  \textit{-ndr-} `sleep' and \textit{-ogət̪-} `jump'
+
+Other unergative verbs cannot take a nominal object. For the most part, these are stative position verbs, and these verbs can take a locative object. For example, the verb \textit{-daŋ-} `sit, stay' must take an animate subject, which is a clear indication that it is not an unaccusative verb.
+\ea 
+	\ea	\gll   ðamala ð-a-daŋ-ó \\
+		camel \textsc{cl}g-\textsc{rtc}-sit-\textsc{pfv} \\
+		\glt `The camel sat/stayed.'
+	\ex[\#]{	\gll   loandra  l-a-daŋ-ó\\
+		rock \textsc{cl}l-\textsc{rtc}-sit-\textsc{pfv}\\
+		\glt `\#The rock sat/stayed.' (intended)}
+	\z
+\z 
+Other verbs with this pattern include verbs of motion such as \textit{-álə́ɲ-} `flee,' \textit{-érl-} `walk.'  All of these unergative verbs of motion or position can still take a locative object which can be passivized.
+\ea 
+	\ea	\gll   é-g-a-daŋ-ó ðamala nano\\
+		\textsc{1sg-cl}g-\textsc{rtc}-sit-\textsc{pfv} camel at \\
+		\glt `I sat on the camel.'
+	\ex[\#]{	\gll   ðamala  ð-ɜ-dɜŋ-ən-ú nano\\
+		camel \textsc{cl}ð-\textsc{rtc}-sit-\textsc{pass-pfv} at\\
+		\glt `The camel was sat on'} \label{ex:ch12:saton2}
+	\z
+\ex	\ea	\gll   é-g-a-daŋ-ó egeə\\
+		\textsc{1sg-cl}g-\textsc{rtc}-sit-\textsc{pfv} \textsc{loc.}house \\
+		\glt `I sat in the house.' \label{ex:ch12:house1}
+	\ex[\#]{	\gll   eg  g-ɜ-dɜŋ-ən-ú-u \\
+		house \textsc{cl}g-\textsc{rtc}-sit-\textsc{pass-pfv-loc}\\
+		\glt `The house was sat in.' (intended)} \label{ex:ch12:house2}
+	\z
+\z  %what about stand? toð
+As is typical for passives of locatives, locative material is stranded postverbally in both cases. The passive of the adpositional phrase \textit{nano} strands the adposition \REF{ex:ch12:saton2}. The passive of the inessive locative argument in \REF{ex:ch12:house1} results in a locative clitic (\sectref{sec:ch11:locative}) on the verb \REF{ex:ch12:house2}.  
+
+Unlike unaccusative verbs, which have a number of irregular causative patterns, unergative verbs are only morphologically causativized with the regular causative suffix \textit{-í}.
+\ea	
+	\gll	kúku g-ugəʧ-í ŋalo-ŋ\\
+			Kuku \textsc{cl}g-jump-\textsc{caus.pfv} Ngalo-\textsc{acc}\\
+	\glt 	`Kuku made Ngalo jump.'
+\ex	\gll   kúku g-a-ndr-í ŋalo-ŋ\\
+		Kuku \textsc{cl}g-\textsc{rtc}-sleep-\textsc{caus.pfv} Ngalo-\textsc{acc}\\
+		\glt `Kuku made Ngalo sleep.'
+\ex	\gll   Kú:ku  g-ɜ-dɜŋ-í ŋalo-ŋ egeə \\
+		house \textsc{cl}g-\textsc{rtc}-sit-\textsc{caus.pfv} Ngalo-\textsc{acc} \textsc{loc.}house\\
+		\glt `Kuku made Nalo sit in the house' %check
+\z
+Regular morphological causative formation seems to be possible with all unergative verbs.
+
+We have seen that unergative verbs can occur with the passive suffix when they take a cognate object or have a valence-increasing suffix (\sectref{sec:ch12:increasing}) such as a locative object. However, unergative verbs never seem to take the anti-passive \textit{-əð}. This applies even to unergative verbs that can take a cognate object, e.g. \textit{*ga-ndr-əð-ó} `she slept (intended).' This point indicates that the optional object of unergative verbs is incompatible with the generic object which is supplied by the anti-passive suffix (\sectref{sec:ch12:antipassive}). %all of them?
+
+%todo More unaccusative?:
+%g-a-dáŋ-á		‘stay’
+%g-a-mə́t̪-iə́		‘live, inhabit’
+%g-ɜ-d̪r-ú `stopped'
+%kɜd̪ŕwʌ́  `he's about to stop'
+%ga-land̪-ó `close'
+%	g-ɜ-v-íd-iə́			‘fall down’
+%
+%todo check?
+%appear, disappear
+
+
+
+%Unergative verbs cannot be passivized. Additional examples of unergative verbs include \textit{-ńdr-} `sleep,' \textit{dɜ́dəð} `hiccup,' \textit{dúgə́ðən}	`work.'
+%
+%
+% \textit{sɜ́ð}	‘defecate’
+%
+%"Đappa iđu ṯasaṯo ŋǝɽǝfiano ŋenŋanṯa ŋerṯe agǝsiđa ŋǝɽǝfia."
+%at the end: poo labobs. 
+%
+%g-ɜ-víð-ɜ́	‘vomit’
+%
+% unergative?
+%g-a-ŋál-á		‘yawn’
+%
+%gɜ-t̪und̪-ú	& gɜ-t̪und̪-í & ‘cough’
+ 
+%\todo: check Locative?
+
+%can this have non-agentive subject?
+
+
+
+\subsection{Transitive verbs}
+
+Transitive verbs are those that productively take a single nominal object. All objects of transitive verbs can be passivized. Two examples of transitive verbs and their passives are provided below.
+\ea 
+	\ea \gll í-g-ɜ-kið-ú ɜwur \\
+		\textsc{1sg-cl}g-\textsc{rtc-}open-\textsc{pfv} door\\
+		\glt ‘I opened the door.’
+	\ex \gll ɜwur j-ɜ-kið-ən-ú \\
+		door \textsc{cl}j-\textsc{rtc-}open-\textsc{pfv}\\
+		\glt ‘The door was opened.’
+	\z
+\ex \ea \gll é-g-a-land-ó ɜwur \\
+		\textsc{1sg-cl}g-\textsc{rtc-}open-\textsc{pfv} door\\
+		\glt ‘I closed the door.’
+	\ex \gll ɜwur j-ɜ-lɜnd-ən-ú	\\
+		door \textsc{cl}j-\textsc{rtc-}open-\textsc{pfv}\\
+		\glt ‘The door was closed.’
+	\z 
+\z 
+Transitive verbs of motion take additional locative argument, which is semantically interpreted as a source; goals typically require the addition of a locative applicative suffix. This locative object can be passivized (\sectref{sec:ch12:locobj}), as can an optional instrumental object (\sectref{sec:ch12:instobj}). 
+
+It is extremely difficult to determine whether the objects of verbs are obligatory in Moro. This difficulty arises from the fact that inanimate object pronouns are null. Hence, `I opened' and `I opened it' would be indistinguishable in Moro. 
+
+However, transitive verbs do seem to fall into different classes in their ability to combine with the antipassive suffix. While there is speaker variation in the productivity of the antipassive, generally speaking, the anti-passive suffix can productively combine with transitive verbs that take a human object. They do not occur on verbs that generally take a theme as their object, in other words an argument which does not need to be human. To see this clearly, compare the verbs \textit{-veð-} `hit, kick' and \textit{-reð-} `chop' with semantically similar counterparts \textit{-pw-} `beat' and \textit{-bug-} `punch'.
+ \ea 
+	\ea \gll kúku g-ɜ-pw-ú ŋalo-ŋ\\
+ 		Kuku		\textsc{cl}g-\textsc{rtc-}beat-\textsc{pfv} Ngalo-\textsc{acc}\\
+		\glt ‘Kuku beat Ngalo.’
+	\ex \gll kúku g-ɜ-pw-əð-ú	\\
+		Kuku	\textsc{cl}g-\textsc{rtc-}beat-\textsc{ap-pfv}\\	
+		\glt ‘Kuku beat (someone).’
+	\z
+\ex \ea \gll kúku g-ɜ-bug-ú ŋalo-ŋ\\
+		Kuku \textsc{cl}g-\textsc{rtc-}punch-\textsc{pfv} Ngalo-\textsc{acc}\\
+		\glt ‘Kuku punched Ngalo.’
+	\ex \gll kúku  g-ɜ-bug-əð-ú	\\
+		door \textsc{cl}g-\textsc{rtc-}punch-\textsc{ap-pfv}\\
+		\glt ‘Kuku punched (someone).’
+	\z %can punch or beat take inanimate objects?
+\ex \ea \gll kúku g-a-veð-o ŋalo-ŋ\\
+ 		Kuku		\textsc{cl}g-\textsc{rtc-}hit-\textsc{pfv}\\
+		\glt ‘Kuku hit/kicked Ngalo.’
+	\ex[*] { kúku g-a-veð-ð-ó}
+	\z
+\ex \ea \gll kúku g-a-wað-o ŋalo-ŋ lavera-la\\
+		\textsc{1sg-cl}g-\textsc{rtc-}chopped-\textsc{pfv} Ngalo stick-\textsc{cl}l.\textsc{inst}\\
+		\glt ‘Kuku poked Ngalo with a stick.’
+	\ex[\%]{ \gll kúku g-a-wað-ð-o	\\
+		Kuku \textsc{cl}j-\textsc{rtc-}open-\textsc{pfv}\\
+		\glt ‘Kuku poked (someone), i.e. gave injections.’}\label{ex:ch12:injections}
+	\z 
+\z 
+As mentioned above, there is speaker variation in the productivity of the antipassive. While one speaker rejected the form in \REF{ex:ch12:injections}, another speaker accepted it, and offered the example of a nurse who regularly gave injections. This indicates that even when the antipassive combines with verbs that do not regularly take human objects, the object of the antipassive is presumed to be human. Thus, for transitive verbs like \textit{-lag-} `cultivate' which never take a human object, speakers uniformly reject the antipassive. This indicates that the restrictions on the antipassive combining with transitive verbs are primarily semantic and pragmatic in nature. Additional discussion of the antipassive and its relationship to the reciprocal is discussed in Section \ref{sec:ch12:antipassive}. 
+
+There is a general tendency for verbs which take themes or inanimate objects to end in /ð/; many of these verbs are in the transitive-applicative alternative verb class in discussed in Section \ref{sec:ch11:taalt}. In this class, a final /ð/ alternates with /t̪/ in the locative or benefactive applicative.  Transitive verbs do productively combine with the regular causative suffix, in which case the agent of the normal transitive verb is realized as an object.
+
+ 
+
+
+%Verbs ending in -ð
+
+%ʧómbəð `tickle'
+%váð `shave'
+%ndəð `cut'
+%kerð `argue'
+
+
+%
+%ɜnduð `bite'
+%ʌ́rːɜŋəʧəð `teach'
+%abəð `play, pet a dog'
+%áŕnəð `divide'
+%ávəð `throw a rock'
+%d̪oáð `push' / d̪oat̪ `send, forge'
+%dʌ́dəð `hiccup'
+%dʒəvəð `fall lightly, float'
+%ʤɜʧəvəð `drizzle' (redup of `float')
+%karð `hurry, be nervous, worry'
+%kəvəð `trick to do s.t., share'
+%kið `open' (note: kiðitu =`open in x')
+%kwəreð `scratch'
+%með `twist'
+%məlɜð `exchange, replace'
+%mwandəð `ask'
+%neð `refuse, prevent'
+%ɲət̪əð `be thin, waste away'
+%ŋərəð `break off, tap'
+%pə́láð `open a book'
+%tʃə́wáð `annoint'
+%vədað `shave'
+%vəleð `pull'
+%vəð `vomit'
+
+
+
+
+%
+%g-a-kwə́ɾéð-a 	‘scratch’\\
+%g-a-və́léð-a	‘pull’\\
+%g-a-dóɡát̪-a	‘fix’\\
+%g-ɜ-tə́mə́tʃ-ɜ	'collect'\\
+%g-a-və́dað-a		‘clean, sweep'\\
+%g-a-kə́rə́ɲat̪-a			`tell off, rebuke'\\
+%g-ɜ-púŋúðətʃ-ɜ		`pierce, make hole in'\\
+%g-ɜ-ɾə́mə́ðit̪-iə			fill a hole'\\
+%
+%\begin{tabular}[t]{lll}
+%Imperfective	&	Imperfective-passive	\\
+%g-a-t̪ávə́ð-a	&	g-ɜ-t̪ɜ́və́ʧ-ən-iə	&	‘spit’\\
+%g-a-kwə́ɾéð-a	&	g-ɜ-kúríð-ən-iə	&	‘scratch’ \\	
+%\end{tabular}
+%
+%g-a-wáð-á		‘poke’\\
+%g-a-wát̪-á		‘sew’\\
+%g-a-bwáɲ-á		‘like, want'\\
+%
+%
+%g-a-rə́m-á		‘hit with a large stone’\\
+%
+%g-a-méð-á		‘twist (rope)’
+%
+%g-a-lát̪-á		‘sift, make clay pots’\\
+%g-a-kə́v-á		‘pinch’\\
+%g-ɜ-dɜ́ɾ-iə́		‘cover’\\
+% 
+%44a. ummiɜ kareðó ugi	‘The boy chopped the tree.’ (down?)
+%44b. ummiɜ karéðá ugi	‘The boy is chopping the tree.’
+%
+%- discussions of different classes of verbs: unaccusative: 
+%- appearance, disappearance
+%- classes of labile verbs
+% change of location, change of state
+%
+%- unergative
+%- transitive
+%SO MANY \textsc{cl}ASSES...how do I start to go about this? Which ones can undergo causative and which can't? which can take applicatives and which can't?
+%- ditransitive 
+
+
+\subsection{Particle verbs}\label{sec:ch12:particle}
+
+Some verbs in Moro consist a verbal root and an enclitic adposition or particle (\sectref{sec:ch13:enclitic}). For example, the verb \textit{tavəð-} `divide, cut' plus the enclitic adposition \textsc{ánó} `inside' together form a complex transitive predicate meaning `cross.'
+
+\ea \gll g-a-tavəð-ó gí ánó\\
+ 		\textsc{cl}g-\textsc{rtc-}cut-\textsc{pfv} field inside \\
+	\glt ‘(S)he crossed the field.’ \label{ex:ch12:vpart1}
+\z
+The adpositional particle in these constructions has the same distribution relative to the noun as normal adpositions, described in \sectref{sec:ch13:adsyntax}, and in that sense the noun and particle together look identical to locative objects (\sectref{sec:ch12:locobj}). What this means is that the noun must precede the adposition while its modifiers must follow it. %todo example
+
+The nominal object of particle verbs can be passivized, as the following example demonstrates. In such cases, the adpositional component of the particle verb attaches directly to the verb. 
+\ea \gll gí g-a-tavəð-in-ú ánó $\to$ {\ \ \ \ \ \ \ [\textit{gatavəðənjánó}]}\\
+ 		field \textsc{cl}g-\textsc{rtc-}cut-\textsc{pass-pfv} inside {} {} \\
+	\glt `The field was crossed.'
+\z 
+
+Particle verbs can be intransitive as well as transitive.
+\ea \gll g-a-réð-ia nano\\ 
+\textsc{cl}g-\textsc{rtc-}turn-\textsc{ipfv} at \\
+\glt	`(S)he feels nauseated.'
+\ex \gll 	udʒí g-odəɲ-ó ánó\\
+			person \textsc{cl}g-squat-\textsc{ben.appl-pfv} inside \\
+	\glt  	`The person is kneeling.'
+\z 
+These verbs can take the normal extension suffixes for their class of verbs. When an object is added with an applicative extension suffixes, the object occurs between the verb and the particle. 
+\ea \gll 	udʒí g-udəɲ-it̪-ú rəmwa ánó\\
+			person \textsc{cl}g-squat-\textsc{ben.appl-pfv} God  inside \\
+	\glt  	`The person is kneeling before God.' \label{ex:ch12:vpart2}
+\z 
+Unaccusative particle predicates are common. This is especially true for adjectives, which are unaccusastive predicates, and which frequently form complex predicates with adpositional particles (\sectref{section:adjective}).
+
+
+
+%find more?
+%
+%11. égandró nano	‘I’m sleeping on it.’/covering/hiding it.’
+%
+%12. égandró ŋén nano	‘I’m sleeping on the word.’ = ‘I didn’t tell the truth.’
+%
+%13. ŋén ŋɜndranú nano	‘A lie was told.’
+%
+%14. ŋén ŋɜndranúu nano	‘A lie was told (there).’
+%
+%42a. ummiɜ kareðó	‘The boy returned.’
+%42b. ummiɜ karéðá	‘The boy is returning.’
+%43. ummiɜ kareðó ánóŋ	‘The boy turned around/back.’
+%45. ígɜríðí ummiɜ	‘I returned the boy.’
+%46. ígɜríðí ummiɜ anoŋ	‘I turned the boy around/back.’
+%47. ígɜríðí ummiɜ nda-la anoŋ	‘I turned the boy turn over on his head.’
+%
+%
+%53. ég-ond̪ədʒ-ətʃ-ɜ laŋwat̪a ŋawa-ŋa-ano	‘I filled the gourd w/ water.’ 
+%
+%54. laŋwat̪a l-ɜnd̪ə-dʒ-ətʃ-ú ŋaw-ano	‘The gourd is full inside of water.’ 
+%
+%55a. ŋawa l-ond̪ədʒ-ətʃ-ən-ú laŋwatánó	‘The water is filling the gourd.’  (being poured?)
+%55b. ŋawa lond̪ədʒətʃənú élaŋwata	‘The water is filling the gourd.’ 
+%
+%pour, fill, spray, load
+
+
+\subsection{Ditransitive verbs}
+
+Ditransitive verbs occur with an agent and two object noun phrases, whose semantic roles are  theme and recipient or goal. There are not many ditransitive verbs in Moro, but they include at least \textit{-natʃ-} `give' and   \textit{-ŋətʃ-} `show.'
+\ea \gll ɲá-g-a-natʃ-ó kúku-ŋ nádámá\\
+ 		\textsc{1ex.pl-cl}g-\textsc{rtc-}give-\textsc{pfv} Kuku-\textsc{acc} books\\
+		\glt `We gave the books to Kuku.'\label{ex:ch12:give}
+\ex  
+	\gll 	í-g-ɜ-ŋətʃ-ú	um:iə ádámá\\
+			\textsc{1sg-cl}g-\textsc{rtc}-show-\textsc{pfv} boy book\\
+	\glt 	`I showed the boy the book'
+\z 
+In ditransitive clauses, there is a preference to place the goal before the theme. This position is obligatory if the goal is animate while the theme is inanimate, as in \REF{ex:ch12:give}. This is an artifact of the general animacy-based ordering of objects (\sectref{sec:ch12:objnoun}). Additionally, only the goal can be absorbed by the antipassive suffix, while the theme remains behind.
+\ea
+	\ea \gll ɲá-g-a-natʃ-əð-ó nádámá\\
+ 		\textsc{1ex.pl-cl}g-\textsc{rtc-}give-\textsc{ap-pfv}  books\\
+		\glt ‘We gave the books (to someone).’ \label{ex:ch12:giveap}
+	\ex \gll ɲá-g-a-natʃ-əð-ó Kuku-ŋ\\
+ 		\textsc{1ex.pl-cl}g-\textsc{rtc-}give-\textsc{pfv} Kuku-\textsc{acc}\\
+		\glt ‘We gave Kuku to someone.’ (only interpretation)
+	\ex[*]{ɲá-g-a-natʃ-əð-ó Kuku-ŋ}
+	\z 
+\z 
+Despite these two asymmetries, the two objects of ditransitives are largely symmetrical. Both can be passivized, pronominalized, or extracted, and the order between them is generally free, provided they are of the same animacy. See \sectref{sec:ch12:objnoun} for further discussion of symmetry in nominal objects. 
+
+Ditransitive verbs are regular in their ability to take valence increasing suffixes such as the causative, benefactive applicative, and locative applicative. 
+\ea 
+\ea \gll ɲɜ́-g-ɜ-nɜdʒ-itʃ-ið-í ŋalo-ŋ kúku-ŋ nadama\\ %todo check: why final í here!?
+ 		\textsc{1ex.pl-cl}g-\textsc{rtc-}give-\textsc{-ben.appl-?-pfv} Ngalo-\textsc{acc}  Kuku-\textsc{acc} books\\
+	\glt ‘We gave the books to Kuku for Ngalo.’\label{ex:ch12:giveben}
+\ex \gll ɲá-g-a-nadʒ-atʃ-ó kúku-ŋ nadama gí nano\\
+ 		\textsc{1ex.pl-cl}g-\textsc{rtc-}give-\textsc{-loc.appl-pfv} Kuku-\textsc{acc} books field near\\
+	\glt ‘We gave the books to Kuku near the field.’\label{ex:ch12:giveloc}
+\ex \gll ɲɜ́-g-ɜ-nɜtʃ-í ŋalo-ŋ kúku-ŋ nadama\\ 
+ 		\textsc{1ex.pl-cl}g-\textsc{rtc-}give-\textsc{-caus.pfv} Ngalo-\textsc{acc}  Kuku-\textsc{acc} books\\
+	\glt ‘We made Ngalo give Kuku the books.’ \label{ex:ch12:givecaus}
+\z 
+\z 
+The verb \textit{-natʃ-} `give' is notable for requiring an extra \textit{-əð} in the benefactive applicative, despite the absence an antipassive effect on the sentence (\sectref{sec:ch11:benappl}). %todo: is this real?
+
+Many verbs which might be expected to be ditransitive are monotransitive in Moro and require applicative morphology to take two nominal arguments. For example, \textit{-t̪w-} `sell' and \textit{ilið-} `buy, sell' are both normal transitive verbs which take a theme as an obligatory argument. To include a recipient or goal, these verbs must occur with an applicative suffix. Note that \textit{ilið-} `buy, sell' is a verb with an alternating final (\sectref{sec:ch11:taalt}).
+
+\ea \ea \gll ɲá-g-a-t̪é nadama\\
+ 		\textsc{1ex.pl-cl}g-\textsc{rtc-}sell.\textsc{pfv}  books\\
+		\glt ‘We sold the books.’ 
+	\ex \gll ɲɜ́-g-ɜ-t̪u-t̪-í Kuku-ŋ nadama\\
+ 		\textsc{1ex.pl-cl}g-\textsc{rtc-}sell-\textsc{ben.appl-pfv} Kuku-\textsc{acc} books\\
+		\glt ‘We sold Kuku the books.’\label{ex:ch12:sellto} %for Ngalo? 
+	\z
+\ex \ea \gll ɲɜ́-g-ilið-ú nadama\\
+ 		\textsc{1ex.pl-cl}g-\textsc{rtc-}give-\textsc{ap-pfv} books\\
+		\glt ‘We bought the books.’
+	\ex \gll ɲɜ́-g-ilit̪-ú Kuku-ŋ nadama\\
+ 		\textsc{1ex.pl-cl}g-\textsc{rtc-}buy.\textsc{ben.appl}-\textsc{pfv} Kuku-\textsc{acc} books\\
+		\glt ‘We bought the books for Kuku.’ \label{ex:ch12:buyfor}
+	\ex \gll ɲɜ́-g-ilið-it̪-ú Kuku-ŋ nadama\\
+ 		\textsc{1ex.pl-cl}g-\textsc{rtc-}buy.\textsc{loc.appl}-\textsc{pfv} Kuku-\textsc{acc} books\\
+		\glt ‘We bought the books from Kuku.’ \label{ex:ch12:buyfrom}
+	\z
+\z 
+These examples exhibit a correlation in the type of applicative marking and semantic role with motion verbs: benefactive applicatives are used to license a goal argument (ref{ex:ch12:sellto}, \ref{ex:ch12:buyfor}) while the locative applicative is used to license a source \REF{ex:ch12:buyfrom}. See Section \ref{sec:ch12:increasing} for more details. 
+
+The same observation is illustrated for `take' and 'bring' below, verbs which seem semantically ditransitive but which only are ditransitive with the addition of an extension suffix.
+\ea \ea \gll ɲá-g-a-p-ó nadama\\
+ 		\textsc{1ex.pl-cl}g-\textsc{rtc-}carry-\textsc{pfv}  books\\
+		\glt ‘We brought/carried the books.’ 
+	\ex \gll ɲɜ́-g-ɜ-b-ət̪-ú Kuku-ŋ nadama\\
+ 		\textsc{1ex.pl-cl}g-\textsc{rtc-}carry-\textsc{ben.appl-pfv} Kuku-\textsc{acc} books\\
+		\glt ‘We brought Kuku the books.’ \label{ex:ch12:bringto}
+	\z
+\ex \ea \gll ɲá-g-a-m:-ó nadama\\
+ 		\textsc{1ex.pl-cl}g-\textsc{rtc-}take-\textsc{ap-pfv} books\\
+		\glt ‘We took the books.’
+	\ex \gll ɲɜ́ɲá-g-a-m:-at̪-ó Kuku-ŋ nadama\\
+ 		\textsc{1ex.pl-cl}g-\textsc{rtc-}take-\textsc{loc.appl}-\textsc{pfv} Kuku-\textsc{acc} books\\
+		\glt ‘We took the books from Kuku.’ \label{ex:ch12:takefrom}
+	\z
+\z 
+The same correlation in these verbs arises between benefactive applicative and goal in \REF{ex:ch12:bringto} and locative applicative and source in \REF{ex:ch12:takefrom}.
 
 
 \section{Objects}\label{sec:ch12:objects}
 
-\section{Basic properties of objects}
+Three properties characterize objects in Moro. 1) objects follow the verb 2) they can be pronominalized, meaning they can be realized as pronominal object markers that are incorporated into the verb 3) they can be passivized into subject position. These three properties are illustrated in the following examples.
 
-Properties of objects:
-- Objects follow verbs
-- Objects are pronominalized as incorporated pronouns or object markers
-- Objects can be passivized (or reflexivized? or antipassivized?)
+\ea	\textit{Verb-Object order}\\
+		\gll	kú:ku	g-a-bwáɲ-á	ká:ka-ŋ \\
+				Kuku	\textsc{cl}g-\textsc{rtc}-like-\textsc{ipfv} Kaka-\textsc{acc}\\
+		\glt 	`Kuku likes Kaka.' \label{ex:ch12:OVorder}
+	\ex	\textit{Pronominal realization of object}\\
+		\gll	kú:ku	g-a-ŋó-bwaɲ-a \\
+				Kuku	\textsc{cl}g-\textsc{rtc}-\textsc{3sg.hum}-like-\textsc{ipfv}\\
+		\glt 	`Kuku likes her.'
+	\ex	\textit{Passivized object}\\
+		\gll	ká:ka	g-ɜ-bwɜ́ɲ-ə́n-ɜ \\
+				Kuku	\textsc{cl}g-\textsc{rtc}-like-\textsc{pass-ipfv}\\
+		\glt 	`Kaka is liked.'
+\z 
+According to these diagnostics, all postverbal nominals qualify as objects: nominal objects, locative objects, and instrumental objects. 
 
-Obligatoriness:
-- Non-human objects have a null pronominal variant so they appear optional in many texts
-- Human objects are obligatorily expressed either as noun phrases or object markers
+As example \REF{ex:ch12:OVorder} shows, nominal objects optionally are marked with accusative case (\ref{sec:ch12:objnoun}). This optionality seems to be purely morphological. Accusative case does not appear on locative or instrumental objects, which occur with locative case markers or adpositions, but which nevertheless can be pronominalized and passivized, resulting in stranding of the locative or adpositional marking in the clitic group of the verb (\sectref{sec:ch11:clitic}).
 
-Objects are symmetrical in Moro according to a number of tests (ackerman et al.):
-ordering, pronouns, passives, 
+Two principles characterize sentences containing multiple objects. The first is symmetry. The second is animacy-based ordering. These principles hold both with the two objects of a ditransive verb and if one of the objects has been added by an applicative.
 
-Nevertheless, there are a number of asymmetries: 
-person/number, binding
+The symmetrical properties of Moro objects are documented and analyzed in \citet{Ackerman:2015}. They observe that in sentences with multiple objects, order is relatively free (\sectref{sec:ch12:objnoun}), any object can be pronominalized, and any object can be passivized. Examples illustrating symmetrical passivization are provided throughout this section, and in sections \sectref{sec:ch11:passpass}.
+
+The second property of sentences with multiple objects is the animacy-based ordering of objects; the order of multiple objects in Moro is based on their semantic features more than their grammatical roles, though both factors play a role. Pronouns always precede animate objects, which always precede inanimate ones,  which in turn tend to precede adverbs, although the order of adverbs is generally free relative to other objects (\sectref{sec:ch13:adverbsyntax}). The schema below summarizes this order.
+
+\ea Order of elements in VP ($<$ = precedes)\\
+$[_{\textsc{VP}}$ Verb = Obj$_{\textsc{pro}}$ $<$ Obj$_{\textsc{+anim}}$ $<$ Obj$_{\textsc{-anim}}$ $<$ AdP/Adverb $]$  \label{ex:ch12:vporder}
+\z
+Pronominal objects are subject to additional ordering restrictions which follow the person hierarchy (\sectref{sec:ch12:pronoun}). Nonhuman singular pronouns are null, while nonhuman plural pronouns occur after human pronouns but before nominal objects.
+
+A text count of a sample 1,082 sentences from the Moro Story Corpus was conducted to check whether these tendencies were found in naturally occurring texts. Pronouns were not included in the count because they are dependent affixes that always occur on the verb. The count was restricted to sentences where multiple object noun phrases occur, or where an object occurred with an adpositional phrases containing a full nominal or adverbs. Pronouns were not examined as their position is reliably determined by morpho-phonological factors (\sectref{sec:ch7:om}). The results of this text count are in \tabref{tab:ch12:vporder}. The text count revealed that the naturally occurring order of elements in texts conforms to the ordering statement in \REF{ex:ch12:vporder}: animate objects always precede inanimate ones, goals precede themes, and object noun phrases precede adverbs and adpositional phrases.\footnote{\label{fn:ch12:exception} The one exception to the Object NP $<$ AdP tendency that was identified involves an instrumentally marked NP, which is an oblique NP, preceding an unmarked locative object of the locative copula (\sectref{section:loccop}). 
+
+\ea \gll y-ënŋu n-ǝya-jǝb-ëin-i e-ŋen ṯa y-a-f-o ǝrđa-ra ëñua,\\
+\textsc{cl}y-\textsc{3sg.pro} \textsc{comp2-cl}y.\textsc{inf}-forget\textsc{-pass-cons.pfv} \textsc{loc}-matter \textsc{comp1} \textsc{cl}y-\textsc{rtc}-be.loc-\textsc{pfv} meat-\textsc{cl}r.\textsc{inst} mouth\\
+\glt `he forgot that he had meat in his mouth\ldots' (\textit{from} `The crow and Abilimi the deceiver')
+\z 
+
+In the relevant clause, \textit{Ajǝŋgwara} `Crow' is the implied subject of the lower clause, so it is literally 'Crow was with the meat (in) mouth'. Note that this is not a normal way to express posession, as Moro has a `have' verb \textit{ert̪}.} Examples of various patterns are provided in the following section. The distribution of adverbs and adpositional phrases are further discussed in Chapter \ref{chapter:adverbs}.
+
+\begin{table}
+\caption{\textit{Ordering of phrasal elements in VP in Moro Story Corpus}}
+\begin{tabular}{lcc}
+\toprule 
+& \textit{Consistent} & \textit{Inconsistent} \\
+\midrule 
+Obj$_{\textsc{+anim}}$ $<$ Obj$_{\textsc{-anim}}$ &  20 & 0 \\
+Obj$_{\textsc{recip}}$ $<$ Obj$_{\textsc{theme}}$ & 23 & 0  \\
+Object NP $<$ AdP &  87 & 1 \\
+Object NP $<$ Adverb  & 17 & 0 \\	
+AdP $<$ Adverb & 6 & 8 \\	
+\bottomrule
+\end{tabular}	\label{tab:ch12:vporder}
+\end{table}
+
+
+
+
+%todo further investigation of this: does `girl' need to precede camel?
+%todo relative ordering of instrumental and locative objects?
+
+
+\subsection{Nominal objects}\label{sec:ch12:objnoun}
+
+This section discusses the syntactic distribution of objects which are full noun phrases. Objects noun phrases always follow the verb. Nominal objects also tend to come immediately after the verb, before non-objects in the noun phrase such as modifying adpositional phrases and adverbs. However, while locative noun phrases or PPs can never intervene between a verb and an object \REF{ex:ch12:ppobj}, adverbs can \REF{ex:ch12:advobj}.
+
+\ea \textit{Object noun phrase and adpositional phrases}
+	\ea Verb-Object-PP
+	\ex Verb-PP-Object\label{ex:ch12:ppobj}
+	\z 
+\ex \textit{Object noun phrase and adverbs}
+	\ea Verb-Object-Adv
+	\ex Verb-Adv-Object
+	\z 
+\z
+
+In sentences with multiple nominal objects, there are some senses in which objects are symmetrical and others in which objects are asymmetrical, as described in \citet{Ackerman:2015}. With respect to order, objects order freely as long as they are of the same animacy; yet animate objects must precede inanimate ones.  At the same time, among objects of equal animacy there is a tendency for thematically higher ranked arguments to occur on the left, discernible in texts. Additionally, semantic facts conspire to force certain word orders. For example, if one object semantically binds another, the scopally higher object must occur to the left as well. These observations are illustrated below.
+
+First, if multiple objects are of the same animacy, they can occur in either order. This is shown for two human nouns below:
+
+\ea \textit{Free object order: two human nouns}\\
+\gll  \'e-g-a-natʃ-\'o \textipa{N}\'al:o-ŋ k\'oja-
+ŋ\\
+\textsc{1sg-cl}g-\textsc{rtc}-give-\textsc{pfv} Ngallo-\textsc{acc} Koja-\textsc{acc}\\
+\glt `I gave Ngallo to Koja.' / `I gave Koja to Ngallo.'  \hfill (Jenks \& Sande 2017)
+\z 
+Both objects are marked with accusative case (\sectref{section:accusative}), another way in which the two objects of ditransitives are symmetrical.
+
+Word order is free between an animate and a human noun, which reveals that ordering is based on animacy rather than humanness. Because the interpretation of \textit{dia} `cow' as a goal is dispreferred, the examples below illustrate free ordering by showing that \textit{dia} `cow' can occur in either position when it is interpreted as the theme.\footnote{\citet[][p. 41, ex. 68b]{Ackerman:2015} identifies a similar example as semantically anomolous (\#). This is only true if `cow' is interpreted as the goal. If `cow' is interpreted as a theme, this sentence is fine.}
+
+\ea \textit{Free object order: human and animate noun}\\
+\ea \gll  \'ega-natʃ-\'o K\'uk:u-ŋ dia\\
+\textsc{1sg.rtc}-give-\textsc{pfv} Kuku-\textsc{acc} cow\\
+\glt `I gave the cow to Kuku.' 
+\ex \gll  \'ega-natʃ-\'o dia K\'uk:u-ŋ\\
+\textsc{1sg.rtc}-give-\textsc{pfv} Kuku-\textsc{acc} cow\\
+\glt `I gave the cow to Kuku.' \hfill AN110915 \z
+\z
+%todo: does reflexivization work the same way?
+The general symmetry between multiple human or animate noun phrases extends to their ability to be pronominalized (\sectref{sec:ch12:pronoun}) and their ability to be promoted to subject position in passive sentences (\sectref{sec:ch12:passive}).
+ %what about antipassives???
+
+However, if one object is inanimate and the other is animate, an animate object must precede the inanimate one. This is true for both lexically ditransitive verbs \REF{ch12:ex:aninc} as well as verbs which are distransitive due to a benefactive applicative \REF{ch12:ex:aninc} or causative suffix \REF{ch12:ex:aninc}.
+
+\ea Animate must precede inanimate: Ditransitive\\ \label{ch12:ex:anina} 
+\ea \gll  \'ega-natʃ-\'o \'or\'aŋ ádámá\\
+\textsc{1sg.rtc}-give-\textsc{pfv} man book\\
+\glt `I gave the man the book.' 
+\ex[*]{ \gll  \'ega-natʃ-\'o ádámá \'or\'aŋ\\
+\textsc{1sg.rtc}-give-\textsc{pfv} book man\\
+\glt \ \ \ \ \hfill \citep[][p. 41]{Ackerman:2015}}
+\z 
+\ex \textit{Animate must precede inanimate: Applicative}\\ \label{ch12:ex:aninb}
+\ea \gll  \'igɜ-r:-ət̪-ú \'ow:\'a ŋóɾéðá\\
+\textsc{1sg.rtc}-pound-\textsc{appl-pfv} woman sesame\\
+\glt `I pounded the sesame for the woman.' 
+\ex[*]{ \gll  \'igɜ-r:-ət̪-ú ŋóɾéðá \'ow:\'a \\
+\textsc{1sg.rtc}-pound-\textsc{appl-pfv} sesame woman \\
+\glt \ \ \ \ \hfill \citep[][p. 41]{Ackerman:2015} }
+\z
+\ex \textit{Animate must precede inanimate: Causative}
+\ea
+\gll  \'igɜ-kɜd̪-\'i óráŋ ŋoana \label{ch12:ex:aninc}\\ 
+\textsc{1sg.rtc}-plant-\textsc{caus.pfv} man grain\\
+\glt `I made the man plant the grain.' 
+\ex[*]{ \gll  \'igɜ-kɜd̪-\'i  ŋoana óráŋ\\
+\textsc{1sg.rtc}-plant-\textsc{caus.pfv}  grain man\\
+\glt \ \ \ \ \hfill \citep[][p. 41]{Ackerman:2015} }
+\z
+\z  
+The asymmetry between animate and inanimate nouns in word order does not extend to syntactic operations such as passivization, for example, as inanimate objects can be freely passivized (\sectref{sec:ch12:passive}).
+
+Texts confirm that animate objects must precede inanimate ones. As shown in \tabref{tab:ch12:vporder}, 23 were found with two overt object noun phrases. In all twenty examples with one animate and one inanimate object, the human or animate object preceded the inanimate one. Two representative examples are below, the relevant nouns are bold.
+
+\ea \textit{Human/animate object $<$ inanimate object in texts}
+\ea naŋənanace lorba ŋwala ildi ləɽëwur naləmwëđəṯi,\\
+\gll n-aŋə-na-nac-e \textbf{lorba} \textbf{ŋwala} ild-i lə-ɽëwur n-alə-m-wëđ-əṯ-i,\\
+\textsc{comp2-3sg.inf-iter}-give-\textsc{cons.pfv} sisters sorghum \textsc{scl}l-this  \textsc{cl}l.\textsc{poss}-door \textsc{comp2-cl}l\textsc{.inf}-\textsc{3sg.om}-grind-\textsc{appl-inf1}\\
+\glt `she gives her neighbor sisters some sorghum to grind for her,' \\ \ \ \hfill \textit{from} `What do Moro people do?' \label{ex:ch12:anin1}
+\ex na aŋgace ṯa ëđəmwa gǝnǝŋ aŋənace emađen đar\\
+\gll na aŋgace ṯa ëđəmwa  g-ǝnǝŋ aŋə-nac-e \textbf{emađ-en} \textbf{đar}\\
+ and perhaps \textsc{comp1} young.man \textsc{cl}g-\textsc{indef} \textsc{3sg.inf}-give-\textsc{cons.pfv}  peer\textsc{-3sg.poss} rope\\
+\glt `perhaps one young man gave a cord to his peer' \hfill \textit{from} `Stickfighting'
+\z 
+\z
+Note that these examples have consecutive verbal morphology (\sectref{sec:ch11:subjectagreement}), which dominates in texts (\sectref{clausechain}). Example \REF{ex:ch12:anin1} also features a discontinuous NP, where a demonstrative and possessive noun phrase modifying the object to the right of the inanimate object (\sectref{sec:ch12:split}); crucially, though, the requirement that the animate noun precede the inanimate holds of the head nouns.
+
+Text counts also reveal a preference to order goals before themes: every sentences with two human or animate nouns features the goal before the theme, as in the two examples below.
+
+\ea \textit{Goal $<$ theme in texts}\\
+\ea Na ŋowa ŋafo ŋananaca ëđǝmwa laro.\\
+\gll Na ŋowa ŋ-a-fo ŋ-a-na-nac-a ëđǝmwa laro.\\
+and  young.woman  \textsc{cl}ŋ-\textsc{rtc}-past\textsc{.aux}  \textsc{cl}ŋ-\textsc{rtc-iter}-give-\textsc{ipfv}  young.man chickens.\\
+\glt `And the young woman used to give chickens to her betrothed young man as a gift' \hfill \textit{from} `What do Moro people do?'
+\ex Na uđaren ëđǝmwa gafo gananaca uđaren ŋowa rǝldo.\\
+\gll Na  uđar-en ëđǝmwa g-a-fo g-a-na-nac-a uđar-en  ŋowa rǝldo.\\
+and uncle-\textsc{3sg.poss} young.man \textsc{cl}g-\textsc{rtc}-past\textsc{.aux} \textsc{cl}g\textsc{-rtc}\textsc{-iter}-give\textsc{-ipfv} uncle-\textsc{3sg.poss} young.woman goat\\
+\glt `And the young man's uncle gives the young woman’s uncle a goat.'\\ \ \  \textit{from} `What do Moro people do?'
+\z
+\z
+In addition to ordering the goal before the theme, these two examples both involve the order human $<$ non-human animate noun, a potential confound if humans are preferred before nonhumans. Nevertheless, the unexceptional preference for the order goal $<$ theme in texts suggests that the cases of ambiguity above are the exception rather than the norm. This suggests in turn that when the theme precedes the goal, information structure may play a hand in ordering, a topic which requires additional work.
+
+Finally, in noun phrases where there is a dependency between the two object noun phrases, either due to referential dependence or quantificational binding, the noun phrase containing the binder must precede the noun phrase with the bound pronoun or anaphor \citep[][p. 43-45]{Ackerman:2015} 
+
+The requirement that noun phrases precede bound elements is illustrated in the following examples for reflexive binding \REF{ch12:ex:reflobj}, quantificational binding \REF{ch12:ex:qobj}, and a referentially dependent pronoun \REF{ch12:ex:rex}.
+
+\ea \textit{Reflexive binding}\\ \label{ch12:ex:reflobj}
+\ea \gll ígɜ-ŋɜtʃ-ú lɜmiə ntam en-en	\\
+\textsc{1sg.rtc}-tell-\textsc{prf} boys \textsc{necks} \textsc{3pl-redup}\\			
+\glt `I told the boys about themselves.'
+\ex *ígɜŋɜtʃú ntam enen lɜmiə  \hfill AN101915
+\z 
+\ex \textit{Quantificational binding}\\ \label{ch12:ex:qobj}
+\ea \gll ígɜ-ŋɜtʃ-ú lɜm:ia ododo lɜng-en-andá		\\	
+\textsc{1sg.rtc}-show-\textsc{pfv} boys all mothers-\textsc{3poss}-\textsc{assoc.pl} \\
+\glt `I showed the mothers to each boy.' /
+`I showed each boy to his mother.'
+\ex *ígɜŋɜtʃú lɜng-en-andá lɜm:ia ododo  \hfill AN101915
+\z 
+\ex \textit{Referentially dependent pronoun} \label{ch12:ex:rex}\\
+	\ea \gll ígɜ-sɜdʒ-ɜtʃ-ú kúku-ŋ díɜ nano éroŋre	\\
+\textsc{1sg.rtc}-see-\textsc{loc.appl}-\textsc{pfv} Kuku-\textsc{acc} \textsc{cl}r.cow at \textsc{cl}r.\textsc{3sg.poss} \\
+	\glt 	`I saw Kuku$_{j}$ by his$_{i/j}$ cow.'
+\ex \gll  ígɜ-sɜdʒ-ɜtʃ-ú dia éroŋre kúku-ŋ nano \\
+	\textsc{1sg.rtc}-see-\textsc{loc.appl}-\textsc{pfv} \textsc{cl}r.cow \textsc{cl}r.\textsc{3sg.poss} Kuku-\textsc{acc} at  \\
+	\glt `I saw his$_{i/*j}$ cow by Kuku$_{j}$.' \hfill AN11915\\
+	\z 
+\z 
+Example \REF{ch12:ex:qobj} is notable in that the presence of fixed order does not correspond to a fixed interpretation for the sentence; either noun phrase can still be goal or theme. In example \REF{ch12:ex:rex}, the subscripts below the translations indicate that the pronoun \textsc{éroŋre} can only be bound by another object when it is preceded by that object, otherwise it must refer to a third individual. In all three cases, the binder must precede the bound pronoun or anaphor, even though, in all three cases, both objects are animate. 
+
+\subsection{Pronominal objects}\label{sec:ch12:pronoun}
+
+Pronominal human and plural objects are realized as object markers, a clitic which attaches to the main verb. Non-human singular objects are null. The distribution of object marker clitics is complex. They either precede or follow the verb depending on the specific pronoun and the tonal properties of the verb (\sectref{sec:ch11:objectpre},\sectref{sec:ch11:objectpost}). If pronominal objects are focused, they appear as an independent object pronoun which occurs with the object marker (\sectref{sec:ch7:indep}), otherwise object markers never occur with overt object noun phrases (\sectref{sec:ch7:om}). This section describes the general distribution of pronominal objects, as well as sentences with multiple pronominal objects, where pronouns are subject to a strict ordering based on the person hierarchy.
+
+Object marker pronouns only exist for human and plural objects, non-human singular pronouns have no overt realization.
+\ea 
+	\ea \gll  ŋál:o g-ɜ-sɜtʃ-ə́-ŋo\\
+			  Ngalo \textsc{cl}g-\textsc{rtc}-see-\textsc{pfv}-\textsc{3sg.om}\\
+		\glt `Ngalo saw him/her.' \label{ex:ch12:pro1}
+	\ex \gll  ŋál:o g-ɜ-sɜtʃ-ə́-lo\\
+			  Ngalo \textsc{cl}g-\textsc{rtc}-see-\textsc{pfv}-\textsc{3pl.om}\\
+		\glt `Ngalo saw them. (human or nonhuman)'
+	\ex \gll  ŋál:o g-ɜ-sɜtʃ-ú\\
+			  Ngalo \textsc{cl}g-\textsc{rtc}-see-\textsc{pfv}\\
+		\glt `Ngalo saw it.'
+\z
+\z
+Affixal object markers are the normal realization of pronouns. Object markers are not instances of agreement, because object markers cannot co-occur with object noun phrases (see example \REF{ex:ch7:objpro}, from \sectref{sec:ch7:om}).
+
+In \REF{ex:ch12:prosymmetrical}, the pronominal object marker occurs as an enclitic on the verb, discussed further in \sectref{sec:ch11:objectpost}, Pronominal object markers can also occur as a prefix, between the preverb and the verb stem (\sectref{sec:ch11:objectpre}. 
+
+The symmetry between animate objects extends to their pronominal occurrences. First, in sentences with multiple human objects, either object can become a pronoun, realized as a verbal clitic which occurs either before or after the verb stem (\sectref{sec:ch7:om}). Because pronominal objects are realized as verbal affixes, and verbs always precede object noun phrases, pronominal objects always precede nominal objects. This is true regardless of the thematic role of the pronoun. As a result, sentences with one pronominal and one nominal object are systematically ambiguous as long as both readings are pragmatically feasible.
+
+\ea \textit{Symmetrical pronominalization: Two human nouns}\\
+\gll  \textipa{N}\'al:o ga-natʃ-\'ə-ɲé k\'oja-\textbf{\textipa{N}}\\
+Ngalo \textsc{cl}g-\textsc{rtc}-give-\textsc{pfv}-\textsc{1sg.om} Koja-\textsc{acc}\\
+\glt `Ngalo gave me to Koja' / `Ngalo gave Koja to me' 
+\z 
+
+When multiple pronominal objects occur, they are ordered by a person hierarchy \citep{silverstein:1976}, irrespective  of the semantic roles of the two arguments \citep{Ackerman:2015,Jenks:2015}. As a result, sentences with multiple pronouns are systematically ambiguous. Unlike in other languages, there do not seem to be any restrictions on the co-occurrence of sentences with multiple pronominal object markers in Moro.
+
+%(3pl-sg?) 
+
+The specific Moro hierarchy is in \REF{ex:ch12:hier}, along by a perfective and imperfective examples illustrating two possible combinations. In the imperfective, where object markers typically precede the verb, only the higher ranked object marker occurs in the preverbal position \citep{Jenks:2015}. 
+
+%First person plural and second person singular argument are not rigidly ordered, and speakers seem to accept and produce both possibilities. CHECK
+
+\ea \textit{Moro (Thetogovela) object hierarchy} \label{ex:ch12:hier}\\
+\textsc{1sg} $<$ \textsc{2sg} / \textsc{1pl/du.in/ex} $<$ \textsc{2pl} $<$ \textsc{3sg}  $<$ \textsc{3pl}
+\ex \textsc{1sg} $<$ \textsc{3sg}
+\ea \gll ɡ-a-naʧ-ә́-ɲә́-ŋo \\
+\textsc{cl}g-\textsc{rtc}-give-\textsc{pfv}-\textsc{1sg.om}-\textsc{3sg.om} \\
+\glt `s/he gave me to her/him' \textit{or} `s/he gave her/him to me' (Perfective)
+\ex  \gll ɡ-a-ɲә́-naʧ-a-ŋó \\
+\textsc{cl}g-\textsc{rtc}-\textsc{1sg.om}-give-\textsc{ipfv}-\textsc{3sg.om} \\
+\glt `s/he is about to give me to her/him' or `s/he is about to give her/him' (Imperfective)
+\z 
+\ex \textsc{1in.pl} $<$ \textsc{3sg}\\
+\ea \gll ɡ-a-naʧ-ә́-ńd-r-ŋo \\
+\textsc{cl}g-\textsc{rtc}-give-\textsc{pfv}-\textsc{1in.pl-pl}-\textsc{3sg.om} \\
+\glt `s/he gave us all to her/him' \textit{or} `s/he gave her/him to us all'\\ (Perfective)
+\ex \gll ɡ-a-ńdә-naʧ-a-ŕ-ŋo\\
+\textsc{cl}g-\textsc{rtc}-\textsc{1in.pl}-give-\textsc{ipfv}-\textsc{pl}-\textsc{3sg.om} \\
+\glt  `s/he is about to give her/him to us all' \textit{or} `s/he is about to give us all to her/him' (Imperfective)
+\z 
+\z 
+As the glosses above demonstrate, person hierarchy-based ordering of pronouns overrides any ordering based on semantic role. This generalization holds even when locative or instrumental objects are realized pronominally; these oblique object markers will be ordered based on their position in the hierarchy rather than their syntactic status. 
+
+%TODO example?
+
+%A full paradigm for verbs with two object markers in the perfective is provided in \tabref{tab:ch12:pfvpronounorder}, and in the imperfective in \tabref{tab:ch12:ipfvpronounorder}. Forms with arguments with the same person are excluded due to their general pragmatic awkwardness and the potential for reflexive interpretations.
+%
+%\begin{table}
+%	\caption{Ordering with multiple object markers: Perfective}\label{tab:ch12:pfvpronounorder}
+%	\begin{tabular}{rcc}
+%		\toprule
+%& \textit{Perfective} & \textit{Imperfective}\\
+%		\bottomrule
+%	\end{tabular}
+%\end{table}
+%
+%\begin{table}
+%	\caption{Ordering with multiple object markers: Imperfective}\label{tab:ch12:ipfvpronounorder}
+%	\begin{tabular}{rcc}
+%		\toprule
+%& \textit{Perfective} & \textit{Imperfective}\\
+%		\bottomrule
+%	\end{tabular}
+%\end{table}
+
+%Thetogovela only allows one object marker to appear preverbally. In other dialects, however, multiple object markers can appear preverbally in prefixal object marker verb forms. While these dialects have not been tested to see if they comply with the hierarchy above, examples of multiple preverbal object markers from the Moro Story Corpus do comply with these restrictions.
+%
+%10 examples, consistent with 
+%http://linguistics.berkeley.edu/moro/#/search?search=%5C.om%5CS%2B%5C.om&skip=0 
+
+\subsection{Locative and instrumental objects}\label{sec:ch12:locobj}
+
+This section describes the syntax of locative and instrumental objects in Moro, which together form the class of \textit{oblique objects}. Locative objects include nominals in the inessive case (\sectref{sec:ch6:inessive}), nominals in the adessive case (\sectref{sec:ch6:inessive}), and objects of adpositions (\sectref{sec:ch13:adsyntax}). Instrumental objects are nominals marked with the instrumental case suffix (\sectref{sec:ch6:instrumental}). The specific semantic and morphophonological properties of these case markers and adpositions are described elsewhere; this section focuses on the syntax of the nominal arguments in the clause.
+
+Oblique objects meet the basic criteria for objecthood in Moro described at the beginning of this section: they follow the verb, they can be pronominalized, and they can be passivized \citep{Ackerman:2015}. Oblique objects form a syntactic class in that they all strand case-identifying or adpositional material in the postverbal field. In the case of locative or instrumental case-marked objects, these are special clitics in the clitic group, while for adpositional phrases the adposition itself is stranded. Stranding in all cases is obligatory, as Moro subjects must be nominative case-marked nominals. Examples of pronominalization and passivization with locative case-marked objects and instrumental objects are provided in sections \sectref{sec:ch11:instrumental} and \sectref{sec:ch11:locative}. The following examples illustrate these properties for adpositional objects, both a enclitic adpositional phrase (\sectref{sec:ch13:enclitic}) and a lexical adpositional phrase (\sectref{sec:ch13:lexical}).
+
+\ea \textit{Enclitic adpositional object}
+\ea \gll é-g-a-daŋ-ó kúku-ŋ nano\\
+		\textsc{1sg-cl}g-\textsc{rtc}-sit-\textsc{pfv} Kuku-\textsc{acc} at \\
+	\glt `I sat on/near Kuku.'  
+\ex \gll é-g-a-daŋ-á-ŋá nano\\
+		\textsc{1sg-cl}g-\textsc{rtc}-sit-\textsc{pfv}-\textsc{2sg.om} at \\
+	\glt `I sat on/near you.'
+\ex \gll kúku g-ɜ-dɜŋ-ən-ú nano\\
+		\textsc{1sg-cl}g-\textsc{rtc}-sit-\textsc{pfv}-\textsc{2sg.om} at \\
+	\glt `Kuku was sat on/near.' \hfill EJ07122018
+	\z 
+\ex	\textit{Lexical adpositional object}
+\ea \gll é-g-a-daŋ-ó kúku-ŋ lɜ́dwəŋ\\
+		\textsc{1sg-cl}g-\textsc{rtc}-sit-\textsc{pfv} Kuku-\textsc{acc} back \\
+	\glt `I sat behind Kuku.'  
+\ex \gll é-g-a-daŋ-á-ŋá lɜ́dwəŋ\\
+		\textsc{1sg-cl}g-\textsc{rtc}-sit-\textsc{pfv}-\textsc{2sg.om} back \\
+	\glt `I sat behind you.'
+\ex \gll kúku g-ɜ-dɜŋ-ən-ú lɜ́dwəŋ\\
+		\textsc{1sg-cl}g-\textsc{rtc}-sit-\textsc{pfv}-\textsc{2sg.om} back \\
+	\glt `Kuku was sat behind.' \hfill EJ07122018
+	\z 
+\z
+In these examples, no locative clitic remains on the verb, although the adposition itself must remain postverbal.
+
+Instrumental and locative case-marked objects must follow nominal objects such as themes of the same animacy, as the following examples illustrate with an inanimate theme and inanimate instrumental and locative object.
+\ea 
+\ea \gll kúku g-ɜ-f:-ət-ú ŋálo-ŋ gəla loandra-la\\
+Kuku \textsc{cl}g-\textsc{rtc}-shoot-\textsc{appl-pfv} Ngalo-\textsc{acc} plate stone-\textsc{cl}l.with\\ 
+\glt `Kuku shot the plate for Ngalo with a stone.' (i.e. threw the stone and hit the plate)
+\ex[*] {Kúku g-ɜ-f:-ət-ú ŋálo-ŋ loandra-la gəla}
+\z 
+\ea \gll kúku g-ɜ-f:-ət-ú ŋálo-ŋ gəla é-ŋoborto\\
+Kuku \textsc{cl}g-\textsc{rtc}-shoot-\textsc{appl-pfv} Ngalo-\textsc{acc} plate \textsc{loc.in}-garden\\ 
+\glt `Kuku shot the plate for Ngalo in the garden.' (i.e. threw something and hit the plate)
+\ex[*] {Kúku g-ɜ-f:-ət-ú ŋálo-ŋ é-ŋoborto gəla}
+\z 
+\z 
+Once again, animate nouns seem to allow exceptions  to this pattern, as an instrumental animate noun can order freely with an inanimate theme:
+
+\ea 
+\ea \gll ɲa-g-a-s-ó acevan kúku-ga\\
+	\textsc{1pl.ex}-\textsc{cl}g-\textsc{rtc}-eat-\textsc{pfv} food Kuku-\textsc{cl}g.with\\
+	\glt `We ate food with Kuku'
+\ex ɲagasó kuku-ga acevan  	\hfill AN102015
+\z 
+\z 
+Two grammatical factors are in competition here, the preference for animate objects to come first and the preference for oblique objects to come after nominal objects. As a result, it seems, both orders are allowed.
+
+Nominal heads of lexical and enclitic adpositions can strand those adpositions, sentences with one nominal objects one lexical adposition, for example, are ambiguous between two readings: either noun can be interpreted as the object of the adposition. 
+
+\ea \gll 	í-ɡ-ɜɡ-ú	tərəbesa	\'ad\'am\'a	ekáré \\ 
+	\textsc{1sg-cl}g.\textsc{rtc}-put-\textsc{pfv}	table		book	under \\
+	\glt	`I put the book under the table.' \textit{or}
+	`I put the table under the book.' \hfill EJ072909
+	\glt 
+\z
+Moreover, because animate objects of adpositions are subject to normal object ordering restrictions, animate and pronominal objects of adpositions must precede inanimate themes, and hence necessarily strand their associated adposition. %TODO Get this data
+\ea  \gll 	í-ɡ-ɜɡ-ú	tərəbesa	\'ad\'am\'a	ekáré \\ 
+	\textsc{1sg-cl}g.\textsc{rtc}-put-\textsc{pfv}	table		book	under \\
+	\glt	`I put the book next to Kuku.' \hfill EJ072909
+	\glt 
+\ex \gll 	í-ɡ-ɜɡ-ú	tərəbesa	\'ad\'am\'a	ekáré \\ 
+	\textsc{1sg-cl}g.\textsc{rtc}-put-\textsc{pfv}	table		book	under \\
+	\glt
+	`I put the book next to him.' \hfill EJ072909
+	\glt 
+\z
+
+To summarize, locative and instrumental objects are grammatical objects in that they satisfy all basic criteria for objecthood in Moro. Furthermore, the nominal components of adpositional objects are subject to normal animacy-based ordering within the verb phrase, which in some cases results in the stranding of adpositional material to the right of intervening inanimate arguments, including inanimate themes.
 
 \section{Valence increasing alternations}\label{sec:ch12:increasing}
 
-\subsection{Causatives}\label{sec:ch12:applicative}
+This section describes the syntactic effect of valence increasing morphology in Moro, which consists of four verbal suffixes: the causative, benefactive applicative, locative applicative, and manner applicative. These affixes are all in the class of extension suffixes, which occur between the root and the aspectual final vowel  (see \sectref{sec:ch11:extension} for more on their morphophonological properties).  In each of the cases described here, the result of adding this affix is to add a new argument to the verb, realized as a subject, in the case of the causative suffix, or objects, in the case of the applicatives. The argument added by this affix must occur obligatorily.
 
-- restrictions on distribution..., periphrastic vs. applied causative
+\subsection{Causatives}\label{sec:ch12:causative}
 
-\subsection{Applicative objects}\label{sec:ch12:applicative}
+The causative suffix \textit{-\'i} adds a new argument to a verb (the `causer'), which is realized as the subject, resulting in the demotion of the non-causative subject (the `causee') to object position. The morphophonological properties of the causative suffix are complex, as described in \sectref{sec:ch11:causpalatal}. Causative suffixation is quite productive, and can occur on intransitive, transitive, and ditransitive verbs.
 
-- benefactive applicative objects
+\ea \textit{Causative of unaccusative}\\
+	\gll   í-g-ɜ-tuð-í ŋéra \\
+		\textsc{1sg-cl}g-\textsc{rtc}-rise-\textsc{caus.pfv} girl\\
+	\glt 	 `I woke the child.' (\textit{Lit}: `I made the child rise.')
+\ex  \textit{Causative of unergative}\\
+ 	\gll í-g-ugətʃ-í  ŋéra \\
+ 		\textsc{1sg-cl}g-\textsc{rtc}-jump-\textsc{caus.pfv} child\\
+	\glt  `I made the child jump.'
+\ex  \textit{Causative of transitive}\\
+ 	\gll kúku g-ɜ-lɜg-í ŋálo-ŋ í-kí			 \\
+ 	Kuku \textsc{cl}g-\textsc{rtc}-cultivate-\textsc{caus.pfv} Ngalo-\textsc{acc} \textsc{loc}-field \\
+ 	\glt  `Kuku made Ngalo cultivate the field.'
+\ex  \textit{Causative of ditransitive}\\
+ 	\gll í-gɜ-nɜtʃ-í kúku-ŋ ŋálo-ŋ adama			 \\
+ 	\textsc{1sg-cl}g-\textsc{rtc}-give-\textsc{caus.pfv} Kuku-\textsc{acc} Ngalo-\textsc{acc} book \\
+ 	\glt  `I made Kuku give Ngalo the book.'
+ \z 
+ 
+The causer is interpreted as causing the event described by the verb and its arguments; the causee is assumed to lose control. Speakers report that a causer must directly control the caused event, or else a periphrastic causative with \textit{-ŋgit-} `let' can be used. However, the causer does not need to be human or even animate, as the following example shows %todo Cite control section for periphrastic causative?
 
-- locative applicative objects
+\ea \gll rɜmwɜ́  í-r:i r-í-bug-əð-í-ánó r-ɛ-tuð-í ŋéra \\
+sky \textsc{scl}r-this  \textsc{cl}r-\textsc{dpc1}-hit-\textsc{ap}-\textsc{pfv}-inside \textsc{cl}r-\textsc{rtc}-wake-\textsc{caus.pfv} child\\
+\glt `The sky thundering woke the child.' 
+\z 
+
+Demoted causees are normal objects. They follow the verb, they can be realized as object markers, and they can be passivized. This also means that causees are subject to the same animacy-based order as normal objects described in \sectref{sec:ch12:objnoun}. As a consequence, either object in the following sentences can be interpreted as the causee.
+\ea \gll kúku g-ɜ-nuɜn-í-ɲí ŋerá \\
+ Kuku \textsc{cl}g-\textsc{rtc}-look.at-\textsc{caus.pfv-}\textsc{1sg.om} child\\
+\glt `Kuku made me look at the child.' 
+\textit{or} `Kuku made the child look at me.' \label{ex:ch12:causamb1}
+\ex \gll í-g-ɜ-nuɜn-í kúku ŋerá\\
+ \textsc{1sg-cl}g-\textsc{rtc}-look.at-\textsc{caus.pfv} Kuku child\\
+\glt `I made Kuku look at the child.' \textit{or}
+`I made the child look at Kuku.' \label{ex:ch12:causamb2}
+\z
+
+The ambiguity illustrated in \REF{ex:ch12:causamb1} and \REF{ex:ch12:causamb2}, along with the symmetrical properties of Moro passivization, lead to ambiguity in the case of the passive of causatives as well. 
+\ea  \label{ex:ch12:passcaus} \gll kúku g-ɜ-nuɜn-i-n-ú ŋerá \\
+ Kuku \textsc{cl}g-\textsc{rtc}-look.at-\textsc{caus-pass-pfv} child\\
+\glt `Kuku was made to look at the child.'
+\textit{or} `The child was to look at Kuku.'
+\z
+There is no appropriate English translation for the second interpretation of \REF{ex:ch12:passcaus}. Thus, the second translation above has the same truth conditions as the second interpretation of the Moro sentence above, rather than representing the syntactic position of the relevant arguments.
+
+\subsection{Benefactive applicatives}\label{sec:ch12:applicative}
+
+The benefactive applicative suffix \textit{-ət̪} adds an additional argument to the verb that it attaches to; some entity which typically benefits from the event described by the verb (the `beneficiary'). The beneficiary is syntactically realized as a nominal or pronominal object. Benefactive applicativization productively applies to all verb classes: unaccusatives, unergatives, transitive, and ditransitives.
+
+\ea \textit{Benefactive applicative of unaccusative}\\
+	\gll ŋéra ŋ-ɜ-tu-t̪-ú kúku-ŋ \\
+	\textsc{1sg-cl}g-\textsc{rtc}-rise-\textsc{ben.appl-pfv} girl\\
+	\glt `The child woke up for Kuku.' 
+\ex  \textit{Benefactive applicative of unergative} \\
+ 	\gll í-g-ugədʒ-it̪-ú kúku-ŋ\\ 
+ 		\textsc{1sg-cl}g-\textsc{rtc}-jump-\textsc{ben.appl-pfv} Kuku \\
+	\glt  `I jumped down for Kuku.'
+\ex  \textit{Benefactive applicative of transitive}\\
+ 	\gll kúku g-ɜ-lɜg-it̪-ú lɜŋg-en í-gí			 \\
+ 	Kuku \textsc{cl}g-\textsc{rtc}-cultivate-\textsc{ben.appl-pfv} mother-\textsc{3p.poss} \textsc{loc}-field \\
+ 	\glt  `Kuku cultivated the field for his mother.'   
+\ex  \textit{Benefactive applicative of ditransitive}\\
+ 	\gll í-g-ɜ-nɜdʒ-it-ú ŋálo-ŋ lɜŋg-en adama			 \\
+ 	\textsc{1sg-cl}g-\textsc{rtc}-give-\textsc{ben.appl-pfv}  mother-\textsc{3p.poss} Ngalo-\textsc{acc} book \\
+ 	\glt  `I gave his mother the book for Ngalo.'   %TODO double check this example
+ \z 
+While these examples are all translated `for', speakers sometimes translate the beneficiary `because of Ngalo.'
+
+The presence of a benefactive applicative does not entail that an event was consciously enacted for the benefit of the applicative object. Instead, the beneficiary can simply benefit as a consequence of the event. The following story, told by Mr. Julima, illustrates this claim. When he last visited his grandmother in the Nuba mountains, it rained upon his arrival, an auspicious event. Mr. Julima recalls his grandmother saying something like the following sentence.
+
+\ea \gll ŋaw ŋ-ɜ-ðən-t̪-ú ŋál:o-ŋ\\
+water \textsc{cl}ŋ-\textsc{rtc}-\textsc{fall}-\textsc{ben.appl-pfv} Ngalo-\textsc{acc}\\
+\glt `The rain fell for you/because of you (Ngalo)'\\
+\z 
+Here, Mr. Julima is the beneficiary of the entire event.
+
+When verbs have both an animate nominal object and an animate nominal beneficiary, the sentence is ambiguous
+
+\ea I watched the child for Kuku./I watched Kuku for the child
+\z 
+
+Beneficiaries need not be animate, as the example below illustrates.
+
+\ea \textit{Inanimate beneficiary}  \label{ex:ch12:inanben}
+\ea \gll ŋerá ŋ-ɜlɜŋ-ət̪-ú ájén ŋalaŋa\\
+child \textsc{cl}ŋ-sing-\textsc{ben.appl-pfv} mountain song\\
+\glt `The child sang a song for the mountain.'
+\ex[*]{ \glt ŋéra ŋɜlɜŋet̪ú ŋalaŋa ájén\\
+child \textsc{cl}ŋ-sing-\textsc{ben.appl-pfv} song mountain\\}
+\z 
+\z 
+Example \REF{ex:ch12:inanben} also demonstrates that innanimate beneficiaries must precede the theme. This is another case where the semantic role determines the order of objects because the effects of animacy are controlled for (\sectref{sec:ch12:objnoun}).
+
+
+%\ea \gll ŋera ŋ-ɜlɜŋ-ət̪-ú idia ŋalaŋa\\
+%child \textsc{cl}ŋ-\textsc{rtc}.sing-\textsc{ben.appl-pfv} 
+%\glt 'the child sang a song for the cow'\\
+%
+%
+%is `cow' locative?? double check
+
+
+%Because the applied object is always animate, it is typically ordered before the other arguments. However, there is a strong tendency for the benefactive applied object to precede other objects, or for the first in a sequence of animate objects to be interpreted as the beneficiary. 
+%
+%
+%This tendency is reflected in texts as well, 
+%5:1
+%
+%exception
+%
+%Na ŋwëlia ṯaŋǝɽëŋǝṯu uɽi ođǝloŋ nḏurṯu ŋǝciano kañ.
+%Na
+%andŋwëlia
+%hyenaṯ-aŋǝ-ɽëŋ-ǝṯ-u
+%comp1-clŋ.inf-sit.rt-appl-cons.ipfvuɽi
+%treeođǝloŋ
+%foxnḏurṯu
+%underŋ-ǝ-ciano
+%clŋ-dpc-angrykañ.
+%very.
+%And they Hyena stayed under the tree waiting fox very angrily
+%
+%check: I sat under the tree waiting for the cow
+%
+%'mockery' as a benefactive object
+%
+%ŋen ŋarno ndə ləlaɽa eŋamal na ldəɽwatəđəṯi ŋađəna,
+%ŋen
+%talkŋ-arn-o
+%clŋ-like.rt-pfvndə
+%whenl-ə-laɽ-a
+%cll-dpc-plant.rt-ipfve-ŋamal
+%loc-age.mate.groupna
+%andl-də-ɽwat-əđ-əṯ-i
+%comp2-cll.inf-talk.rt-ap-appl-cons.pfv ŋađəna,
+%mockery,
+%as at the cermony of ploughing the field of their peer’s father according to the system and they insult each other,
+%
+%'mockery' as a benefactive object again, and following a regular animate theme
+%
+%walla ṯa ëđəmwa aŋəɽwatəṯi ŋowa ŋađəna
+%walla
+%orṯa
+%comp1ëđəmwa
+%young.mana ŋ-ə-ɽwat-əṯ-i
+%clŋ.inf-dpc-talk.rt-appl-cons.pfvŋowa
+%young.woman ŋađəna
+%mockery
+%or when one young man insults his rival young man in front of his engaged girl. 
+%
+%ígɜwɜrt̪ú Kuku-ŋ ŋad̪əna
+%
+%gad̪ənó `to reject'
+
+%ŋaw ŋaðənó
+%'the rain fell'
+%
+%ɜwur j-ɜ-lɜndʒ-in-ú
+%
+%égalando ɜwur
+
+
+%\ea \gll ðorná ðɜtut̪itó Kuku-ŋ rumwa
+%`the dust went to the sky for Kuku.' (because  of Kuku)
+%`If something happened to Kuku, we have imagination, so the dust went up there for kuku.' 'Only if something happened, like magic'
+
+%\glt 	 `The door closed *for Kuku*. 'kɜ-lɜndʒ-it̪-ú %TODO check
+%	\gll 
+%		
+%	\glt 	 `The grass dried for Kuku.'
+
+%ŋáɲá ŋoandató
+%`the grass dried'
+%
+%ŋáɲa ŋoanditʃinú Kúku-ŋ
+%'The grass was dried (by somebody) for Kuku' -- requires causative
+%
+%egoandətʃé ŋaɲa
+%`i dried the grass'
+
+%TODO Is the applied object always animate?
+
+%	\gll  
+%	\glt 	 `The child sang a song *for the cow, for Kuku, for the book*.'
+
+\subsection{Locative applicatives}\label{sec:ch12:locapplicative}
+
+The locative applicative suffix \textit{-at̪} is one of two kinds of extension suffixes that increase the valence of verb by promoting adjuncts to arguments. The other is a manner applicative, discussed in \sectref{sec:ch12:manapplicative}. 
+
+The most common effect of the locative applicative suffix is to require a locative object of verbs verbs of any transitivity \citep{sec:ch12:locobj}.
+
+%todo: check all; I constructed these
+\ea \textit{Locative applicative of unaccusative}\\
+	\gll   ŋáw ŋ-a-ðən-at̪-ó *(í-ki)\\
+		water \textsc{cl}ŋ-\textsc{rtc}-fall-\textsc{loc.appl-pfv} \textsc{loc.in}-field\\
+	\glt 	 `It rained in the field.'
+\ex  \textit{Locative applicative of unergative}\\
+ 	\gll  ŋéra  ŋ-ar-t̪-ó  egea-nano?\\
+ 		child \textsc{cl}ŋ-\textsc{rtc}.cry-\textsc{loc.appl-pfv} house-at\\
+	\glt  `The child cried near the house.'
+\ex  \textit{Locative applicative of transitive}\\
+ 	\gll káka g-a-s-at̪-ó atʃəvan *(house-inside)			 \\
+ 	Kaka \textsc{cl}g-\textsc{rtc}-eat-\textsc{caus.pfv} food inside the house \\
+ 	\glt  `Kaka ate food inside the house.'
+\ex  \textit{Locative applicative of ditransitive}\\
+ 	\gll í-gɜ-nɜtʃ-í káka-ŋ adama n-ájén?		 \\
+ 	\textsc{1sg-cl}g-\textsc{rtc}-give-\textsc{caus.pfv}  kaka-\textsc{acc} book \\
+ 	\glt  `I gave Kaka the book in the mountains.'
+ \z 
+The locative object in these sentences is possible in the absence of the locative applicative suffix, but locative objects are obligatory with the locative applicative. When speakers are provided sentences where a locative applicative suffix appears on the verb without a locative argument, they report feeling that the sentence is incomplete, and sometimes have responded ``Where?!'' These facts clearly point to the obligatoriness of a locative object in the presence of a locative applicative suffix.
+
+The explanation for this pattern is that the effect of the locative applicative suffix is to promotes phrases that are interpreted as adjuncts to locative objects. Evidence for this position comes from passivization. In order for a locative adjunct to be passivized, the verb must first take the locative applicative suffix.
+
+%todo passive of locative adjunct, ungrammatical without locative applicative but grammatical with
+ 
+The locative applicative is not required when the verb selects for a locative argument, in which case the locative argument almost always is a source. In such cases, the locative applicative can appear to convert the locative argument of the verb into a goal, and differentiates the two sentences.
+
+% TODO - WHEN DOES IT APPEAR? -SR Marks goal arguments, not sources -PJ
+\ea
+\ea \gll g-a-lə́v-á 			isukwɜrɜ 		é-glá	\\
+	\textsc{cl}g-\textsc{rtc}-scoop-\textsc{ipfv}	\textsc{cl}j.sugar		\textsc{loc.in-cl}g.gourd\\
+	\glt ‘(S)he is scooping sugar from within a gourd.’\\
+
+\ex \gll g-a-lə́v-át̪-a 				isukwɜrɜ 	é-glá	\\
+		\textsc{cl}g-\textsc{rtc}-scoop-\textsc{loc.appl}-\textsc{ipfv}	\textsc{cl}j.sugar	\textsc{loc.in-cl}g.gourd\\
+	\glt `(S)he is scooping sugar into a plate'\\
+\z
+\z
+Note that the inessive case prefix \textit{é-} (\sectref{sec:ch6:inessive}) is used in this example for both locative arguments regardless of whether they are functioning as a source or goal. This is likely because the semantic content of enclosure overrides the general association of the inessive with goals.
+
+%what does the locative applicative do with verbs like 'sit, stand'?
+
+%gavət̪a			‘come to a place’
+%gavəla			‘come from’
+%
+%*égavə́lá kʌdugli	‘I’m going to Kadugli’   (but can this mean “coming from Kadugli?”)
+%égavət̪a kʌdugli	‘I’m going to Kadugli’
+%
+%égavədó kʌdugli	‘I went to Kadugli’
+%égavət̪ó *(kʌdugli)	‘I went to Kadugli’	 (must have object)
+
+
+In addition to pure locative uses, \textit{-at̪} has a malefactive use. This meaning can be seen by comparison with the benefactive applicative \textit{-ət̪}.
+\ea
+\ea \gll é-g-a-mː-at̪-ó 				ŋeɾá 		ád̪ámá  \\
+	1\textsc{sg.sm-cl}g-take-\textsc{loc.appl-\textsc{pfv}}		\textsc{cl}ŋ.girl		\textsc{cl}g.book	\\
+	\glt ‘I took the book from the girl’\\
+
+\ex	\gll í-g-ɜ-mː-ət̪-ú 				ŋeɾá 		ád̪ámá    \\
+	1\textsc{sg.sm-cl}g-take-\textsc{ben.appl-\textsc{pfv}}		\textsc{cl}ŋ.girl		\textsc{cl}g.book	\\
+	\glt ‘I took the book for the girl’\\
+\z
+\z
+Additional examples of a malefactive use of the locative applicative are provided below.
+\ea
+\ea	\gll ŋálːo		g-a-sː-at̪-ó 			kúk:ə-ŋ 		átʃə́váŋ\\
+	\textsc{cl}g.Ngalo	\textsc{sm-cl}g-eat-\textsc{loc.appl-\textsc{pfv}}	\textsc{cl}g.Kuku-\textsc{oc}	\textsc{cl}g.food\\
+	\glt	`Ngalo ate Kuku's food.'\\
+
+\ex \gll israel 		g-a-pəg-at̪-ó 			kúk:ə-ŋ 		gi\\
+	\textsc{cl}g.Israel	\textsc{sm-cl}g-weed-\textsc{loc.appl-\textsc{pfv}}	\textsc{cl}g.Kuku-\textsc{oc}	\textsc{cl}g.farm\\
+	\glt	`Israel weeded Kuku’s farm' (but Kuku did not want him to)\\
+\z
+\z
+Examples with a malefactive object are notable because the additional argument is not actually locative. This may indicate that the locative applicative should be considered to be polysemous between a malefactive applicative, which adds a maleficiary nominal object, and a locative applicative, which adds a locative object.
+
+\subsection{Manner applicatives}\label{sec:ch12:manapplicative}
+
+Manner applicatives promote manner adverbs from adjuncts to arguments of the verb. This operation is optional, though it is rarely seen for in-situ adverbs in the verb phrase, save in-situ `how' and its pronominal counterpart. Instead, the manner applicative is most commonly seen in cases of passivization and extraction, where it is obligatory. 
+
+
+The following example illustrates the use of the locative applicative with an in-situ content question clitic \textit{au} `how', realized here a clitic on the verb (\sectref{sec:ch11:manner},\sectref{content}), and the answer to this question, which includes the deictic pronominal counterpart of this question, \textit{t̪ia} `thusly.'
+\ea   
+\ea[Q:]{ \gll  á-g-a-və́d-áðat̪-a=u egea?\\
+		  \textsc{2sg-cl}g-\textsc{rtc}-sweep-\textsc{man.appl-ipfv=how} house\\
+	\glt `How do you sweep the house?' }\label{ex:ch11:sweepq}
+\ex[A:]{ \gll é-g-a-və́d-áðat̪-a egea t̪ia\\
+		 \textsc{1pl.in-cl}g-\textsc{rtc}-eat-\textsc{man.appl-ipfv} house thusly\\
+\glt `I sweep the house like this.'}
+\z 
+\z 
+Besides in situ `how' and its pronominal counterpart, however, most in-situ manner adverbs do not trigger use of the manner applicative. See \sectref{sec:ch13:manner} for more on manner adverbs.
+
+Manner applicatives obligatorily occur in extraction contexts. Because adverbs cannot appear as subjects, such contexts are mostly limited to clefts and relative clauses. The following examples all all involve a relative clause headed by the expression \textit{ŋen ŋánó} `manner'. 
+
+\ea \textit{Extraction of manner adverb triggering manner applicative}
+\ea \gll ɜ́lə-g-ɜ-v-iðiɜ al-dwat̪-e é-ŋen {ŋen ŋ-ánó} í-g-ə́-lʌŋg-ət̪-í-áŋá	\\
+ 	1\textsc{du-cl}g-\textsc{rtc}-\textsc{prog}-\textsc{future.aux} \textsc{1du.inf-}talk-\textsc{inf1} \textsc{loc}-matter manner \textsc{1sg-cl}g-\textsc{dpc2}-tell-\textsc{ben.appl-pfv-2sg.om}\\
+\glt `We'll talk about it in the way that I told you.'
+\ex \gll é-g-a-bwáɲ-á é-g-obə́lw-á {ŋen ŋ-ánó} ŋúŋ g-ə́-bə́lw-áðat̪-a\\
+\textsc{1sg-cl}g-\textsc{rtc}-like-\textsc{ipfv} \textsc{1sg}-\textsc{cl}g-{wrestle}-\textsc{ipfv} manner \textsc{3sg.pro} \textsc{cl}g-\textsc{dpc2}-wrestle-\textsc{man.appl-ipfv}\\
+\glt `I want to wrestle like the way he wrestles.'
+\ex \gll {ŋen (ŋánó)} =ə́ŋ:-i é-g-ə́-s-aðat̪-a ŋ-ɜ-tʃ-ɜ́\\
+manner =\textsc{scl}.ŋ-this \textsc{1sg-cl}g-\textsc{dpc1}-eat-\textsc{man.appl-ipfv} \textsc{cl}ŋ-\textsc{rtc}-bad-\textsc{adj}\\
+\glt 		`The way that I eat is bad.' \label{ex:ch12:eatway}
+\z 
+\z
+
+The \textit{ŋen ŋ-ánó}, pronounced [ŋenəŋánó] literally `matter \textsc{cl}ŋ-in,' seems to be a idiomatic expression, as the clitic \textit{ánó} usually cannot be extracted. Evidence that this expression is a single word comes from example \REF{ex:ch12:eatway}, where it is followed by the demonstrative operator for the relative clause. Because the demonstrative always follows the head noun, this must be a single noun in Moro. The second part of the expression is optional in at least this sentence. 
+
+%can this expression be passivized?
+
 
 \section{Valence decreasing alternations}\label{sec:ch12:decreasing}
 
-Two verbal extension suffixed decrease the valence of the verb.
+Moro has two different extension suffixes which reduce the valence of the verb, the passive \textit{-ən} and the antipassive \textit{-əð}. Both also have secondary functions in coreference tracking: passive \textit{-ən} marks reflexive and semi-reflexive relationships among arguments, while the antipassive \textit{-əð} also functions as a reciprocal marker.
 
 \subsection{Passives and reflexives}\label{sec:ch12:passive}
 
-- Passives
-- Body-affected action/possessor raising
-- Reflexives
+Passives and reflexives are both marked by the passive suffix \textit{-ən}, whose morphophonological properties are discussed in \ref{sec:ch11:passive} along with basic examples. As that section demonstrates, there are three related uses of this suffix, the passive, the reflexive, and the semi-reflexive. All three uses share the property of being agent-oriented. As a passive, \textit{-ən} can only demote agentive subjects. Only agentive subjects are marked with \textit{-ən} as a reflexive, and only semi-reflexives involving an agentive subject are marked with \textit{-ən}. This section focuses on the syntactic properties and restrictions of these sentence types. %todo Provide examples of agent-orientation?
+   
+Passivization is symmetrical in Moro; any nominal or pronominal object can be passivized \citep{Ackerman:2015}. Predicate nominal complements of the copula \textit{-d-} are incapable of passivization (see example \REF{nopassncc} in \sectref{sec:ch9:nompred}). These unpassivizable nominals are predicates, not objects, so the generalization still obtains for nominal objects.   Thus, in a ditransitive sentence like the one below, either object can be passivized (\sectref{sec:ch11:passive},\sectref{sec:ch12:passive}), resulting in an ambiguous sentence.
 
+\ea \textit{Symmetrical passivization with ditransitives}\\
+\gll  \textipa{N}\'al:o g-\textipa{3}-n\textipa{3}tʃ-\textipa{9}n-\'u k\'oja-\textbf{\textipa{N}}\\
+Ngalo \textsc{cl}g-\textsc{rtc}-give-\textsc{pass}-\textsc{pfv} Koja-\textsc{acc}\\
+\glt `Ngalo was given to Koja' / `Ngalo was given Koja' (Jenks \& Sande 2017)
+\z 
+
+While inanimate objects are required to follow animate objects (\sectref{sec:ch12:objnoun}), they can be freely passivized past them:
+
+\ea \textit{Symmetrical passivization with objects of different animacy}
+\ea \gll kúku k-ugw-itʃ-in-ú ádámá\\
+Kuku \textsc{cl}g-return-\textsc{appl-pass-pfv} book\\
+\glt `Kuku was given back the book.'
+\ex \gll ádámá k-ugw-ic-in-ú kúku-ŋ\\
+book \textsc{cl}g-return-\textsc{appl-pass-pfv} Kuku-\textsc{acc}\\
+\glt `The book was returned to Kuku.'
+\z 
+\z
+Additionally, passivization is capable of reaching into any oblique argument, including the instrumental and locative objects, and the object of adpositions (\sectref{sec:ch11:instrumental}, \sectref{sec:ch11:locative},sec:ch12:locobj). However, these passives 
+
+However the passive suffix typically demotes agents or causers, and can only apply to agentive verb forms. See example \REF{ex:ch12:unaccnopass} for examples illustrating the inability of unaccusative predicates to be passivized, for example. The ability of the passive to apply to the nominal predicate copula \textit{-d-} can also be understood in this light, as the basic copular clause lacks an agent, but its causativized variant, which can be passivized, has a causer subject (see \sectref{sec:ch9:nompred} for details).
+%
+%(*é)négá dəŋgen nʌsʌdʒitʃinú lʌmia ododo		‘At his1/*2 house was seen [every boy]2.’
+
+
+%\exi. Stranding in Moro passives (see Appendix A for more on passives)
+%\ag. \textit{kúku}	\textit{k-a-ndr-ó}   	        [PP   \textit{n-təɾəbésá}	\textit{éðápə́}	\textit{ðː-ʌtíðːə}	\textit{ðəgətʃin} ] \\
+%	Kuku	\footnotesize{\sc{cl}}-\footnotesize{\sc{rtc}}-sleep-\footnotesize{\sc{pfv}}	{}    on-table	\footnotesize{\sc{loc}}-top	    -\footnotesize{\sc{scl}}-that	\footnotesize{\sc{cl}}-three {} \\
+%	‘Kuku slept on top of those three tables.' \vspace{2pt}
+%\bg.	 \textit{təɾəbésá}$_i$		\textit{ð-ʌ-ndr-n-ó-u}    	 [PP $t_i$ 	\textit{éðápə́}	\textit{ðː-ʌtíðːə}	\textit{ðəgətʃin} ]\\
+%	      table	\footnotesize{\sc{cl}}-\footnotesize{\sc{rtc}}-sleep-\footnotesize{\sc{pas}}-\footnotesize{\sc{pfv}}-\footnotesize{\sc{loc}}   {} {}      on.top    -\footnotesize{\sc{scl}}-that  \footnotesize{\sc{cl}}-three {}\\
+%	`Those three tables were slept on top of.' \vspace{2pt}
+%\cg.  [DP	\textit{trbesʌ́} \textit{-ðː-ʌtíðːə}     \textit{ð-ʌɡʌtʃin} ]$_i$   \textit{ðʌ-ndr-n-ó-u}             [PP   \textit{éðápé}  $t_i$ ] \\
+%	{} table      -\footnotesize{\sc{scl}}-that  \footnotesize{\sc{cl}}-three	{}     \footnotesize{\sc{cl}}-slept-\footnotesize{\sc{pas}}-\footnotesize{\sc{pfv}}-\footnotesize{\sc{loc}}      {}  on.top {} {} \\
+%	‘Those three tables were slept on top of.'
+
+
+The reflexive use of \textit{-ən} can only be used to express identity between the subject and another argument. A simple reflexive example is in \REF{ex:ch12:refl1}, while ungrammatical example of reflexivizing  an object, a causee, is in \REF{ex:ch12:refl2}. A similarly ungrammatical attempt to reflexivize on the goal of a ditransitive verb is in \REF{ex:ch12:refl3}.
+\ea 
+\ea 
+	\gll 	Kúku g-uwəndətʃ-in-ú	ŋó-vəgá\\
+			Kuku \textsc{cl}g-look.at-\textsc{pass}-\textsc{pfv} \textsc{3sg}-self\\
+	\glt 	`Kuku looked at himself.'
+\ex[*]{ 
+	\gll 	í-g-uwəndətʃ-i-in-ú	 kúku-ŋ	ŋó-vəgá\\
+			\textsc{1sg-cl}g-look.at-\textsc{caus-pass}-\textsc{pfv} Kuku-\textsc{acc} \textsc{3sg}-self\\
+	\glt 	`I made Kuku look at himself.' (intended)}
+\z 
+\ea  
+	\gll 	í-g-ɜ-ŋətʃ-ú	um:iə ádámá\\
+			\textsc{1sg-cl}g-\textsc{rtc}-show-\textsc{pfv} boy book\\
+	\glt 	`I showed the boy the book'
+\ex[*]{
+	\gll 	í-g-ɜ-ŋətʃ-ú	um:iə ŋó-vəgá\\
+			\textsc{1sg-cl}g-\textsc{rtc}-show-\textsc{pfv} boy \textsc{3sg}-self\\
+	\glt 	`I showed the boy himself' (intended)}
+\z 
+\z 
+	
+reflexive pronouns (\sectref{sec:ch7:reflpro})
 
 %IDIOMS RETAINED IN PASSIVE
-11. égandró nano	‘I’m sleeping on it.’/covering/hiding it.’12. égandró ŋén nano	‘I’m sleeping on the word.’ = ‘I didn’t tell the truth.’13. ŋén ŋʌndranú nano	‘A lie was told.’14. ŋén ŋʌndranúu nano	‘A lie was told (there).’ (?)
+11. égandró nano	‘I’m sleeping on it.’/covering/hiding  binding which is independent of passive extension suffix
 
-ígʌŋʌtʃú umiə adama					‘I told the boy about the book (?)
-ígʌŋgitú lʌmia ododo llʌsetʃsi ntam enen ek-almiraja	‘I let each boy see himself in the miror.’
-ígʌŋʌtʃú lʌmiə ntam en-en				‘I told each boy about themselves.’
-*ígʌŋʌtʃú ntam en-en lʌmiə				
+lɜmiə lɜŋɜtʃənú ntam enen				‘The boys were told about themselves.’
+*ntam enen lemmiə lɜŋɜtʃənú		AN1115		
+it.’
+
+12. égandró ŋén nano	‘I’m sleeping on the word.’ = ‘I didn’t tell the truth.’
+
+13. ŋén ŋɜndranú nano	‘A lie was told.’
+
+14. ŋén ŋɜndranúu nano	‘A lie was told (there).’ (?)
+
+ígɜŋɜtʃú umiə adama					‘I told the boy about the book (?)
+ígɜŋgitú lɜmia ododo llɜsetʃsi ntam enen ek-almiraja	‘I let each boy see himself in the miror.’
+ígɜŋɜtʃú lɜmiə ntam en-en				‘I told each boy about themselves.’
+*ígɜŋɜtʃú ntam en-en lɜmiə				
  binding which is independent of passive extension suffix
-lʌmiə lʌŋʌtʃənú ntam enen				‘The boys were told about themselves.’
-*ntam enen lemmiə lʌŋʌtʃənú		AN1115		
+lɜmiə lɜŋɜtʃənú ntam enen				‘The boys were told about themselves.’
+*ntam enen lemmiə lɜŋɜtʃənú		AN1115		
  
-lemmiə ododo lʌsʌdʒʌtʃinú enega dəŋgen		‘Each boy was seen in his house.’
+lemmiə ododo lɜsɜdʒɜtʃinú enega dəŋgen		‘Each boy was seen in his house.’
 
 Passivization enabling binding; passive not occurring in binding between objects.
- 
+
+
+Discussion of possessor raising: (add independent discussion to valence-increasing?)
+
+%kuku na ŋalo loas-əð-ó re		‘Kuku and ŋalo washed each other’s arm’
+% 
+%Kinship terms, which are inalienably possessed in the sense that they are bound roots which agree with their possessor, do not undergo possessor raising, and if their possessor is the subject, there is no passive marking:
+
+%iðiəŋ-en			his son
+%Kukú gwasó iðiəŋen				‘Kuku washed his son.’
+
 
 \subsection{Antipassives and reciprocals}\label{sec:ch12:antipassive}
+
+Ok in derived cases: check exx in ch. 11, also
+
+ɲerá ɲ-a-nwa-nwan-əð-ó	'the children watched each other.'
+igɜ-nwɜ-nwɜn-əð-í ɲera	'I made the children watch each other.'
+
 
 - Antipassivization
 - Reciprocals
 - Pluractionality?
 
-\section{Instrumental objects}
 
 
-Instrumental adjuncts must occur after themes:
+%\section{Discontinuous constituents in the clause}\label{sec:ch12:split}
+%
+%`discontinuous constituents' in the clause include 1) split noun phrases 2) floated quantifiers and 3) adposition stranding. 
+%
+%Orn lǝŋgenia naŋakarnəđəṯi ñǝŋgenia ŋwana iñi ñeṯo nǝñəmaməđaṯe
+%Orn
+%thenlǝŋgenia
+%mothern-aŋ-ak-arnəđ-əṯ-i
+%comp2-3sg.inf-iter-divide.rt-appl-cons.pfvñǝŋgenia
+%mothersŋwana
+%sorghumiñ-i
+%sclɲ-thisñeṯo
+%whon-ǝñə-ma-məđaṯ-e
+%clɲ-come.rt-pfv
+%
+%\subsection{Split noun phrases}\label{sec:ch12:extraposition}
+%
+%Orn lǝŋgenia naŋakarnəđəṯi ñǝŋgenia ŋwana iñi ñeṯo nǝñəmaməđaṯe
+%Orn
+%thenlǝŋgenia
+%mothern-aŋ-ak-arnəđ-əṯ-i
+%comp2-3sg.inf-iter-divide.rt-appl-cons.pfvñǝŋgenia
+%mothersŋwana
+%sorghumiñ-i
+%sclɲ-thisñeṯo
+%whon-ǝñə-ma-məđaṯ-e
+%clɲ-come.rt-pfv
+%comp2-clɲ.cons-3sg.om-help.rt-cons.pfv
+%Then the mother divides some sorghum to the women who helped her
+%
+%Na ŋwëlia ṯaŋǝɽëŋǝṯu uɽi ođǝloŋ nḏurṯu ŋǝciano kañ.
+%Na
+%andŋwëlia
+%hyenaṯ-aŋǝ-ɽëŋ-ǝṯ-u
+%comp1-clŋ.inf-sit.rt-appl-cons.ipfvuɽi
+%treeođǝloŋ
+%foxnḏurṯu
+%underŋ-ǝ-ciano
+%clŋ-dpc-angrykañ.
+%very.
+%And they Hyena stayed under the tree waiting fox very angrily
+%
+%
+%(is this necessary? can't any of the classes be locative?)
+%
+%AN11102015
+%Extraposition/ditransitives --> (strong evidence for stranding)
+%19a. éganatʃó kukuŋ trbesa íði ðogəná	‘I gave Kuku the table that is big.’
+%19b. éganatʃó trbesa iði ðogəná kukuŋ	CHECK RECORDING: Is this really ok??
+%20a. trbesa íði ðogəná ðɜnɜtʃinú kukuŋ	‘The table that is big was given to Kuku.’
+%20b. *trbesa ðɜnɜtʃinú íði ðogəná kukuŋ	
+%20c. trbesa ðɜnɜtʃinú kukuŋ íði ðogəná 
+%
+%
+%\subsection{Quantifier float}
+%
+%(does this need to be different from floating quantifiers, below?)
+%
+%
+%\subsection{Verbal clitics and stranding}\label{sec:ch12:stranding}
+%
+%asdfa
+%
+%
+%\subsection{Adposition stranding}\label{sec:ch12:stranding}
+%
+%asdfa
 
-\ea \ea \gll Kúku g-ɜ-f:-ət-ú ŋálo-ŋ gəla loandra-la\\
-K. \textsc{cl}g-\textsc{rtc}-shoot-\textsc{appl-pfv} Ngalo-\textsc{acc} plate stone-\textsc{cl}l.with\\ 
-\glt `Kuku shot the plate with the stone'
-\ex[*]{Kúku g-ɜ-f:-ət-ú ŋálo-ŋ loandra-la gəla  }
-\z 
-\z 
-
-- instrument? comitative? 
-- take the instrumental suffix
-- trigger the instrumental clitic on the verb in extraction contexts
-
-\section{Locative objects}\label{sec:ch12:locobj}
-
-- covers any locative object of the verb that is not a object of a directional verb (e.g. go to X) or an applied locative object.
-- triggers locative cliticization on the verb
 
 
-\section{Discontinuous constituents in the clause}
-
-`discontinuous constituents' in the clause including 1) extraposition 2) secondary predicates and 3) floating quantifiers)
-
-\subsection{Extraposition}
-
-(is this necessary? can't any of the classes be locative?)
-
-\subsection{Quantifier float}
-
-(does this need to be different from floating quantifiers, below?)
-
-\subsection{Secondary predicates}
-
-
-\section{Ellipsis in the clause?}
-
-Can auxiliaries delete their VP complements?
+%\section{Ellipsis in the clause?}
+%
+%Can auxiliaries delete their VP complements?
